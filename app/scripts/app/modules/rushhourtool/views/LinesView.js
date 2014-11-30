@@ -6,6 +6,7 @@ define([
 ], function(Marionette, RushHourTool, LineView , TweenMax) {
 	var LinesView = Marionette.CollectionView.extend({
 		childView: LineView,
+		className:'linesContainer',
 		childViewOptions: {
     		numberOfLine: RushHourTool.numberOfLine
   		},
@@ -33,6 +34,9 @@ define([
 				lineId:lineId
 			});
 			}});
+
+			TweenLite.to(childView.$el.find('p'),.5,{y:-51});
+			TweenLite.to(childView.$el.find('ul'),.5,{display:'block'});
 		},
 		onLineMouseEnter:function(childView) {
 			//transform in timeline
