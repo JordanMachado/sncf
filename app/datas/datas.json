@@ -1,0 +1,20 @@
+{
+	"lignes": [
+		{
+			"id":"a",
+			"name": "A",
+			"color": "red"
+		},
+		{
+			"id":"b",
+			"name": "B",
+			"color": "blue"
+		},
+		{
+			"id":"c",
+			"name": "C",
+			"color": "green"
+		}
+	]
+}
+

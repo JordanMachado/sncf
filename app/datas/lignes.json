@@ -1,0 +1,68 @@
+[
+    {
+        "ligne": "RER C",
+        "couleur_proche": "jaune",
+        "color": "#FCD946"
+    },
+    {
+
+        "ligne": "RER E",
+        "couleur_proche": "rose",
+        "color": "#BD76A1"
+    },
+    {
+        "ligne": "Ligne K",
+        "couleur_proche": "kaki",
+        "color": "#C7B300"
+    },
+    {
+        "ligne": "Ligne N",
+        "couleur_proche": "bleu paon",
+        "color": "#00A092"
+    },
+    {
+        "ligne": "RER A",
+        "couleur_proche": "rouge",
+        "color": "#D1302F"
+    },
+    {
+        "ligne": "RER B",
+        "couleur_proche": "bleu",
+        "color": "#427DBD"
+    },
+    {
+        "ligne": "RER D",
+        "couleur_proche": "vert",
+        "color": "#5E9620"
+    },
+    {
+        "ligne": "Ligne H",
+        "couleur_proche": "marron",
+        "color": "#7B4339"
+    },
+    {
+        "ligne": "Ligne L",
+        "couleur_proche": "pastel",
+        "color": "#7584BC"
+    },
+    {
+        "ligne": "Ligne R",
+        "couleur_proche": "rose",
+        "color": "#E4B4D1"
+    },
+    {
+        "ligne": "Ligne U",
+        "couleur_proche": "fushia",
+        "color": "#D60058"
+    },
+    {
+        "ligne": "Ligne J",
+        "couleur_proche": "moutarde",
+        "color": "#CDCD00"
+    },
+    {
+        "ligne": "Ligne P",
+        "couleur_proche": "orange",
+        "color": "#F0B600"
+    }
+]
