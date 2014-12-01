@@ -4,11 +4,18 @@ define([
 	'./LineView',
 	'TweenMax',
 ], function(Marionette, RushHourTool, LineView , TweenMax) {
+
 	var LinesView = Marionette.CollectionView.extend({
 		childView: LineView,
 		className:'linesContainer',
-		childViewOptions: {
-    		numberOfLine: RushHourTool.numberOfLine
+		childViewOptions: function(line){
+			console.log(line.get('ligne'))
+    		return {
+    			numberOfLine: RushHourTool.numberOfLine,
+    			// ligne zone collection
+    			zones: new Backbone.Collection([{id: 2,name:'coucou'},{id: 1,name:'coucou'},{id: 4,name:'coucou'}])
+
+    		}
   		},
 
 		tagName: 'ul',
