@@ -3,18 +3,17 @@ define([
 	'../RushHourTool',
 	'./LineView',
 	'TweenMax',
-], function(Marionette, RushHourTool, LineView , TweenMax) {
+	'TimeLineLite'
+], function(Marionette, RushHourTool, LineView , TweenMax ,TimeLineLite) {
 
 	var LinesView = Marionette.CollectionView.extend({
+
 		childView: LineView,
 		className:'linesContainer',
 		childViewOptions: function(line){
-			console.log(line.get('ligne'))
+			//console.log(line.get('ligne'))
     		return {
     			numberOfLine: RushHourTool.numberOfLine,
-    			// ligne zone collection
-    			zones: new Backbone.Collection([{id: 2,name:'coucou'},{id: 1,name:'coucou'},{id: 4,name:'coucou'}])
-
     		}
   		},
 
@@ -24,26 +23,52 @@ define([
 			'mouseenter': 'onLineMouseEnter',
 			'mouseleave':'onLineMouseLeave'
 		},
+
+
+		initialize: function( ){
+			this.on('all', function(e){
+				console.log(e);
+
+			})
+			// this.on('childview:click:yo',function(){
+			// 	console.log('fdp')
+			// })
+			//this.off('childview:click:yo')
+
+		},
 		/* 
 		 * Method called when user select a line
 		 */
 		onLineClick: function(childView, datas) {
-			childView.$el.addClass('selected');
 
 			var lineNameStr = datas.model.attributes.ligne;
 			var  lineNameFiltered=lineNameStr.split(" ");
 			var lineId = lineNameFiltered[1].toLowerCase();
 
-			
-			TweenLite.set(childView.$el,{position:'absolute'});
-			TweenLite.to(childView.$el,.6,{left:'0px',width:$(window).width()+'px',onComplete:function(){
-				RushHourTool.trigger('line:click',{
-				lineId:lineId
-			});
-			}});
+			var tl = new TimeLineLite();
+			tl.set(childView.$el,{position:'absolute'});
+			tl.to(childView.$el,.6,{left:'0px',width:$(window).width()+'px'});
+			tl.to(childView.$el.find('p'),.5,{y:-childView.$el.find('p').offset().top/2+20});
+			tl.staggerTo(childView.$el.find('.zonesContainer li'),.5,{opacity:1,onComplete:function(){
+				//RushHourTool.trigger('line:click',{lineId:lineId});
 
-			TweenLite.to(childView.$el.find('p'),.5,{y:-51});
-			TweenLite.to(childView.$el.find('ul'),.5,{display:'block'});
+			}},0.2);
+			// this.stopListening();
+ 		 //delete this.childEvents.click;
+
+   //      this.delegateEvents();
+   			console.log(childView);
+   			
+   			//this.stopListening(childView,this.childEvents[0]);
+   			//console.log(this.childEvents)
+   			this.stopListening(childView,null,function(){
+   				console.log('youpi')
+   			})
+
+   			//this.childView.off('click:yo')
+
+
+
 		},
 		onLineMouseEnter:function(childView) {
 			//transform in timeline
@@ -51,6 +76,7 @@ define([
 			TweenLite.to(childView.$el,.5,{scale:2});
 			TweenLite.set(childView.$el.find('p'),{scale:0});
 			TweenLite.to(childView.$el.find('p'),.5,{opacity:1,scale:1});
+			
 
 
 

@@ -1,6 +1,6 @@
-<div class="warp">
-	<div class="content">
-		<p class="name"><%= ligne %></p>	
-		<div class="zonesContainer"></div>
-	</div>
-</div>
+<p class="name"><%= ligne %></p>	
+<ul class="zonesContainer">
+<% _.each(zones, function(i) { %> 
+<li><%= i %></li>
+<% }); %>
+</ul>

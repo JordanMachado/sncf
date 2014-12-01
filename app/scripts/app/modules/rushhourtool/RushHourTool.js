@@ -9,19 +9,20 @@ define([
 	// datas 
 	var linesData = {};
 	var gareData = {};
-
+	
+	/*
+	 *	RushHourModule
+	 */
 	var RushHourTool = App.module('RushHourTool', function(RushHourTool, App) {
-		RushHourTool.startWithParent = false;
+		RushHourTool.startWithParent = true;
 
 		// controller RushHour
 		var controller = {
 			onLineClick: function(args) {
-				var gareFilteredByLine = _.filter(gareData, function(gare) {
-					return gare.fields[args.lineId] == 1;
-				});
-				//console.log(gareFilteredByLine);
-				//$('body').css('background-color','rgb(66, 125, 189)');
+				console.log('line clic')
+				console.log(args)
 				//App.rushHourToolRegion.reset();
+				App.navigate('line/'+args.lineId,{trigger:true})
 			}
 		};
 
@@ -32,12 +33,10 @@ define([
 		});
 
 		RushHourTool.on('start', function(options) {
-
 			require([
 				'app/modules/rushhourtool/collections/LineCollection',
-				'app/modules/rushhourtool/views/LinesView',
-				'app/modules/rushhourtool/views/ZonesView'
-			], function(LineCollection, LinesView, ZonesView) {
+				'app/modules/rushhourtool/views/LinesView'
+			], function(LineCollection, LinesView) {
 				var lineCollection = new LineCollection(linesData);
 				var linesView = new LinesView({
 					collection: lineCollection
@@ -45,7 +44,7 @@ define([
 				App.rushHourToolRegion.show(linesView);
 			});
 		});
-
+		
 		RushHourTool.listenTo(RushHourTool, 'line:click', controller.onLineClick);
 
 	});
@@ -53,7 +52,3 @@ define([
 	return RushHourTool;
 
 });
-
-
-//get all code couleur sncf and line
-//http://ressources.data.sncf.com/api/records/1.0/search?dataset=codes-couleur-des-lignes-transilien

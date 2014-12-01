@@ -13,6 +13,10 @@ gares.forEach(function(gare) {
 		return zonedGare.fields.code_uic == gare.fields.code_uic;
 	})[0]['fields']['zone_navigo'];
 
+	// var pointDarret = zonedGares.filter(function(zonedGare) {
+	// 	return zonedGare.fields.code_uic == gare.fields.code_uic;
+	// })[0]['fields']['libelle_point_d_arret'];
+	// gare.pointDarret = pointDarret;
 
 	gare.zone_navigo = zone;
 

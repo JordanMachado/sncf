@@ -3,7 +3,7 @@ define([
 	'text!../templates/LineViewTemplate.tpl'
 	
 ],function(Marionette, template){
-	var LineView = Backbone.Marionette.ItemView.extend({
+	var GaresView = Backbone.Marionette.ItemView.extend({
 		tagName:'li',
 
 		className:'line',
@@ -29,5 +29,5 @@ define([
 		}
 	}); 
 
-	return LineView;
+	return GaresView;
 })

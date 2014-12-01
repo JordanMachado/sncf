@@ -1,29 +1,33 @@
 @import 'compass';
-#rushHourTool {
 
+#rushHourTool {
 	position:absolute;
 	width:100%;
 	height:100%;
+
 	.linesContainer {
 		with:100%;
 		height:100%;
 		.line {
-		position:relative;
+			position:relative;
 			display:inline-block;
 			text-align:center;
 			height:100%;
 
-			& .warp {
-				display:table;
-				width:100%;
-				height:100%;
-				& .content {
-					display:table-cell;
-					vertical-align:middle;
+			& p {
+				position:relative;
+				top:50%;
+				opacity:0;
+			}
+			& .zonesContainer {
+				position: relative;
+				
+				top:50%;
 
-					& p {
-						opacity:0;
-					}
+				& li {
+					display: inline-block;
+					padding:2%;
+					opacity:0;
 				}
 			}
 		}
