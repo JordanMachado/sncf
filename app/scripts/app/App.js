@@ -19,7 +19,8 @@ define([
 	});
 
 	App.addRegions({
-		rushHourToolRegion: '#rushHourTool'
+		rushHourToolRegion: '#rushHourTool',
+		rushHourToolRegion2: '#rushHourTool2'
 	});
 	App.on('start', function(options) {
 		console.log('app initialized')
@@ -47,7 +48,7 @@ define([
 		require([
 			'app/modules/rushhourtool/RushHourTool'
 		], function(RushHourTool) {
-			RushHourTool.start();
+			RushHourTool.trigger('index');
 		});
 	});
 
@@ -56,7 +57,7 @@ define([
 		require([
 			'app/modules/rushhourtool/RushHourTool'
 		], function(RushHourTool) {
-			RushHourTool.trigger('line',{options:'tapmere'});
+			RushHourTool.trigger('line',{lineId:id});
 		});
 		
 	});

@@ -1,20 +1,20 @@
 define([
 	'marionette',
-	'../RushHourTool',
 	'./LineView',
 	'TweenMax',
 	'TimeLineLite',
-	'app/App'
-], function(Marionette, RushHourTool, LineView , TweenMax ,TimeLineLite, App) {
+	'app/App',
+	'../datas/DataManager'
+], function(Marionette, LineView , TweenMax ,TimeLineLite, App, DataManager) {
 
 	var LinesView = Marionette.CollectionView.extend({
 
 		childView: LineView,
-		className:'linesContainer',
+		className:'linesView',
+		childViewEventPrefix: "line:event",
 		childViewOptions: function(line){
-			//console.log(line.get('ligne'))
     		return {
-    			numberOfLine: RushHourTool.numberOfLine,
+    			numberOfLine: DataManager.getNumberOfLines(),
     		}
   		},
 

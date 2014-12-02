@@ -15,9 +15,14 @@ require.config({
 		'marionette': {
 			deps: ['backbone'],
 			exports: 'Backbone.Marionette'
-		}
+		},
 	},
 	paths: {
+
+		// datas
+		'LinesData': '../datas/lignes.json',
+		'GaresData': '../datas/gares.json',
+		
 		//vendor 
 		'text': '../bower_components/text/text',
 		'underscore': '../bower_components/underscore/underscore',

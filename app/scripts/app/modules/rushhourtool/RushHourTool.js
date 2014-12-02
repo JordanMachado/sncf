@@ -1,36 +1,34 @@
 define([
 	'app/App',
-	'text!../../../../datas/lignes.json',
-	'text!../../../../datas/gares.json'
+	'./datas/DataManager'
 
-], function(App, LinesData, GareData) {
+], function(App, DataManager) {
 	'use strict';
 
-	// datas 
-	var linesData = {};
-	var gareData = {};
-	
 	/*
-	 *	RushHourModule
+	 *	RushHourTool Module
 	 */
 	var RushHourTool = App.module('RushHourTool', function(RushHourTool, App) {
 		RushHourTool.startWithParent = true;
 
-		// controller RushHour
-
-
 		RushHourTool.addInitializer(function(options) {
-			linesData = JSON.parse(LinesData);
-			RushHourTool.numberOfLine = linesData.length;
-			gareData = JSON.parse(GareData);
+
 		});
 
 		RushHourTool.on('start', function(options) {
+
+		});
+
+		/*
+		 * RushHourTool Lines View
+		 */
+		RushHourTool.on('index', function(options) {
 			require([
 				'app/modules/rushhourtool/collections/LineCollection',
 				'app/modules/rushhourtool/views/LinesView'
 			], function(LineCollection, LinesView) {
-				var lineCollection = new LineCollection(linesData);
+
+				var lineCollection = new LineCollection(DataManager.getLines());
 				var linesView = new LinesView({
 					collection: lineCollection
 				});
@@ -38,22 +36,38 @@ define([
 			});
 		});
 
+		/*
+		 * RushHourTool Zones View
+		 */
 		RushHourTool.on('line', function(options) {
-			console.log('trigger line')
-			console.log(options)
 			require([
-				'app/modules/rushhourtool/collections/LineCollection',
-				'app/modules/rushhourtool/views/LinesView'
-			], function(LineCollection, LinesView) {
-				var lineCollection = new LineCollection(linesData);
-				var linesView = new LinesView({
-					collection: lineCollection
+				'app/modules/rushhourtool/collections/ZoneCollection',
+				'app/modules/rushhourtool/views/ZonesView'
+			], function(ZoneCollection, ZonesView) {
+
+				// zoneCollection
+				var zoneCollection = new ZoneCollection();
+
+				// get All zone for the currentLine
+				var zones = DataManager.getZonesByLine(options.lineId);
+				
+
+				// iterrate on the zones array for create a simple zoneModel and add it to the zoneCollection
+				for(var i=0, ln=zones.length;i<ln;i++) {
+					zoneCollection.push({id:zones[i]});
+				}
+
+				// create the zoneView
+				var zonesView = new ZonesView({
+				 	collection: zoneCollection,
+				 	lineId:options.lineId
 				});
-				App.rushHourToolRegion.show(linesView);
+
+				// show the zoneView
+				App.rushHourToolRegion.show(zonesView);
 			});
+
 		});
-		
-		//RushHourTool.listenTo(RushHourTool, 'line:click', controller.onLineClick);
 
 	});
 
