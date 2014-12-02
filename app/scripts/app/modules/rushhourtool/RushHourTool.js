@@ -17,14 +17,7 @@ define([
 		RushHourTool.startWithParent = true;
 
 		// controller RushHour
-		var controller = {
-			onLineClick: function(args) {
-				console.log('line clic')
-				console.log(args)
-				//App.rushHourToolRegion.reset();
-				App.navigate('line/'+args.lineId,{trigger:true})
-			}
-		};
+
 
 		RushHourTool.addInitializer(function(options) {
 			linesData = JSON.parse(LinesData);
@@ -44,8 +37,23 @@ define([
 				App.rushHourToolRegion.show(linesView);
 			});
 		});
+
+		RushHourTool.on('line', function(options) {
+			console.log('trigger line')
+			console.log(options)
+			require([
+				'app/modules/rushhourtool/collections/LineCollection',
+				'app/modules/rushhourtool/views/LinesView'
+			], function(LineCollection, LinesView) {
+				var lineCollection = new LineCollection(linesData);
+				var linesView = new LinesView({
+					collection: lineCollection
+				});
+				App.rushHourToolRegion.show(linesView);
+			});
+		});
 		
-		RushHourTool.listenTo(RushHourTool, 'line:click', controller.onLineClick);
+		//RushHourTool.listenTo(RushHourTool, 'line:click', controller.onLineClick);
 
 	});
 

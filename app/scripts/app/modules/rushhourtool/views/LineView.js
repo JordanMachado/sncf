@@ -10,17 +10,17 @@ define([
 
 		template:_.template(template),
 
-		serializeData: function() {
-			return _.extend(this.model.toJSON(), {
-				//create method getZoneByLine
-				zones: ['a','b','c']
-			})
-		},
+		// serializeData: function() {
+		// 	return _.extend(this.model.toJSON(), {
+		// 		//create method getZoneByLine
+		// 		zones: ['a','b','c']
+		// 	})
+		// },
 
 		triggers: {
 				'click': 'click',
 				'mouseenter':'mouseenter',
-				'mouseleave':'mouseleave'
+				'mouseleave':'mouseleave',
 		},
 		initialize:function(options) {
 			var ww = $(window).width();

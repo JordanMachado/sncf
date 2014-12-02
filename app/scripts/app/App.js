@@ -53,7 +53,12 @@ define([
 
 	App.routeur.on('route:line', function(id) {
 		console.log('Routeur ligne');
-		console.log(id);
+		require([
+			'app/modules/rushhourtool/RushHourTool'
+		], function(RushHourTool) {
+			RushHourTool.trigger('line',{options:'tapmere'});
+		});
+		
 	});
 
 	return App;
