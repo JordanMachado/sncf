@@ -1,80 +1,83 @@
 [
+
     {
-        "id":"c",
-        "ligne": "RER C",
-        "couleur_proche": "jaune",
-        "color": "#FCD946"
-    },
-    {
-        "id":"e",
-        "ligne": "RER E",
-        "couleur_proche": "rose",
-        "color": "#BD76A1"
-    },
-    {
-        "id":"k",
-        "ligne": "Ligne K",
-        "couleur_proche": "kaki",
-        "color": "#C7B300"
-    },
-    {
-        "id":"n",
-        "ligne": "Ligne N",
-        "couleur_proche": "bleu paon",
-        "color": "#00A092"
-    },
-    {
-        "id":"a",
+        "id": "a",
         "ligne": "RER A",
         "couleur_proche": "rouge",
-        "color": "#D1302F"
-    },
+        "color": "hsla(4, 75%, 48%, 1)"
+    }, 
     {
-        "id":"b",
+        "id": "b",
         "ligne": "RER B",
         "couleur_proche": "bleu",
-        "color": "#427DBD"
-    },
+        "color": "hsla(200, 100%, 40%, 1)"
+    }, 
     {
-        "id":"d",
+        "id": "c",
+        "ligne": "RER C",
+        "couleur_proche": "jaune",
+        "color": "hsla(42, 100%, 54%, 1)"
+    }, 
+    {
+        "id": "d",
         "ligne": "RER D",
         "couleur_proche": "vert",
-        "color": "#5E9620"
-    },
+        "color": "hsla(79, 98%, 38%, 1)"
+    }, 
     {
-        "id":"h",
+        "id": "e",
+        "ligne": "RER E",
+        "couleur_proche": "rose",
+        "color": "hsla(320, 100%, 32%, 1)"
+    }, 
+    {
+        "id": "h",
         "ligne": "Ligne H",
         "couleur_proche": "marron",
-        "color": "#7B4339"
-    },
+        "color": "hsla(327, 32%, 37%, 1)"
+    }, 
     {
-        "id":"l",
-        "ligne": "Ligne L",
-        "couleur_proche": "pastel",
-        "color": "#7584BC"
-    },
-    {
-        "id":"r",
-        "ligne": "Ligne R",
-        "couleur_proche": "rose",
-        "color": "#E4B4D1"
-    },
-    {
-        "id":"u",
-        "ligne": "Ligne U",
-        "couleur_proche": "fushia",
-        "color": "#D60058"
-    },
-    {
-        "id":"j",
+        "id": "j",
         "ligne": "Ligne J",
         "couleur_proche": "moutarde",
-        "color": "#CDCD00"
-    },
+        "color": "hsla(60, 100%, 40%, 1)"
+    }, 
     {
-        "id":"p",
+        "id": "k",
+        "ligne": "Ligne K",
+        "couleur_proche": "kaki",
+        "color": "hsla(48, 100%, 37%, 1)"
+    }, 
+    {
+        "id": "l",
+        "ligne": "Ligne L",
+        "couleur_proche": "pastel",
+        "color": "hsla(227, 33%, 60%, 1)"
+    }, 
+    {
+        "id": "n",
+        "ligne": "Ligne N",
+        "couleur_proche": "bleu paon",
+        "color": "hsla(175, 58%, 44%, 1)"
+    }, 
+    {
+        "id": "p",
         "ligne": "Ligne P",
         "couleur_proche": "orange",
-        "color": "#F0B600"
+        "color": "hsla(39, 92%, 59%, 1)"
+    },
+
+    {
+        "id": "r",
+        "ligne": "Ligne R",
+        "couleur_proche": "rose",
+        "color": "hsla(328, 53%, 84%, 1)"
+    }, 
+    {
+        "id": "u",
+        "ligne": "Ligne U",
+        "couleur_proche": "fushia",
+        "color": "hsla(334, 87%, 47%, 1)"
     }
+    
 ]

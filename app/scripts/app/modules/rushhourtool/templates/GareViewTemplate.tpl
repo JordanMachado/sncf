@@ -1,0 +1,1 @@
+<p><%= libelle_point_arret %></p>

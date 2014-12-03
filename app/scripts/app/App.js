@@ -20,7 +20,6 @@ define([
 
 	App.addRegions({
 		rushHourToolRegion: '#rushHourTool',
-		rushHourToolRegion2: '#rushHourTool2'
 	});
 	App.on('start', function(options) {
 		console.log('app initialized')
@@ -29,22 +28,22 @@ define([
 		}
 	});
 
-
-
 	/*
 	 * APPLICATION Routeur
 	 */
 	var AppRouter = Backbone.Router.extend({
 		routes: {
 			"": "index",
-			"line/:id": "line"
+			"line/:lid": "zones",
+			"stations/:lid/:zid": "gares",
+			"station/:id": "tool"
 		}
 	});
 	App.routeur = new AppRouter();
 
 	App.routeur.on('route:index', function() {
 
-		console.log('Routeur index');
+		console.log('Routeur Lines');
 		require([
 			'app/modules/rushhourtool/RushHourTool'
 		], function(RushHourTool) {
@@ -52,12 +51,31 @@ define([
 		});
 	});
 
-	App.routeur.on('route:line', function(id) {
-		console.log('Routeur ligne');
+	App.routeur.on('route:zones', function(lineId) {
+		console.log('Routeur Zones');
 		require([
 			'app/modules/rushhourtool/RushHourTool'
 		], function(RushHourTool) {
-			RushHourTool.trigger('line',{lineId:id});
+			RushHourTool.trigger('zones',{lineId:lineId});
+		});
+		
+	});
+
+	App.routeur.on('route:gares', function(lineId,zoneId) {
+		console.log('Routeur Gares');
+		require([
+			'app/modules/rushhourtool/RushHourTool'
+		], function(RushHourTool) {
+			RushHourTool.trigger('gares',{lineId:lineId,zoneId:zoneId});
+		});
+		
+	});
+	App.routeur.on('route:tool', function(gareId) {
+		console.log('Routeur Gares');
+		require([
+			'app/modules/rushhourtool/RushHourTool'
+		], function(RushHourTool) {
+			RushHourTool.trigger('tool',{gareId:gareId});
 		});
 		
 	});

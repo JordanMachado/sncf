@@ -1,2385 +1,2384 @@
 [
   {
-    "pointDarret": "ANDRESY",
-    "zone_navigo": 5,
+    "id": "87381491",
     "code_uic": "87381491",
     "train": 1,
     "libelle_point_arret": "ANDRESY",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ATHIS MONS",
-    "zone_navigo": 4,
+    "id": "87545251",
     "rer": 1,
     "c": 1,
     "code_uic": "87545251",
-    "libelle_point_arret": "ATHIS MONS"
+    "libelle_point_arret": "ATHIS MONS",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "BELLEVUE",
-    "zone_navigo": 3,
+    "id": "87393116",
     "code_uic": "87393116",
     "train": 1,
     "libelle_point_arret": "BELLEVUE",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "BONDY",
-    "zone_navigo": 3,
+    "id": "87113407",
     "libelle_point_arret": "BONDY",
     "tram": 1,
     "t4": 1,
     "rer": 1,
     "code_uic": "87113407",
-    "e": 1
+    "e": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "BOUGIVAL",
-    "zone_navigo": 4,
+    "id": "87382440",
     "code_uic": "87382440",
     "train": 1,
     "libelle_point_arret": "BOUGIVAL",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "BOULAINVILLIERS",
-    "zone_navigo": 1,
+    "id": "87543181",
     "rer": 1,
     "c": 1,
     "code_uic": "87543181",
-    "libelle_point_arret": "BOULAINVILLIERS"
+    "libelle_point_arret": "BOULAINVILLIERS",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "BOUSSY SAINT-ANTOINE",
-    "zone_navigo": 5,
+    "id": "87682138",
     "rer": 1,
     "code_uic": "87682138",
     "libelle_point_arret": "BOUSSY SAINT-ANTOINE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BOUTIGNY",
-    "zone_navigo": 5,
+    "id": "87681478",
     "rer": 1,
     "code_uic": "87681478",
     "libelle_point_arret": "BOUTIGNY",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BRUYERES SUR OISE",
-    "zone_navigo": 100,
+    "id": "87276451",
     "h": 1,
     "code_uic": "87276451",
     "train": 1,
-    "libelle_point_arret": "BRUYERES SUR OISE"
+    "libelle_point_arret": "BRUYERES SUR OISE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BUSSY SAINT-GEORGES",
-    "zone_navigo": 5,
+    "id": "87754986",
     "a": 1,
     "rer": 1,
     "code_uic": "87754986",
-    "libelle_point_arret": "BUSSY SAINT-GEORGES"
+    "libelle_point_arret": "BUSSY SAINT-GEORGES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CERNAY",
-    "zone_navigo": 4,
+    "id": "87276063",
     "c": 1,
     "libelle_point_arret": "CERNAY",
     "rer": 1,
     "h": 1,
     "code_uic": "87276063",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "CHAMPIGNY",
-    "zone_navigo": 3,
+    "id": "87758177",
     "a": 1,
     "rer": 1,
     "code_uic": "87758177",
-    "libelle_point_arret": "CHAMPIGNY"
+    "libelle_point_arret": "CHAMPIGNY",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "CHAMPIGNY SUR YONNE",
-    "zone_navigo": 100,
+    "id": "87683128",
     "code_uic": "87683128",
     "train": 1,
     "libelle_point_arret": "CHAMPIGNY SUR YONNE",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHAPONVAL",
-    "zone_navigo": 5,
+    "id": "87276162",
     "h": 1,
     "code_uic": "87276162",
     "train": 1,
-    "libelle_point_arret": "CHAPONVAL"
+    "libelle_point_arret": "CHAPONVAL",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHARS",
-    "zone_navigo": 5,
+    "id": "87381194",
     "code_uic": "87381194",
     "train": 1,
     "libelle_point_arret": "CHARS",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHARTRETTES",
-    "zone_navigo": 5,
+    "id": "87682419",
     "libelle_point_arret": "CHARTRETTES",
     "train": 1,
     "r": 1,
-    "code_uic": "87682419"
+    "code_uic": "87682419",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHATEAU THIERRY",
-    "zone_navigo": 100,
+    "id": "87116582",
     "p": 1,
     "code_uic": "87116582",
     "train": 1,
-    "libelle_point_arret": "CHATEAU THIERRY"
+    "libelle_point_arret": "CHATEAU THIERRY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHATEAUDUN",
-    "zone_navigo": 100,
+    "id": "87545756",
     "code_uic": "87545756",
     "train": 1,
     "libelle_point_arret": "CHATEAUDUN",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHAUFFRY",
-    "zone_navigo": 5,
+    "id": "87116350",
     "bus": 1,
     "code_uic": "87116350",
     "libelle_point_arret": "CHAUFFRY",
-    "p": 1
+    "p": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CITE UNIVERSITAIRE",
-    "zone_navigo": 1,
+    "id": "87758649",
     "rer": 1,
     "tram": 1,
     "libelle_point_arret": "CITE UNIVERSITAIRE",
     "code_uic": "87758649",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "CREDIT AGRICOLE (DOMMERVILLE)",
-    "zone_navigo": 5,
+    "id": "87332965",
     "bus": 1,
     "c": 1,
     "code_uic": "87332965",
-    "libelle_point_arret": "CREDIT AGRICOLE (DOMMERVILLE)"
+    "libelle_point_arret": "CREDIT AGRICOLE (DOMMERVILLE)",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "DEUIL MONTMAGNY",
-    "zone_navigo": 4,
+    "id": "87276345",
     "h": 1,
     "code_uic": "87276345",
     "train": 1,
-    "libelle_point_arret": "DEUIL MONTMAGNY"
+    "libelle_point_arret": "DEUIL MONTMAGNY",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "DOURDAN LA FORET",
-    "zone_navigo": 5,
+    "id": "87540179",
     "rer": 1,
     "c": 1,
     "code_uic": "87540179",
-    "libelle_point_arret": "DOURDAN LA FORET"
+    "libelle_point_arret": "DOURDAN LA FORET",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "EPERNON",
-    "zone_navigo": 100,
+    "id": "87394114",
     "code_uic": "87394114",
     "train": 1,
     "libelle_point_arret": "EPERNON",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ETIGNY VERON",
-    "zone_navigo": 100,
+    "id": "87683201",
     "code_uic": "87683201",
     "train": 1,
     "libelle_point_arret": "ETIGNY VERON",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "FAREMOUTIERS POMMEUSE",
-    "zone_navigo": 5,
+    "id": "87116277",
     "p": 1,
     "code_uic": "87116277",
     "train": 1,
-    "libelle_point_arret": "FAREMOUTIERS POMMEUSE"
+    "libelle_point_arret": "FAREMOUTIERS POMMEUSE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "FONTAINE MICHALON",
-    "zone_navigo": 4,
+    "id": "87758763",
     "rer": 1,
     "libelle_point_arret": "FONTAINE MICHALON",
     "code_uic": "87758763",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "FONTENAY SOUS BOIS",
-    "zone_navigo": 3,
+    "id": "87758128",
     "a": 1,
     "rer": 1,
     "code_uic": "87758128",
-    "libelle_point_arret": "FONTENAY SOUS BOIS"
+    "libelle_point_arret": "FONTENAY SOUS BOIS",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "GARGENVILLE",
-    "zone_navigo": 5,
+    "id": "87381566",
     "code_uic": "87381566",
     "train": 1,
     "libelle_point_arret": "GARGENVILLE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "GENNEVILLIERS",
-    "zone_navigo": 3,
+    "id": "87271205",
     "rer": 1,
     "c": 1,
     "code_uic": "87271205",
-    "libelle_point_arret": "GENNEVILLIERS"
+    "libelle_point_arret": "GENNEVILLIERS",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "GISORS",
-    "zone_navigo": 100,
+    "id": "87381244",
     "code_uic": "87381244",
     "train": 1,
     "libelle_point_arret": "GISORS",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "GRETZ ARMAINVILLIERS",
-    "zone_navigo": 5,
+    "id": "87116012",
     "e": 1,
     "rer": 1,
     "p": 1,
     "code_uic": "87116012",
     "train": 1,
-    "libelle_point_arret": "GRETZ ARMAINVILLIERS"
+    "libelle_point_arret": "GRETZ ARMAINVILLIERS",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "IGNY",
-    "zone_navigo": 4,
+    "id": "87393561",
     "rer": 1,
     "c": 1,
     "code_uic": "87393561",
-    "libelle_point_arret": "IGNY"
+    "libelle_point_arret": "IGNY",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "JOINVILLE LE PONT",
-    "zone_navigo": 3,
+    "id": "87758144",
     "a": 1,
     "rer": 1,
     "code_uic": "87758144",
-    "libelle_point_arret": "JOINVILLE LE PONT"
+    "libelle_point_arret": "JOINVILLE LE PONT",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "JOUY",
-    "zone_navigo": 100,
+    "id": "87394155",
     "code_uic": "87394155",
     "train": 1,
     "libelle_point_arret": "JOUY",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "JOUY SUR MORIN CHAMPGOULIN",
-    "zone_navigo": 5,
+    "id": "87430918",
     "bus": 1,
     "code_uic": "87430918",
     "libelle_point_arret": "JOUY SUR MORIN CHAMPGOULIN",
-    "p": 1
+    "p": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LA BARRE ORMESSON",
-    "zone_navigo": 4,
+    "id": "87271171",
     "h": 1,
     "code_uic": "87271171",
     "train": 1,
-    "libelle_point_arret": "LA BARRE ORMESSON"
+    "libelle_point_arret": "LA BARRE ORMESSON",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LA FERTE ALAIS",
-    "zone_navigo": 5,
+    "id": "87681452",
     "rer": 1,
     "code_uic": "87681452",
     "libelle_point_arret": "LA FERTE ALAIS",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LE PLESSIS BELLEVILLE",
-    "zone_navigo": 5,
+    "id": "87271551",
     "libelle_point_arret": "LE PLESSIS BELLEVILLE",
     "k": 1,
     "train": 1,
-    "code_uic": "87271551"
+    "code_uic": "87271551",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LE PLESSIS CHENET",
-    "zone_navigo": 5,
+    "id": "87681627",
     "rer": 1,
     "code_uic": "87681627",
     "libelle_point_arret": "LE PLESSIS CHENET",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LE STADE",
-    "zone_navigo": 3,
+    "id": "87381095",
     "code_uic": "87381095",
     "train": 1,
     "libelle_point_arret": "LE STADE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LE VESINET CENTRE",
-    "zone_navigo": 4,
+    "id": "87758078",
     "a": 1,
     "rer": 1,
     "code_uic": "87758078",
-    "libelle_point_arret": "LE VESINET CENTRE"
+    "libelle_point_arret": "LE VESINET CENTRE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LE VESINETLE PECQ",
-    "zone_navigo": 4,
+    "id": "87758086",
     "a": 1,
     "rer": 1,
     "code_uic": "87758086",
-    "libelle_point_arret": "LE VESINET LE PECQ"
+    "libelle_point_arret": "LE VESINET LE PECQ",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LES BACONNETS",
-    "zone_navigo": 4,
+    "id": "87758771",
     "rer": 1,
     "libelle_point_arret": "LES BACONNETS",
     "code_uic": "87758771",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LIVRY SUR SEINE",
-    "zone_navigo": 5,
+    "id": "87682401",
     "libelle_point_arret": "LIVRY SUR SEINE",
     "train": 1,
     "r": 1,
-    "code_uic": "87682401"
+    "code_uic": "87682401",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LOUVECIENNES",
-    "zone_navigo": 4,
+    "id": "87382457",
     "code_uic": "87382457",
     "train": 1,
     "libelle_point_arret": "LOUVECIENNES",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LYCEE HENRI SELLIER (T4)",
-    "zone_navigo": 4,
+    "id": "87988717",
     "tram": 1,
     "t4": 1,
     "code_uic": "87988717",
-    "libelle_point_arret": "LYCEE HENRI SELLIER (T4)"
+    "libelle_point_arret": "LYCEE HENRI SELLIER (T4)",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "MAINTENON",
-    "zone_navigo": 100,
+    "id": "87394130",
     "code_uic": "87394130",
     "train": 1,
     "libelle_point_arret": "MAINTENON",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MAISONS ALFORT ALFORTVILLE",
-    "zone_navigo": 3,
+    "id": "87681155",
     "rer": 1,
     "code_uic": "87681155",
     "libelle_point_arret": "MAISONS ALFORT ALFORTVILLE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "MARCHEZAIS BROUE",
-    "zone_navigo": 100,
+    "id": "87393470",
     "code_uic": "87393470",
     "train": 1,
     "libelle_point_arret": "MARCHEZAIS BROUE",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MELUN",
-    "zone_navigo": 5,
+    "id": "87682005",
     "libelle_point_arret": "MELUN",
     "train": 1,
     "r": 1,
     "code_uic": "87682005",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MENNECY",
-    "zone_navigo": 5,
+    "id": "87681411",
     "rer": 1,
     "code_uic": "87681411",
     "libelle_point_arret": "MENNECY",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MITRY CLAYE",
-    "zone_navigo": 5,
+    "id": "87271528",
     "b": 1,
     "libelle_point_arret": "MITRY CLAYE",
     "rer": 1,
     "train": 1,
     "k": 1,
-    "code_uic": "87271528"
+    "code_uic": "87271528",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MONNERVILLE CENTRE",
-    "zone_navigo": 5,
+    "id": "87332940",
     "bus": 1,
     "c": 1,
     "code_uic": "87332940",
-    "libelle_point_arret": "MONNERVILLE CENTRE"
+    "libelle_point_arret": "MONNERVILLE CENTRE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MONTGERON CROSNE",
-    "zone_navigo": 4,
+    "id": "87682104",
     "rer": 1,
     "code_uic": "87682104",
     "libelle_point_arret": "MONTGERON CROSNE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "MONTREUIL",
-    "zone_navigo": 4,
+    "id": "87382879",
     "code_uic": "87382879",
     "train": 1,
     "libelle_point_arret": "MONTREUIL",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "MORET VENEUX LES SABLONS",
-    "zone_navigo": 5,
+    "id": "87682278",
     "libelle_point_arret": "MORET VENEUX LES SABLONS",
     "train": 1,
     "r": 1,
-    "code_uic": "87682278"
+    "code_uic": "87682278",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NANTERRE UNIVERSITE",
-    "zone_navigo": 3,
+    "id": "87386318",
     "a": 1,
     "rer": 1,
     "code_uic": "87386318",
     "libelle_point_arret": "NANTERRE UNIVERSITE",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "ORRY LA VILLE COYE LA FORET",
-    "zone_navigo": 100,
+    "id": "87276279",
     "rer": 1,
     "code_uic": "87276279",
     "libelle_point_arret": "ORRY LA VILLE COYE LA FORET",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PARIS SAINT-LAZARE (GARE SAINT-LAZARE)",
-    "zone_navigo": 1,
+    "id": "87384008",
     "code_uic": "87384008",
     "train": 1,
     "libelle_point_arret": "PARIS SAINT-LAZARE (GARE SAINT-LAZARE)",
     "l": 1,
-    "j": 1
+    "j": 1,
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "PERSAN BEAUMONT",
-    "zone_navigo": 5,
+    "id": "87276469",
     "h": 1,
     "code_uic": "87276469",
     "train": 1,
-    "libelle_point_arret": "PERSAN BEAUMONT"
+    "libelle_point_arret": "PERSAN BEAUMONT",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PLAISIR GRIGNON",
-    "zone_navigo": 5,
+    "id": "87393421",
     "code_uic": "87393421",
     "train": 1,
     "libelle_point_arret": "PLAISIR GRIGNON",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "POISSY",
-    "zone_navigo": 5,
+    "id": "87386573",
     "a": 1,
     "libelle_point_arret": "POISSY",
     "rer": 1,
     "train": 1,
     "j": 1,
-    "code_uic": "87386573"
+    "code_uic": "87386573",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PONT PETIT",
-    "zone_navigo": 5,
+    "id": "87276154",
     "h": 1,
     "code_uic": "87276154",
     "train": 1,
-    "libelle_point_arret": "PONT PETIT"
+    "libelle_point_arret": "PONT PETIT",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PORT ROYAL",
-    "zone_navigo": 1,
+    "id": "87758623",
     "rer": 1,
     "libelle_point_arret": "PORT ROYAL",
     "code_uic": "87758623",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "RAMBOUILLET",
-    "zone_navigo": 5,
+    "id": "87393314",
     "code_uic": "87393314",
     "train": 1,
     "libelle_point_arret": "RAMBOUILLET",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "REMISE A JORELLE (T4)",
-    "zone_navigo": 3,
+    "id": "87988709",
     "tram": 1,
     "t4": 1,
     "code_uic": "87988709",
-    "libelle_point_arret": "REMISE A JORELLE (T4)"
+    "libelle_point_arret": "REMISE A JORELLE (T4)",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "RUNGIS LA FRATERNELLE",
-    "zone_navigo": 4,
+    "id": "87546291",
     "rer": 1,
     "c": 1,
     "code_uic": "87546291",
-    "libelle_point_arret": "RUNGIS LA FRATERNELLE"
+    "libelle_point_arret": "RUNGIS LA FRATERNELLE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SAINT-PIAT",
-    "zone_navigo": 100,
+    "id": "87394148",
     "code_uic": "87394148",
     "train": 1,
     "libelle_point_arret": "SAINT PIAT",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINTE-COLOMBE SEPTVEILLES",
-    "zone_navigo": 5,
+    "id": "87116178",
     "p": 1,
     "code_uic": "87116178",
     "train": 1,
-    "libelle_point_arret": "SAINTE-COLOMBE SEPTVEILLES"
+    "libelle_point_arret": "SAINTE-COLOMBE SEPTVEILLES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-GERMAIN EN LAYE",
-    "zone_navigo": 4,
+    "id": "87758094",
     "a": 1,
     "rer": 1,
     "code_uic": "87758094",
-    "libelle_point_arret": "SAINT-GERMAIN EN LAYE"
+    "libelle_point_arret": "SAINT-GERMAIN EN LAYE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SAINT-GERMAIN EN LAYE GRANDE CEINTURE",
-    "zone_navigo": 4,
+    "id": "87382804",
     "code_uic": "87382804",
     "train": 1,
     "libelle_point_arret": "SAINT-GERMAIN EN LAYE GRANDE CEINTURE",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SAINT-MICHELSUR ORGE",
-    "zone_navigo": 5,
+    "id": "87545202",
     "rer": 1,
     "c": 1,
     "code_uic": "87545202",
-    "libelle_point_arret": "SAINT-MICHEL SUR ORGE"
+    "libelle_point_arret": "SAINT-MICHEL SUR ORGE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-OUEN L'AUMONE",
-    "zone_navigo": 5,
+    "id": "87276105",
     "c": 1,
     "libelle_point_arret": "SAINT-OUEN L'AUMONE",
     "rer": 1,
     "h": 1,
     "code_uic": "87276105",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-REMY LA VANNE",
-    "zone_navigo": 5,
+    "id": "87116376",
     "bus": 1,
     "code_uic": "87116376",
     "libelle_point_arret": "SAINT-REMY LA VANNE",
-    "p": 1
+    "p": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-SIMEON",
-    "zone_navigo": 5,
+    "id": "87116368",
     "bus": 1,
     "code_uic": "87116368",
     "libelle_point_arret": "SAINT-SIMEON",
-    "p": 1
+    "p": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SALLE DES FETES (ANGERVILLE)",
-    "zone_navigo": 5,
+    "id": "87332973",
     "bus": 1,
     "c": 1,
     "code_uic": "87332973",
-    "libelle_point_arret": "SALLE DES FETES"
+    "libelle_point_arret": "SALLE DES FETES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SANTEUIL LE PERCHAY",
-    "zone_navigo": 5,
+    "id": "87381186",
     "code_uic": "87381186",
     "train": 1,
     "libelle_point_arret": "SANTEUIL LE PERCHAY",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SCEAUX",
-    "zone_navigo": 3,
+    "id": "87758706",
     "rer": 1,
     "libelle_point_arret": "SCEAUX",
     "code_uic": "87758706",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "SEVRAN LIVRY",
-    "zone_navigo": 4,
+    "id": "87271429",
     "rer": 1,
     "libelle_point_arret": "SEVRAN LIVRY",
     "code_uic": "87271429",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VAUX SUR SEINE",
-    "zone_navigo": 5,
+    "id": "87381814",
     "code_uic": "87381814",
     "train": 1,
     "libelle_point_arret": "VAUX SUR SEINE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VERNOU SUR SEINE",
-    "zone_navigo": 5,
+    "id": "87682468",
     "libelle_point_arret": "VERNOU SUR SEINE",
     "train": 1,
     "r": 1,
-    "code_uic": "87682468"
+    "code_uic": "87682468",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VERSAILLES CHANTIERS",
-    "zone_navigo": 4,
+    "id": "87393009",
     "c": 1,
     "libelle_point_arret": "VERSAILLES CHANTIERS",
     "rer": 1,
     "train": 1,
     "n": 1,
     "code_uic": "87393009",
-    "u": "1"
+    "u": "1",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VILLIERS SUR MARNE PLESSIS TREVISE",
-    "zone_navigo": 4,
+    "id": "87113795",
     "rer": 1,
     "e": 1,
     "code_uic": "87113795",
-    "libelle_point_arret": "VILLIERS SUR MARNE PLESSIS TREVISE"
+    "libelle_point_arret": "VILLIERS SUR MARNE PLESSIS TREVISE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VITRY SUR SEINE",
-    "zone_navigo": 3,
+    "id": "87545293",
     "rer": 1,
     "c": 1,
     "code_uic": "87545293",
-    "libelle_point_arret": "VITRY SUR SEINE"
+    "libelle_point_arret": "VITRY SUR SEINE",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "VOSVES",
-    "zone_navigo": 5,
+    "id": "87682500",
     "rer": 1,
     "code_uic": "87682500",
     "libelle_point_arret": "VOSVES",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CESSON",
-    "zone_navigo": 5,
+    "id": "87682161",
     "rer": 1,
     "code_uic": "87682161",
     "libelle_point_arret": "CESSON",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHAILLY BOISSY LECHATEL",
-    "zone_navigo": 5,
+    "id": "87116343",
     "bus": 1,
     "code_uic": "87116343",
     "libelle_point_arret": "CHAILLY BOISSY LE CHATEL",
-    "p": 1
+    "p": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHAMP DE MARS TOUR EIFFEL",
-    "zone_navigo": 1,
+    "id": "87393058",
     "rer": 1,
     "c": 1,
     "code_uic": "87393058",
-    "libelle_point_arret": "CHAMP DE MARS TOUR EIFFEL"
+    "libelle_point_arret": "CHAMP DE MARS TOUR EIFFEL",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "CHAMPBENOIST POIGNY",
-    "zone_navigo": 5,
+    "id": "87115873",
     "p": 1,
     "code_uic": "87115873",
     "train": 1,
-    "libelle_point_arret": "CHAMPBENOIST POIGNY"
+    "libelle_point_arret": "CHAMPBENOIST POIGNY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHANGIS SAINT-JEAN",
-    "zone_navigo": 5,
+    "id": "87116509",
     "p": 1,
     "code_uic": "87116509",
     "train": 1,
-    "libelle_point_arret": "CHANGIS SAINT-JEAN"
+    "libelle_point_arret": "CHANGIS SAINT-JEAN",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHANTILLY GOUVIEUX",
-    "zone_navigo": 100,
+    "id": "87276113",
     "rer": 1,
     "code_uic": "87276113",
     "libelle_point_arret": "CHANTILLY GOUVIEUX",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHARTRES",
-    "zone_navigo": 100,
+    "id": "87394007",
     "code_uic": "87394007",
     "train": 1,
     "libelle_point_arret": "CHARTRES",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHAVILLE VELIZY",
-    "zone_navigo": 3,
+    "id": "87393173",
     "rer": 1,
     "c": 1,
     "code_uic": "87393173",
-    "libelle_point_arret": "CHAVILLE VELIZY"
+    "libelle_point_arret": "CHAVILLE VELIZY",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "CHELLES GOURNAY",
-    "zone_navigo": 4,
+    "id": "87116111",
     "e": 1,
     "rer": 1,
     "p": 1,
     "code_uic": "87116111",
     "train": 1,
-    "libelle_point_arret": "CHELLES GOURNAY"
+    "libelle_point_arret": "CHELLES GOURNAY",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "COMPANS",
-    "zone_navigo": 5,
+    "id": "87272047",
     "libelle_point_arret": "COMPANS",
     "k": 1,
     "train": 1,
-    "code_uic": "87272047"
+    "code_uic": "87272047",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CONFLANS FIN D'OISE",
-    "zone_navigo": 5,
+    "id": "87381459",
     "a": 1,
     "libelle_point_arret": "CONFLANS FIN D'OISE",
     "rer": 1,
     "j": 1,
     "l": 1,
     "code_uic": "87381459",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CORBEIL ESSONNES",
-    "zone_navigo": 5,
+    "id": "87681007",
     "rer": 1,
     "code_uic": "87681007",
     "libelle_point_arret": "CORBEIL ESSONNES",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CRECY LA CHAPELLE",
-    "zone_navigo": 5,
+    "id": "87116772",
     "p": 1,
     "code_uic": "87116772",
     "train": 1,
-    "libelle_point_arret": "CRECY LA CHAPELLE"
+    "libelle_point_arret": "CRECY LA CHAPELLE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CREPY EN VALOIS",
-    "zone_navigo": 100,
+    "id": "87271593",
     "libelle_point_arret": "CREPY EN VALOIS",
     "k": 1,
     "train": 1,
-    "code_uic": "87271593"
+    "code_uic": "87271593",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "EGLY",
-    "zone_navigo": 5,
+    "id": "87545475",
     "rer": 1,
     "c": 1,
     "code_uic": "87545475",
-    "libelle_point_arret": "EGLY"
+    "libelle_point_arret": "EGLY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "EMERAINVILLE - PONTAULT COMBAULT",
-    "zone_navigo": 5,
+    "id": "87116046",
     "rer": 1,
     "e": 1,
     "code_uic": "87116046",
-    "libelle_point_arret": "EMERAINVILLE - PONTAULT COMBAULT"
+    "libelle_point_arret": "EMERAINVILLE - PONTAULT COMBAULT",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ENGHIEN LES BAINS",
-    "zone_navigo": 4,
+    "id": "87276022",
     "h": 1,
     "code_uic": "87276022",
     "train": 1,
-    "libelle_point_arret": "ENGHIEN LES BAINS"
+    "libelle_point_arret": "ENGHIEN LES BAINS",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "EPINAY SUR SEINE",
-    "zone_navigo": 3,
+    "id": "87271148",
     "rer": 1,
     "c": 1,
     "code_uic": "87271148",
-    "libelle_point_arret": "EPINAY SUR SEINE"
+    "libelle_point_arret": "EPINAY SUR SEINE",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "EPONE MEZIERES",
-    "zone_navigo": 5,
+    "id": "87386763",
     "n": 1,
     "code_uic": "87386763",
     "train": 1,
     "libelle_point_arret": "EPONE MEZIERES",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ERMONT HALTE",
-    "zone_navigo": 4,
+    "id": "87276584",
     "h": 1,
     "code_uic": "87276584",
     "train": 1,
-    "libelle_point_arret": "ERMONT HALTE"
+    "libelle_point_arret": "ERMONT HALTE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "EVREUX",
-    "zone_navigo": 100,
+    "id": "87387001",
     "code_uic": "87387001",
     "train": 1,
     "libelle_point_arret": "EVREUX",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "EVRY - Val de Seine",
-    "zone_navigo": 5,
+    "id": "87681361",
     "rer": 1,
     "code_uic": "87681361",
     "libelle_point_arret": "EVRY - Val de Seine",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "EVRY COURCOURONNES - Centre",
-    "zone_navigo": 5,
+    "id": "87681387",
     "rer": 1,
     "code_uic": "87681387",
     "libelle_point_arret": "EVRY COURCOURONNES - Centre",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "FERRIERES FONTENAY",
-    "zone_navigo": 100,
+    "id": "87684241",
     "libelle_point_arret": "FERRIERES FONTENAY",
     "train": 1,
     "r": 1,
-    "code_uic": "87684241"
+    "code_uic": "87684241",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "FREINVILLE SEVRAN (T4)",
-    "zone_navigo": 4,
+    "id": "87113894",
     "tram": 1,
     "t4": 1,
     "code_uic": "87113894",
-    "libelle_point_arret": "FREINVILLE SEVRAN (T4)"
+    "libelle_point_arret": "FREINVILLE SEVRAN (T4)",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "GAGNY",
-    "zone_navigo": 4,
+    "id": "87113514",
     "rer": 1,
     "e": 1,
     "code_uic": "87113514",
-    "libelle_point_arret": "GAGNY"
+    "libelle_point_arret": "GAGNY",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "GARCHES MARNES LA COQUETTE",
-    "zone_navigo": 3,
+    "id": "87382259",
     "code_uic": "87382259",
     "train": 1,
     "libelle_point_arret": "GARCHES MARNES LA COQUETTE",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "NANTERRE PREFECTURE",
-    "zone_navigo": 3,
+    "id": "87758029",
     "a": 1,
     "rer": 1,
     "code_uic": "87758029",
-    "libelle_point_arret": "GARE DE NANTERRE PREFECTURE"
+    "libelle_point_arret": "GARE DE NANTERRE PREFECTURE",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "NANTERRE UNIVERSITE",
-    "zone_navigo": 3,
+    "id": "87758037",
     "a": 1,
     "rer": 1,
     "code_uic": "87758037",
-    "libelle_point_arret": "GARE DE NANTERRE UNIVERSITE RER A"
+    "libelle_point_arret": "GARE DE NANTERRE UNIVERSITE RER A",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "GARGES SARCELLES",
-    "zone_navigo": 4,
+    "id": "87276196",
     "rer": 1,
     "code_uic": "87276196",
     "libelle_point_arret": "GARGES SARCELLES",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "GENTILLY",
-    "zone_navigo": 2,
+    "id": "87758656",
     "rer": 1,
     "libelle_point_arret": "GENTILLY",
     "code_uic": "87758656",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "GRAVIGNY BALIZY",
-    "zone_navigo": 4,
+    "id": "87393645",
     "rer": 1,
     "c": 1,
     "code_uic": "87393645",
-    "libelle_point_arret": "GRAVIGNY BALIZY"
+    "libelle_point_arret": "GRAVIGNY BALIZY",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "GROS NOYER SAINT-PRIX",
-    "zone_navigo": 4,
+    "id": "87276592",
     "h": 1,
     "code_uic": "87276592",
     "train": 1,
-    "libelle_point_arret": "GROS NOYER SAINT-PRIX"
+    "libelle_point_arret": "GROS NOYER SAINT-PRIX",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "JOIGNY",
-    "zone_navigo": 100,
+    "id": "87683243",
     "code_uic": "87683243",
     "train": 1,
     "libelle_point_arret": "JOIGNY",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "JOUY SUR MORIN MONUMENT",
-    "zone_navigo": 5,
+    "id": "87430884",
     "bus": 1,
     "code_uic": "87430884",
     "libelle_point_arret": "JOUY SUR MORIN MONUMENT",
-    "p": 1
+    "p": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LA CELLE SAINT-CLOUD",
-    "zone_navigo": 4,
+    "id": "87382432",
     "code_uic": "87382432",
     "train": 1,
     "libelle_point_arret": "LA CELLE SAINT-CLOUD",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LA CROIX DE BERNY",
-    "zone_navigo": 3,
+    "id": "87758748",
     "rer": 1,
     "libelle_point_arret": "LA CROIX DE BERNY",
     "code_uic": "87758748",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LA FERTE MILON",
-    "zone_navigo": 100,
+    "id": "87116673",
     "p": 1,
     "code_uic": "87116673",
     "train": 1,
-    "libelle_point_arret": "LA FERTE MILON"
+    "libelle_point_arret": "LA FERTE MILON",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LA FERTE SOUS JOUARRE",
-    "zone_navigo": 5,
+    "id": "87116517",
     "p": 1,
     "code_uic": "87116517",
     "train": 1,
-    "libelle_point_arret": "LA FERTE SOUS JOUARRE"
+    "libelle_point_arret": "LA FERTE SOUS JOUARRE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LA HACQUINIERE",
-    "zone_navigo": 5,
+    "id": "87758862",
     "rer": 1,
     "libelle_point_arret": "LA HACQUINIERE",
     "code_uic": "87758862",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LA NORVILLE SAINT-GERMAIN LES ARPAJON",
-    "zone_navigo": 5,
+    "id": "87545459",
     "rer": 1,
     "c": 1,
     "code_uic": "87545459",
-    "libelle_point_arret": "LA NORVILLE SAINT-GERMAIN LES ARPAJON"
+    "libelle_point_arret": "LA NORVILLE SAINT-GERMAIN LES ARPAJON",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LAPLACE",
-    "zone_navigo": 2,
+    "id": "87758664",
     "rer": 1,
     "libelle_point_arret": "LAPLACE",
     "code_uic": "87758664",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "LAROCHE MIGENNES",
-    "zone_navigo": 100,
+    "id": "87683268",
     "code_uic": "87683268",
     "train": 1,
     "libelle_point_arret": "LAROCHE MIGENNES",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LE BLANC MESNIL",
-    "zone_navigo": 3,
+    "id": "87271478",
     "rer": 1,
     "libelle_point_arret": "LE BLANC MESNIL",
     "code_uic": "87271478",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LES ESSARTS LE ROI",
-    "zone_navigo": 5,
+    "id": "87393280",
     "code_uic": "87393280",
     "train": 1,
     "libelle_point_arret": "LES ESSARTS LE ROI",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LES SAULES",
-    "zone_navigo": 4,
+    "id": "87546226",
     "rer": 1,
     "c": 1,
     "code_uic": "87546226",
-    "libelle_point_arret": "LES SAULES"
+    "libelle_point_arret": "LES SAULES",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "L'ETANG LA VILLE",
-    "zone_navigo": 5,
+    "id": "87382473",
     "code_uic": "87382473",
     "train": 1,
     "libelle_point_arret": "L'ETANG LA VILLE",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "L'ISLE ADAM PARMAIN",
-    "zone_navigo": 5,
+    "id": "87276527",
     "h": 1,
     "code_uic": "87276527",
     "train": 1,
-    "libelle_point_arret": "L'ISLE ADAM PARMAIN"
+    "libelle_point_arret": "L'ISLE ADAM PARMAIN",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LONGUEVILLE",
-    "zone_navigo": 5,
+    "id": "87116137",
     "p": 1,
     "code_uic": "87116137",
     "train": 1,
-    "libelle_point_arret": "LONGUEVILLE"
+    "libelle_point_arret": "LONGUEVILLE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LOUVRES",
-    "zone_navigo": 5,
+    "id": "87276253",
     "rer": 1,
     "code_uic": "87276253",
     "libelle_point_arret": "LOUVRES",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LOZERE",
-    "zone_navigo": 4,
+    "id": "87758821",
     "rer": 1,
     "libelle_point_arret": "LOZERE",
     "code_uic": "87758821",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LUZARCHES",
-    "zone_navigo": 5,
+    "id": "87276576",
     "h": 1,
     "code_uic": "87276576",
     "train": 1,
-    "libelle_point_arret": "LUZARCHES"
+    "libelle_point_arret": "LUZARCHES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MANTES LA JOLIE",
-    "zone_navigo": 5,
+    "id": "87381509",
     "n": 1,
     "code_uic": "87381509",
     "train": 1,
     "libelle_point_arret": "MANTES LA JOLIE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MAROLLES EN HUREPOIX",
-    "zone_navigo": 5,
+    "id": "87545186",
     "rer": 1,
     "c": 1,
     "code_uic": "87545186",
-    "libelle_point_arret": "MAROLLES EN HUREPOIX"
+    "libelle_point_arret": "MAROLLES EN HUREPOIX",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MASSY PALAISEAU",
-    "zone_navigo": 4,
+    "id": "87393579",
     "rer": 1,
     "code_uic": "87393579",
     "c": 1,
     "b": 1,
-    "libelle_point_arret": "MASSY PALAISEAU"
+    "libelle_point_arret": "MASSY PALAISEAU",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "MAURECOURT",
-    "zone_navigo": 5,
+    "id": "87381483",
     "code_uic": "87381483",
     "train": 1,
     "libelle_point_arret": "MAURECOURT",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MEAUX",
-    "zone_navigo": 5,
+    "id": "87116103",
     "p": 1,
     "code_uic": "87116103",
     "train": 1,
-    "libelle_point_arret": "MEAUX"
+    "libelle_point_arret": "MEAUX",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MEUDON",
-    "zone_navigo": 3,
+    "id": "87393108",
     "code_uic": "87393108",
     "train": 1,
     "libelle_point_arret": "MEUDON",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "MONDESIR",
-    "zone_navigo": 5,
+    "id": "87332932",
     "bus": 1,
     "c": 1,
     "code_uic": "87332932",
-    "libelle_point_arret": "MONDESIR"
+    "libelle_point_arret": "MONDESIR",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MONTEREAU",
-    "zone_navigo": 5,
+    "id": "87682302",
     "libelle_point_arret": "MONTEREAU",
     "train": 1,
     "r": 1,
-    "code_uic": "87682302"
+    "code_uic": "87682302",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MONTFORT L'AMAURY MERE",
-    "zone_navigo": 5,
+    "id": "87393892",
     "code_uic": "87393892",
     "train": 1,
     "libelle_point_arret": "MONTFORT L'AMAURY MERE",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MONTIGNY BEAUCHAMP",
-    "zone_navigo": 4,
+    "id": "87276089",
     "c": 1,
     "libelle_point_arret": "MONTIGNY BEAUCHAMP",
     "rer": 1,
     "h": 1,
     "code_uic": "87276089",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "MORMANT",
-    "zone_navigo": 5,
+    "id": "87116087",
     "p": 1,
     "code_uic": "87116087",
     "train": 1,
-    "libelle_point_arret": "MORMANT"
+    "libelle_point_arret": "MORMANT",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MORTCERF",
-    "zone_navigo": 5,
+    "id": "87116244",
     "p": 1,
     "code_uic": "87116244",
     "train": 1,
-    "libelle_point_arret": "MORTCERF"
+    "libelle_point_arret": "MORTCERF",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NEMOURS SAINT-PIERRE",
-    "zone_navigo": 5,
+    "id": "87684126",
     "libelle_point_arret": "NEMOURS SAINT-PIERRE",
     "train": 1,
     "r": 1,
-    "code_uic": "87684126"
+    "code_uic": "87684126",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NEUILLY PLAISANCE",
-    "zone_navigo": 3,
+    "id": "87758318",
     "a": 1,
     "rer": 1,
     "code_uic": "87758318",
-    "libelle_point_arret": "NEUILLY PLAISANCE"
+    "libelle_point_arret": "NEUILLY PLAISANCE",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "NEUVILLE UNIVERSITE",
-    "zone_navigo": 5,
+    "id": "87334482",
     "a": 1,
     "libelle_point_arret": "NEUVILLE UNIVERSITE",
     "rer": 1,
     "l": 1,
     "code_uic": "87334482",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NOGENT L'ARTAUD CHARLY",
-    "zone_navigo": 100,
+    "id": "87116566",
     "p": 1,
     "code_uic": "87116566",
     "train": 1,
-    "libelle_point_arret": "NOGENT L'ARTAUD CHARLY"
+    "libelle_point_arret": "NOGENT L'ARTAUD CHARLY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NOGENT SUR MARNE",
-    "zone_navigo": 3,
+    "id": "87758136",
     "a": 1,
     "rer": 1,
     "code_uic": "87758136",
-    "libelle_point_arret": "NOGENT SUR MARNE"
+    "libelle_point_arret": "NOGENT SUR MARNE",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "NOISY LE GRAND MONT D'EST",
-    "zone_navigo": 4,
+    "id": "87758334",
     "a": 1,
     "rer": 1,
     "code_uic": "87758334",
-    "libelle_point_arret": "NOISY LE GRAND MONT D'EST"
+    "libelle_point_arret": "NOISY LE GRAND MONT D'EST",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "NOISY LE ROI",
-    "zone_navigo": 5,
+    "id": "87393876",
     "code_uic": "87393876",
     "train": 1,
     "libelle_point_arret": "NOISY LE ROI",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ORSAY VILLE",
-    "zone_navigo": 5,
+    "id": "87758847",
     "rer": 1,
     "libelle_point_arret": "ORSAY VILLE",
     "code_uic": "87758847",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PALAISEAU",
-    "zone_navigo": 4,
+    "id": "87758805",
     "rer": 1,
     "libelle_point_arret": "PALAISEAU",
     "code_uic": "87758805",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "PARC DE SCEAUX",
-    "zone_navigo": 4,
+    "id": "87758730",
     "rer": 1,
     "libelle_point_arret": "PARC DE SCEAUX",
     "code_uic": "87758730",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "PARC DES EXPOSITIONS",
-    "zone_navigo": 4,
+    "id": "87271486",
     "rer": 1,
     "libelle_point_arret": "PARC DES EXPOSITIONS",
     "code_uic": "87271486",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "PARIS MONTPARNASSE (GARE MONTPARNASSE)",
-    "zone_navigo": 1,
+    "id": "87391003",
     "code_uic": "87391003",
     "train": 1,
     "libelle_point_arret": "PARIS MONTPARNASSE (GARE MONTPARNASSE)",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "PETIT JOUY LES LOGES",
-    "zone_navigo": 4,
+    "id": "87393504",
     "rer": 1,
     "c": 1,
     "code_uic": "87393504",
-    "libelle_point_arret": "PETIT JOUY LES LOGES"
+    "libelle_point_arret": "PETIT JOUY LES LOGES",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "PIERREFITTE STAINS",
-    "zone_navigo": 4,
+    "id": "87271163",
     "rer": 1,
     "code_uic": "87271163",
     "libelle_point_arret": "PIERREFITTE STAINS",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "PIERRELAYE",
-    "zone_navigo": 5,
+    "id": "87276097",
     "c": 1,
     "libelle_point_arret": "PIERRELAYE",
     "rer": 1,
     "h": 1,
     "code_uic": "87276097",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PONT DE L'ALMA",
-    "zone_navigo": 1,
+    "id": "87393041",
     "rer": 1,
     "c": 1,
     "code_uic": "87393041",
-    "libelle_point_arret": "PONT DE L'ALMA"
+    "libelle_point_arret": "PONT DE L'ALMA",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "PONT SUR YONNE",
-    "zone_navigo": 100,
+    "id": "87683136",
     "code_uic": "87683136",
     "train": 1,
     "libelle_point_arret": "PONT SUR YONNE",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PRESLES COURCELLES",
-    "zone_navigo": 5,
+    "id": "87276501",
     "h": 1,
     "code_uic": "87276501",
     "train": 1,
-    "libelle_point_arret": "PRESLES COURCELLES"
+    "libelle_point_arret": "PRESLES COURCELLES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PROVINS",
-    "zone_navigo": 5,
+    "id": "87116160",
     "p": 1,
     "code_uic": "87116160",
     "train": 1,
-    "libelle_point_arret": "PROVINS"
+    "libelle_point_arret": "PROVINS",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ROBINSON",
-    "zone_navigo": 3,
+    "id": "87758722",
     "rer": 1,
     "libelle_point_arret": "ROBINSON",
     "code_uic": "87758722",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "ROSNY SOUS BOIS",
-    "zone_navigo": 3,
+    "id": "87113704",
     "rer": 1,
     "e": 1,
     "code_uic": "87113704",
-    "libelle_point_arret": "ROSNY SOUS BOIS"
+    "libelle_point_arret": "ROSNY SOUS BOIS",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "ROUGEMONT CHANTELOUP (T4)",
-    "zone_navigo": 4,
+    "id": "87431791",
     "tram": 1,
     "t4": 1,
     "code_uic": "87431791",
-    "libelle_point_arret": "ROUGEMONT CHANTELOUP (T4)"
+    "libelle_point_arret": "ROUGEMONT CHANTELOUP (T4)",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SAINT-MAMMES",
-    "zone_navigo": 5,
+    "id": "87682294",
     "libelle_point_arret": "SAINT-MAMMES",
     "train": 1,
     "r": 1,
-    "code_uic": "87682294"
+    "code_uic": "87682294",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-MARTIN D'ETAMPES",
-    "zone_navigo": 5,
+    "id": "87545350",
     "rer": 1,
     "c": 1,
     "code_uic": "87545350",
-    "libelle_point_arret": "SAINT-MARTIN D ETAMPES"
+    "libelle_point_arret": "SAINT-MARTIN D ETAMPES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-MAUR CRETEIL",
-    "zone_navigo": 3,
+    "id": "87758151",
     "a": 1,
     "rer": 1,
     "code_uic": "87758151",
-    "libelle_point_arret": "SAINT-MAUR CRETEIL"
+    "libelle_point_arret": "SAINT-MAUR CRETEIL",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "SAINT-OUEN",
-    "zone_navigo": 2,
+    "id": "87271247",
     "rer": 1,
     "c": 1,
     "code_uic": "87271247",
-    "libelle_point_arret": "SAINT-OUEN"
+    "libelle_point_arret": "SAINT-OUEN",
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "SANNOIS",
-    "zone_navigo": 4,
+    "id": "87276188",
     "code_uic": "87276188",
     "train": 1,
     "libelle_point_arret": "SANNOIS",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SARTROUVILLE",
-    "zone_navigo": 4,
+    "id": "87386417",
     "a": 1,
     "libelle_point_arret": "SARTROUVILLE",
     "rer": 1,
     "l": 1,
     "code_uic": "87386417",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "TRAPPES",
-    "zone_navigo": 5,
+    "id": "87393835",
     "u": "1",
     "code_uic": "87393835",
     "train": 1,
     "libelle_point_arret": "TRAPPES",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VAL D'ARGENTEUIL",
-    "zone_navigo": 4,
+    "id": "87381798",
     "code_uic": "87381798",
     "train": 1,
     "libelle_point_arret": "VAL D'ARGENTEUIL",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VAL DE FONTENAY",
-    "zone_navigo": 3,
+    "id": "87113712",
     "a": 1,
     "rer": 1,
     "code_uic": "87113712",
     "libelle_point_arret": "VAL DE FONTENAY",
-    "e": 1
+    "e": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "VERNEUIL L'ETANG",
-    "zone_navigo": 5,
+    "id": "87116079",
     "p": 1,
     "code_uic": "87116079",
     "train": 1,
-    "libelle_point_arret": "VERNEUIL L'ETANG"
+    "libelle_point_arret": "VERNEUIL L'ETANG",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VILLAINES",
-    "zone_navigo": 5,
+    "id": "87272021",
     "h": 1,
     "code_uic": "87272021",
     "train": 1,
-    "libelle_point_arret": "VILLAINES"
+    "libelle_point_arret": "VILLAINES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VILLENEUVE PRAIRIE",
-    "zone_navigo": 3,
+    "id": "87681858",
     "rer": 1,
     "code_uic": "87681858",
     "libelle_point_arret": "VILLENEUVE PRAIRIE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "VILLENEUVE TRIAGE",
-    "zone_navigo": 4,
+    "id": "87681809",
     "rer": 1,
     "code_uic": "87681809",
     "libelle_point_arret": "VILLENEUVE TRIAGE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VILLEPREUX LES CLAYES",
-    "zone_navigo": 5,
+    "id": "87393413",
     "code_uic": "87393413",
     "train": 1,
     "libelle_point_arret": "VILLEPREUX LES CLAYES",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ACHERES VILLE",
-    "zone_navigo": 5,
+    "id": "87381657",
     "a": 1,
     "libelle_point_arret": "ACHERES VILLE",
     "rer": 1,
     "l": 1,
     "code_uic": "87381657",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "AEROPORT CHARLES DE GAULLE  1 - Roissy",
-    "zone_navigo": 5,
+    "id": "87271460",
     "rer": 1,
     "libelle_point_arret": "AEROPORT CHARLES DE GAULLE  1 - Roissy",
     "code_uic": "87271460",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ANGERVILLE",
-    "zone_navigo": 5,
+    "id": "87543090",
     "bus": 1,
     "c": 1,
     "code_uic": "87543090",
     "libelle_point_arret": "ANGERVILLE",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ASNIERES SUR SEINE",
-    "zone_navigo": 3,
+    "id": "87381137",
     "code_uic": "87381137",
     "train": 1,
     "libelle_point_arret": "ASNIERES SUR SEINE",
     "l": 1,
-    "j": 1
+    "j": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "AUVERS SUR OISE",
-    "zone_navigo": 5,
+    "id": "87276543",
     "h": 1,
     "code_uic": "87276543",
     "train": 1,
-    "libelle_point_arret": "AUVERS SUR OISE"
+    "libelle_point_arret": "AUVERS SUR OISE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "AVENUE DU PRESIDENT KENNEDY - Maison de Radio France",
-    "zone_navigo": 1,
+    "id": "87543207",
     "rer": 1,
     "c": 1,
     "code_uic": "87543207",
-    "libelle_point_arret": "AVENUE DU PRESIDENT KENNEDY - Maison de Radio France"
+    "libelle_point_arret": "AVENUE DU PRESIDENT KENNEDY - Maison de Radio France",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "AVENUE FOCH",
-    "zone_navigo": 1,
+    "id": "87381038",
     "rer": 1,
     "c": 1,
     "code_uic": "87381038",
-    "libelle_point_arret": "AVENUE FOCH"
+    "libelle_point_arret": "AVENUE FOCH",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "AVENUE HENRI MARTIN",
-    "zone_navigo": 1,
+    "id": "87381046",
     "rer": 1,
     "c": 1,
     "code_uic": "87381046",
-    "libelle_point_arret": "AVENUE HENRI MARTIN"
+    "libelle_point_arret": "AVENUE HENRI MARTIN",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "BAGNEAUX SUR LOING",
-    "zone_navigo": 5,
+    "id": "87684191",
     "libelle_point_arret": "BAGNEAUX SUR LOING",
     "train": 1,
     "r": 1,
-    "code_uic": "87684191"
+    "code_uic": "87684191",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BELLOY SAINT-MARTIN",
-    "zone_navigo": 5,
+    "id": "87276550",
     "h": 1,
     "code_uic": "87276550",
     "train": 1,
-    "libelle_point_arret": "BELLOY SAINT-MARTIN"
+    "libelle_point_arret": "BELLOY SAINT-MARTIN",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BEYNES",
-    "zone_navigo": 5,
+    "id": "87393363",
     "code_uic": "87393363",
     "train": 1,
     "libelle_point_arret": "BEYNES",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BOIGNEVILLE",
-    "zone_navigo": 5,
+    "id": "87684407",
     "rer": 1,
     "code_uic": "87684407",
     "libelle_point_arret": "BOIGNEVILLE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BOUFFEMONT MOISSELLES",
-    "zone_navigo": 5,
+    "id": "87276485",
     "h": 1,
     "code_uic": "87276485",
     "train": 1,
-    "libelle_point_arret": "BOUFFEMONT MOISSELLES"
+    "libelle_point_arret": "BOUFFEMONT MOISSELLES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BRETIGNY",
-    "zone_navigo": 5,
+    "id": "87545194",
     "rer": 1,
     "c": 1,
     "code_uic": "87545194",
-    "libelle_point_arret": "BRETIGNY"
+    "libelle_point_arret": "BRETIGNY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BREUILLETBRUYERES LE CHATEL",
-    "zone_navigo": 5,
+    "id": "87545483",
     "rer": 1,
     "c": 1,
     "code_uic": "87545483",
-    "libelle_point_arret": "BREUILLET BRUYERES LE CHATEL"
+    "libelle_point_arret": "BREUILLET BRUYERES LE CHATEL",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BUEIL",
-    "zone_navigo": 100,
+    "id": "87387092",
     "code_uic": "87387092",
     "train": 1,
     "libelle_point_arret": "BUEIL",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CERGY LE HAUT",
-    "zone_navigo": 5,
+    "id": "87382655",
     "a": 1,
     "libelle_point_arret": "CERGY LE HAUT",
     "rer": 1,
     "l": 1,
     "code_uic": "87382655",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CERGY PREFECTURE",
-    "zone_navigo": 5,
+    "id": "87381905",
     "a": 1,
     "libelle_point_arret": "CERGY PREFECTURE",
     "rer": 1,
     "l": 1,
     "code_uic": "87381905",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHAMARANDE",
-    "zone_navigo": 5,
+    "id": "87545152",
     "rer": 1,
     "c": 1,
     "code_uic": "87545152",
-    "libelle_point_arret": "CHAMARANDE"
+    "libelle_point_arret": "CHAMARANDE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHAMP DE COURSES D'ENGHIEN",
-    "zone_navigo": 4,
+    "id": "87276030",
     "h": 1,
     "code_uic": "87276030",
     "train": 1,
-    "libelle_point_arret": "CHAMP DE COURSES D'ENGHIEN"
+    "libelle_point_arret": "CHAMP DE COURSES D'ENGHIEN",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "CHAMPAGNE SUR OISE",
-    "zone_navigo": 5,
+    "id": "87276519",
     "h": 1,
     "code_uic": "87276519",
     "train": 1,
-    "libelle_point_arret": "CHAMPAGNE SUR OISE"
+    "libelle_point_arret": "CHAMPAGNE SUR OISE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHARLES DE GAULLE ETOILE",
-    "zone_navigo": 1,
+    "id": "87758003",
     "a": 1,
     "rer": 1,
     "code_uic": "87758003",
-    "libelle_point_arret": "CHARLES DE GAULLE ETOILE"
+    "libelle_point_arret": "CHARLES DE GAULLE ETOILE",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "CHAUMONT EN VEXIN",
-    "zone_navigo": 100,
+    "id": "87381228",
     "code_uic": "87381228",
     "train": 1,
     "libelle_point_arret": "CHAUMONT EN VEXIN",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHEMIN D'ANTONY",
-    "zone_navigo": 4,
+    "id": "87546317",
     "rer": 1,
     "c": 1,
     "code_uic": "87546317",
-    "libelle_point_arret": "CHEMIN D'ANTONY"
+    "libelle_point_arret": "CHEMIN D'ANTONY",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "CHILLY MAZARIN",
-    "zone_navigo": 4,
+    "id": "87393637",
     "rer": 1,
     "c": 1,
     "code_uic": "87393637",
-    "libelle_point_arret": "CHILLY MAZARIN"
+    "libelle_point_arret": "CHILLY MAZARIN",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "CLAMART",
-    "zone_navigo": 2,
+    "id": "87391565",
     "code_uic": "87391565",
     "train": 1,
     "libelle_point_arret": "CLAMART",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "CLICHY LEVALLOIS",
-    "zone_navigo": 2,
+    "id": "87381129",
     "code_uic": "87381129",
     "train": 1,
     "libelle_point_arret": "CLICHY LEVALLOIS",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "COUILLY SAINT-GERMAIN QUINCY",
-    "zone_navigo": 5,
+    "id": "87116731",
     "p": 1,
     "code_uic": "87116731",
     "train": 1,
-    "libelle_point_arret": "COUILLY SAINT-GERMAIN QUINCY"
+    "libelle_point_arret": "COUILLY SAINT-GERMAIN QUINCY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "COURBEVOIE",
-    "zone_navigo": 3,
+    "id": "87382200",
     "code_uic": "87382200",
     "train": 1,
     "libelle_point_arret": "COURBEVOIE",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "COURCELLE SUR YVETTE",
-    "zone_navigo": 5,
+    "id": "87758888",
     "rer": 1,
     "libelle_point_arret": "COURCELLE SUR YVETTE",
     "code_uic": "87758888",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "DENFERT ROCHEREAU",
-    "zone_navigo": 1,
+    "id": "87758631",
     "rer": 1,
     "libelle_point_arret": "DENFERT ROCHEREAU",
     "code_uic": "87758631",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "EPINAY SUR ORGE",
-    "zone_navigo": 4,
+    "id": "87545228",
     "rer": 1,
     "c": 1,
     "code_uic": "87545228",
-    "libelle_point_arret": "EPINAY SUR ORGE"
+    "libelle_point_arret": "EPINAY SUR ORGE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "EPINAY VILLETANEUSE",
-    "zone_navigo": 3,
+    "id": "87271122",
     "h": 1,
     "code_uic": "87271122",
     "train": 1,
-    "libelle_point_arret": "EPINAY VILLETANEUSE"
+    "libelle_point_arret": "EPINAY VILLETANEUSE",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "ESBLY",
-    "zone_navigo": 5,
+    "id": "87116327",
     "p": 1,
     "code_uic": "87116327",
     "train": 1,
-    "libelle_point_arret": "ESBLY"
+    "libelle_point_arret": "ESBLY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "FONTENAY AUX ROSES",
-    "zone_navigo": 3,
+    "id": "87758714",
     "rer": 1,
     "libelle_point_arret": "FONTENAY AUX ROSES",
     "code_uic": "87758714",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "FREPILLON",
-    "zone_navigo": 5,
+    "id": "87276659",
     "h": 1,
     "code_uic": "87276659",
     "train": 1,
-    "libelle_point_arret": "FREPILLON"
+    "libelle_point_arret": "FREPILLON",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "GARANCIERES LA QUEUE",
-    "zone_navigo": 5,
+    "id": "87393439",
     "code_uic": "87393439",
     "train": 1,
     "libelle_point_arret": "GARANCIERES LA QUEUE",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LA DEFENSE GRANDE ARCHE",
-    "zone_navigo": 3,
+    "id": "87758011",
     "a": 1,
     "rer": 1,
     "code_uic": "87758011",
-    "libelle_point_arret": "GARE DE LA DEFENSE RER A"
+    "libelle_point_arret": "GARE DE LA DEFENSE RER A",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "GARE DU NORD",
-    "zone_navigo": 1,
+    "id": "87271023",
     "rer": 1,
     "libelle_point_arret": "GARE DU NORD RER",
     "code_uic": "87271023",
     "b": 1,
-    "d": 1
+    "d": 1,
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "GOUSSAINVILLE",
-    "zone_navigo": 5,
+    "id": "87276246",
     "rer": 1,
     "code_uic": "87276246",
     "libelle_point_arret": "GOUSSAINVILLE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "GRIGNY CENTRE",
-    "zone_navigo": 5,
+    "id": "87681379",
     "rer": 1,
     "code_uic": "87681379",
     "libelle_point_arret": "GRIGNY CENTRE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "GUERARD LA CELLE SUR MORIN",
-    "zone_navigo": 5,
+    "id": "87116269",
     "p": 1,
     "code_uic": "87116269",
     "train": 1,
-    "libelle_point_arret": "GUERARD LA CELLE SUR MORIN"
+    "libelle_point_arret": "GUERARD LA CELLE SUR MORIN",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "HAUSSMANN SAINT-LAZARE",
-    "zone_navigo": 1,
+    "id": "87281899",
     "rer": 1,
     "e": 1,
     "code_uic": "87281899",
-    "libelle_point_arret": "HAUSSMANN SAINT-LAZARE"
+    "libelle_point_arret": "HAUSSMANN SAINT-LAZARE",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "HOUILLES CARRIERES SUR SEINE",
-    "zone_navigo": 4,
+    "id": "87386409",
     "a": 1,
     "libelle_point_arret": "HOUILLES CARRIERES SUR SEINE",
     "rer": 1,
     "j": 1,
     "l": 1,
     "code_uic": "87386409",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "ISSY VAL DE SEINE",
-    "zone_navigo": 2,
+    "id": "87393306",
     "rer": 1,
     "tram": 1,
     "c": 1,
     "code_uic": "87393306",
-    "libelle_point_arret": "ISSY VAL DE SEINE"
+    "libelle_point_arret": "ISSY VAL DE SEINE",
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "IVRY SUR SEINE",
-    "zone_navigo": 2,
+    "id": "87545301",
     "rer": 1,
     "c": 1,
     "code_uic": "87545301",
-    "libelle_point_arret": "IVRY SUR SEINE"
+    "libelle_point_arret": "IVRY SUR SEINE",
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "JAVEL",
-    "zone_navigo": 1,
+    "id": "87393066",
     "rer": 1,
     "c": 1,
     "code_uic": "87393066",
-    "libelle_point_arret": "JAVEL"
+    "libelle_point_arret": "JAVEL",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "LA BORNE BLANCHE",
-    "zone_navigo": 100,
+    "id": "87276287",
     "rer": 1,
     "code_uic": "87276287",
     "libelle_point_arret": "LA BORNE BLANCHE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LA FERTE GAUCHER CENTRE",
-    "zone_navigo": 5,
+    "id": "87430819",
     "bus": 1,
     "code_uic": "87430819",
     "libelle_point_arret": "LA FERTE GAUCHER CENTRE",
-    "p": 1
+    "p": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LA PLAINE STADE DE FRANCE - Saint-Denis Aubervilliers",
-    "zone_navigo": 2,
+    "id": "87164798",
     "rer": 1,
     "libelle_point_arret": "LA PLAINE STADE DE FRANCE - Saint-Denis Aubervilliers",
     "code_uic": "87164798",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "LA VERRIERE",
-    "zone_navigo": 5,
+    "id": "87393256",
     "u": "1",
     "code_uic": "87393256",
     "train": 1,
     "libelle_point_arret": "LA VERRIERE",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LAGNY THORIGNY",
-    "zone_navigo": 5,
+    "id": "87116319",
     "p": 1,
     "code_uic": "87116319",
     "train": 1,
-    "libelle_point_arret": "LAGNY THORIGNY"
+    "libelle_point_arret": "LAGNY THORIGNY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LE BOURGET",
-    "zone_navigo": 3,
+    "id": "87271395",
     "rer": 1,
     "libelle_point_arret": "LE BOURGET",
     "code_uic": "87271395",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LE COUDRAY MONTCEAUX",
-    "zone_navigo": 5,
+    "id": "87681635",
     "rer": 1,
     "code_uic": "87681635",
     "libelle_point_arret": "LE COUDRAY MONTCEAUX",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LE PARC DE SAINT-MAUR",
-    "zone_navigo": 3,
+    "id": "87758169",
     "a": 1,
     "rer": 1,
     "code_uic": "87758169",
-    "libelle_point_arret": "LE PARC DE SAINT-MAUR"
+    "libelle_point_arret": "LE PARC DE SAINT-MAUR",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LE RAINCY VILLEMOMBLE MONTFERMEIL",
-    "zone_navigo": 4,
+    "id": "87113472",
     "rer": 1,
     "e": 1,
     "code_uic": "87113472",
-    "libelle_point_arret": "LE RAINCY VILLEMONBLE MONTFERMEIL"
+    "libelle_point_arret": "LE RAINCY VILLEMONBLE MONTFERMEIL",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LES GRESILLONS",
-    "zone_navigo": 3,
+    "id": "87272146",
     "rer": 1,
     "c": 1,
     "code_uic": "87272146",
-    "libelle_point_arret": "LES GRESILLONS"
+    "libelle_point_arret": "LES GRESILLONS",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LES MUREAUX",
-    "zone_navigo": 5,
+    "id": "87386680",
     "code_uic": "87386680",
     "train": 1,
     "libelle_point_arret": "LES MUREAUX",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LIZY SUR OURCQ",
-    "zone_navigo": 5,
+    "id": "87116632",
     "p": 1,
     "code_uic": "87116632",
     "train": 1,
-    "libelle_point_arret": "LIZY SUR OURCQ"
+    "libelle_point_arret": "LIZY SUR OURCQ",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LONGJUMEAU",
-    "zone_navigo": 4,
+    "id": "87393611",
     "rer": 1,
     "c": 1,
     "code_uic": "87393611",
-    "libelle_point_arret": "LONGJUMEAU"
+    "libelle_point_arret": "LONGJUMEAU",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "MAGENTA",
-    "zone_navigo": 1,
+    "id": "87281873",
     "rer": 1,
     "e": 1,
     "code_uic": "87281873",
-    "libelle_point_arret": "MAGENTA"
+    "libelle_point_arret": "MAGENTA",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "MARLY LE ROI",
-    "zone_navigo": 4,
+    "id": "87382465",
     "code_uic": "87382465",
     "train": 1,
     "libelle_point_arret": "MARLY LE ROI",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "MARNE LA VALLEE CHESSY",
-    "zone_navigo": 5,
+    "id": "87754994",
     "a": 1,
     "rer": 1,
     "code_uic": "87754994",
-    "libelle_point_arret": "MARNE LA VALLEE CHESSY"
+    "libelle_point_arret": "MARNE LA VALLEE CHESSY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MASSY VERRIERES",
-    "zone_navigo": 4,
+    "id": "87383281",
     "rer": 1,
     "code_uic": "87383281",
     "c": 1,
     "b": 1,
-    "libelle_point_arret": "MASSY VERRIERES"
+    "libelle_point_arret": "MASSY VERRIERES",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "MERIEL",
-    "zone_navigo": 5,
+    "id": "87276675",
     "h": 1,
     "code_uic": "87276675",
     "train": 1,
-    "libelle_point_arret": "MERIEL"
+    "libelle_point_arret": "MERIEL",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MEUDON VAL FLEURY",
-    "zone_navigo": 3,
+    "id": "87393082",
     "rer": 1,
     "c": 1,
     "code_uic": "87393082",
-    "libelle_point_arret": "MEUDON VAL FLEURY"
+    "libelle_point_arret": "MEUDON VAL FLEURY",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "MONNERVILLE",
-    "zone_navigo": 5,
+    "id": "87545111",
     "code_uic": "87545111",
     "train": 1,
     "libelle_point_arret": "MONNERVILLE",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MONTARGIS",
-    "zone_navigo": 100,
+    "id": "87684001",
     "libelle_point_arret": "MONTARGIS",
     "train": 1,
     "r": 1,
-    "code_uic": "87684001"
+    "code_uic": "87684001",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MONTRY CONDE",
-    "zone_navigo": 5,
+    "id": "87116400",
     "p": 1,
     "code_uic": "87116400",
     "train": 1,
-    "libelle_point_arret": "MONTRY CONDE"
+    "libelle_point_arret": "MONTRY CONDE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MONTSOULT MAFFLIERS",
-    "zone_navigo": 5,
+    "id": "87276493",
     "h": 1,
     "code_uic": "87276493",
     "train": 1,
-    "libelle_point_arret": "MONTSOULT MAFFLIERS"
+    "libelle_point_arret": "MONTSOULT MAFFLIERS",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NANGIS",
-    "zone_navigo": 5,
+    "id": "87116095",
     "p": 1,
     "code_uic": "87116095",
     "train": 1,
-    "libelle_point_arret": "NANGIS"
+    "libelle_point_arret": "NANGIS",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NATION",
-    "zone_navigo": 1,
+    "id": "87758102",
     "a": 1,
     "rer": 1,
     "code_uic": "87758102",
-    "libelle_point_arret": "NATION"
+    "libelle_point_arret": "NATION",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "NEUILLY PORTE MAILLOT - Palais des Congrès",
-    "zone_navigo": 1,
+    "id": "87381020",
     "rer": 1,
     "c": 1,
     "code_uic": "87381020",
-    "libelle_point_arret": "NEUILLY PORTE MAILLOT - Palais des Congrès"
+    "libelle_point_arret": "NEUILLY PORTE MAILLOT - Palais des Congrès",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "NOGENT LE PERREUX",
-    "zone_navigo": 3,
+    "id": "87113746",
     "rer": 1,
     "e": 1,
     "code_uic": "87113746",
-    "libelle_point_arret": "NOGENT LE PERREUX"
+    "libelle_point_arret": "NOGENT LE PERREUX",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "NOISIEL",
-    "zone_navigo": 5,
+    "id": "87758359",
     "a": 1,
     "rer": 1,
     "code_uic": "87758359",
-    "libelle_point_arret": "NOISIEL"
+    "libelle_point_arret": "NOISIEL",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PALAISEAU VILLEBON",
-    "zone_navigo": 4,
+    "id": "87758813",
     "rer": 1,
     "libelle_point_arret": "PALAISEAU VILLEBON",
     "code_uic": "87758813",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "PANTIN",
-    "zone_navigo": 2,
+    "id": "87113209",
     "rer": 1,
     "e": 1,
     "code_uic": "87113209",
-    "libelle_point_arret": "PANTIN"
+    "libelle_point_arret": "PANTIN",
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "PARIS GARE DE LYON",
-    "zone_navigo": 1,
+    "id": "87686030",
     "a": 1,
     "libelle_point_arret": "PARIS - GARE DE LYON",
     "d": 1,
     "rer": 1,
     "train": 1,
     "code_uic": "87686030",
-    "r": 1
+    "r": 1,
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "PARIS AUSTERLITZ (GARE D'AUSTERLITZ)",
-    "zone_navigo": 1,
+    "id": "87547026",
     "rer": 1,
     "c": 1,
     "code_uic": "87547026",
-    "libelle_point_arret": "PARIS AUSTERLITZ (GARE D'AUSTERLITZ)"
+    "libelle_point_arret": "PARIS AUSTERLITZ (GARE D'AUSTERLITZ)",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "PARIS BERCY (GARE DE BERCY)",
-    "zone_navigo": 1,
+    "id": "87686667",
     "libelle_point_arret": "PARIS BERCY (GARE DE BERCY)",
     "train": 1,
     "r": 1,
-    "code_uic": "87686667"
+    "code_uic": "87686667",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "PARIS EST (GARE DE L'EST)",
-    "zone_navigo": 1,
+    "id": "87113001",
     "p": 1,
     "code_uic": "87113001",
     "train": 1,
-    "libelle_point_arret": "PARIS EST (GARE DE L'EST)"
+    "libelle_point_arret": "PARIS EST (GARE DE L'EST)",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "PETIT VAUX",
-    "zone_navigo": 4,
+    "id": "87393652",
     "rer": 1,
     "c": 1,
     "code_uic": "87393652",
-    "libelle_point_arret": "PETIT VAUX"
+    "libelle_point_arret": "PETIT VAUX",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "PLAISIR LES CLAYES",
-    "zone_navigo": 5,
+    "id": "87393629",
     "code_uic": "87393629",
     "train": 1,
     "libelle_point_arret": "PLAISIR LES CLAYES",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PONTHIERRY PRINGY",
-    "zone_navigo": 5,
+    "id": "87682526",
     "rer": 1,
     "code_uic": "87682526",
     "libelle_point_arret": "PONTHIERRY PRINGY",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PRECY SUR OISE",
-    "zone_navigo": 100,
+    "id": "87276410",
     "h": 1,
     "code_uic": "87276410",
     "train": 1,
-    "libelle_point_arret": "PRECY SUR OISE"
+    "libelle_point_arret": "PRECY SUR OISE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ROISSY EN BRIE",
-    "zone_navigo": 5,
+    "id": "87116038",
     "rer": 1,
     "e": 1,
     "code_uic": "87116038",
-    "libelle_point_arret": "ROISSY EN BRIE"
+    "libelle_point_arret": "ROISSY EN BRIE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ROUTE DE MONNERVILLE",
-    "zone_navigo": 5,
+    "id": "87332957",
     "bus": 1,
     "c": 1,
     "code_uic": "87332957",
-    "libelle_point_arret": "ROUTE DE MONNERVILLE"
+    "libelle_point_arret": "ROUTE DE MONNERVILLE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-DENIS",
-    "zone_navigo": 3,
+    "id": "87271015",
     "libelle_point_arret": "SAINT-DENIS",
     "d": 1,
     "rer": 1,
     "h": 1,
     "train": 1,
     "tram": 1,
-    "code_uic": "87271015"
+    "code_uic": "87271015",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "SAINTE-GENEVIEVE DES BOIS",
-    "zone_navigo": 5,
+    "id": "87545210",
     "rer": 1,
     "c": 1,
     "code_uic": "87545210",
-    "libelle_point_arret": "SAINTE-GENEVIEVE DES BOIS"
+    "libelle_point_arret": "SAINTE-GENEVIEVE DES BOIS",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-REMY LES CHEVREUSE",
-    "zone_navigo": 5,
+    "id": "87758896",
     "rer": 1,
     "libelle_point_arret": "SAINT-REMY LES CHEVREUSE",
     "code_uic": "87758896",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SARCELLES SAINT-BRICE",
-    "zone_navigo": 4,
+    "id": "87276386",
     "h": 1,
     "code_uic": "87276386",
     "train": 1,
-    "libelle_point_arret": "SARCELLES SAINT-BRICE"
+    "libelle_point_arret": "SARCELLES SAINT-BRICE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SAVIGNY SUR ORGE",
-    "zone_navigo": 4,
+    "id": "87545236",
     "rer": 1,
     "c": 1,
     "code_uic": "87545236",
-    "libelle_point_arret": "SAVIGNY SUR ORGE"
+    "libelle_point_arret": "SAVIGNY SUR ORGE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SERMAISE",
-    "zone_navigo": 5,
+    "id": "87545517",
     "rer": 1,
     "c": 1,
     "code_uic": "87545517",
-    "libelle_point_arret": "SERMAISE"
+    "libelle_point_arret": "SERMAISE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SEUGY",
-    "zone_navigo": 5,
+    "id": "87272039",
     "h": 1,
     "code_uic": "87272039",
     "train": 1,
-    "libelle_point_arret": "SEUGY"
+    "libelle_point_arret": "SEUGY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SEVRAN BEAUDOTTES",
-    "zone_navigo": 4,
+    "id": "87271445",
     "rer": 1,
     "libelle_point_arret": "SEVRAN BEAUDOTTES",
     "code_uic": "87271445",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SAINT-MICHEL NOTRE DAME",
-    "zone_navigo": 1,
+    "id": "87547315",
     "rer": 1,
     "c": 1,
     "code_uic": "87547315",
-    "libelle_point_arret": "SAINT MICHEL NOTRE DAME RER C"
+    "libelle_point_arret": "SAINT MICHEL NOTRE DAME RER C",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "THUN LE PARADIS",
-    "zone_navigo": 5,
+    "id": "87381822",
     "code_uic": "87381822",
     "train": 1,
     "libelle_point_arret": "THUN LE PARADIS",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "TORCY",
-    "zone_navigo": 5,
+    "id": "87758375",
     "a": 1,
     "rer": 1,
     "code_uic": "87758375",
-    "libelle_point_arret": "TORCY"
+    "libelle_point_arret": "TORCY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "TRIEL SUR SEINE",
-    "zone_navigo": 5,
+    "id": "87381806",
     "code_uic": "87381806",
     "train": 1,
     "libelle_point_arret": "TRIEL SUR SEINE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "US",
-    "zone_navigo": 5,
+    "id": "87381178",
     "code_uic": "87381178",
     "train": 1,
     "libelle_point_arret": "US",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ABLON",
-    "zone_navigo": 4,
+    "id": "87545269",
     "rer": 1,
     "c": 1,
     "code_uic": "87545269",
-    "libelle_point_arret": "ABLON"
+    "libelle_point_arret": "ABLON",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "ALLEE DE LA TOUR RENDEZ-VOUS (T4)",
-    "zone_navigo": 4,
+    "id": "87113878",
     "tram": 1,
     "t4": 1,
     "code_uic": "87113878",
-    "libelle_point_arret": "ALLEE DE LA TOUR RENDEZ VOUS (T4)"
+    "libelle_point_arret": "ALLEE DE LA TOUR RENDEZ VOUS (T4)",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "ARGENTEUIL",
-    "zone_navigo": 5,
+    "id": "87381848",
     "code_uic": "87381848",
     "train": 1,
     "libelle_point_arret": "ARGENTEUIL",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "AUBERGENVILLE ELISABETHVILLE",
-    "zone_navigo": 5,
+    "id": "87386730",
     "code_uic": "87386730",
     "train": 1,
     "libelle_point_arret": "AUBERGENVILLE ELISABETHVILLE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "AULNAY SOUS BOIS",
-    "zone_navigo": 4,
+    "id": "87271411",
     "b": 1,
     "libelle_point_arret": "AULNAY SOUS BOIS",
     "rer": 1,
@@ -2387,449 +2386,449 @@
     "tram": 1,
     "code_uic": "87271411",
     "train": 1,
-    "t4": 1
+    "t4": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "BECON LESBRUYERES",
-    "zone_navigo": 3,
+    "id": "87382002",
     "code_uic": "87382002",
     "train": 1,
     "libelle_point_arret": "BECON LES BRUYERES",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "BOIS LE ROI",
-    "zone_navigo": 5,
+    "id": "87682203",
     "libelle_point_arret": "BOIS LE ROI",
     "train": 1,
     "r": 1,
-    "code_uic": "87682203"
+    "code_uic": "87682203",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BOISSISE LE ROI",
-    "zone_navigo": 5,
+    "id": "87682518",
     "rer": 1,
     "code_uic": "87682518",
     "libelle_point_arret": "BOISSISE LE ROI",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BONNEVAL",
-    "zone_navigo": 100,
+    "id": "87545731",
     "code_uic": "87545731",
     "train": 1,
     "libelle_point_arret": "BONNEVAL",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BOURRON MARLOTTE GREZ",
-    "zone_navigo": 5,
+    "id": "87684118",
     "libelle_point_arret": "BOURRON MARLOTTE GREZ",
     "train": 1,
     "r": 1,
-    "code_uic": "87684118"
+    "code_uic": "87684118",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BREVAL",
-    "zone_navigo": 5,
+    "id": "87381624",
     "code_uic": "87381624",
     "train": 1,
     "libelle_point_arret": "BREVAL",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BURES SUR YVETTE",
-    "zone_navigo": 5,
+    "id": "87758854",
     "rer": 1,
     "libelle_point_arret": "BURES SUR YVETTE",
     "code_uic": "87758854",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHANTELOUP LES VIGNES",
-    "zone_navigo": 5,
+    "id": "87381475",
     "code_uic": "87381475",
     "train": 1,
     "libelle_point_arret": "CHANTELOUP LES VIGNES",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHATOU CROISSY",
-    "zone_navigo": 4,
+    "id": "87758060",
     "a": 1,
     "rer": 1,
     "code_uic": "87758060",
-    "libelle_point_arret": "CHATOU CROISSY"
+    "libelle_point_arret": "CHATOU CROISSY",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "CHAVILLE RIVE GAUCHE",
-    "zone_navigo": 3,
+    "id": "87393207",
     "code_uic": "87393207",
     "train": 1,
     "libelle_point_arret": "CHAVILLE RIVE GAUCHE",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "CHEZY SUR MARNE",
-    "zone_navigo": 100,
+    "id": "87116574",
     "p": 1,
     "code_uic": "87116574",
     "train": 1,
-    "libelle_point_arret": "CHEZY SUR MARNE"
+    "libelle_point_arret": "CHEZY SUR MARNE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "COLOMBES",
-    "zone_navigo": 3,
+    "id": "87381087",
     "code_uic": "87381087",
     "train": 1,
     "libelle_point_arret": "COLOMBES",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "COMBS LA VILLE QUINCY",
-    "zone_navigo": 5,
+    "id": "87682146",
     "rer": 1,
     "code_uic": "87682146",
     "libelle_point_arret": "COMBS LA VILLE QUINCY",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CONFLANS SAINTE-HONORINE",
-    "zone_navigo": 5,
+    "id": "87381897",
     "code_uic": "87381897",
     "train": 1,
     "libelle_point_arret": "CONFLANS SAINTE-HONORINE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CREIL",
-    "zone_navigo": 100,
+    "id": "87276006",
     "libelle_point_arret": "CREIL",
     "d": 1,
     "rer": 1,
     "h": 1,
     "code_uic": "87276006",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CROUY SUR OURCQ",
-    "zone_navigo": 5,
+    "id": "87116640",
     "p": 1,
     "code_uic": "87116640",
     "train": 1,
-    "libelle_point_arret": "CROUY SUR OURCQ"
+    "libelle_point_arret": "CROUY SUR OURCQ",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "DAMMARTIN JUILLY SAINT-MARD",
-    "zone_navigo": 5,
+    "id": "87271536",
     "libelle_point_arret": "DAMMARTIN JUILLY SAINT-MARD",
     "k": 1,
     "train": 1,
-    "code_uic": "87271536"
+    "code_uic": "87271536",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "DRANCY",
-    "zone_navigo": 3,
+    "id": "87271403",
     "rer": 1,
     "libelle_point_arret": "DRANCY",
     "code_uic": "87271403",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "DREUX",
-    "zone_navigo": 100,
+    "id": "87393488",
     "code_uic": "87393488",
     "train": 1,
     "libelle_point_arret": "DREUX",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ECOUEN EZANVILLE",
-    "zone_navigo": 4,
+    "id": "87276394",
     "h": 1,
     "code_uic": "87276394",
     "train": 1,
-    "libelle_point_arret": "ECOUEN EZANVILLE"
+    "libelle_point_arret": "ECOUEN EZANVILLE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "ERAGNY NEUVILLE",
-    "zone_navigo": 5,
+    "id": "87381418",
     "code_uic": "87381418",
     "train": 1,
     "libelle_point_arret": "ERAGNY NEUVILLE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ESSONNES ROBINSON",
-    "zone_navigo": 5,
+    "id": "87681601",
     "rer": 1,
     "code_uic": "87681601",
     "libelle_point_arret": "ESSONNES ROBINSON",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ETRECHY",
-    "zone_navigo": 5,
+    "id": "87545145",
     "rer": 1,
     "c": 1,
     "code_uic": "87545145",
-    "libelle_point_arret": "ETRECHY"
+    "libelle_point_arret": "ETRECHY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "FONTAINE LE PORT",
-    "zone_navigo": 5,
+    "id": "87682427",
     "libelle_point_arret": "FONTAINE LE PORT",
     "train": 1,
     "r": 1,
-    "code_uic": "87682427"
+    "code_uic": "87682427",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "FONTAINEBLEAU AVON",
-    "zone_navigo": 5,
+    "id": "87682211",
     "libelle_point_arret": "FONTAINEBLEAU AVON",
     "train": 1,
     "r": 1,
-    "code_uic": "87682211"
+    "code_uic": "87682211",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "FRANCONVILLE LE PLESSIS BOUCHARD",
-    "zone_navigo": 4,
+    "id": "87276071",
     "c": 1,
     "libelle_point_arret": "FRANCONVILLE LE PLESSIS BOUCHARD",
     "rer": 1,
     "h": 1,
     "code_uic": "87276071",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "GIF SUR YVETTE",
-    "zone_navigo": 5,
+    "id": "87758870",
     "rer": 1,
     "libelle_point_arret": "GIF SUR YVETTE",
     "code_uic": "87758870",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "GROSLAY",
-    "zone_navigo": 4,
+    "id": "87276360",
     "h": 1,
     "code_uic": "87276360",
     "train": 1,
-    "libelle_point_arret": "GROSLAY"
+    "libelle_point_arret": "GROSLAY",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "GUILLERVAL",
-    "zone_navigo": 5,
+    "id": "87545129",
     "code_uic": "87545129",
     "train": 1,
     "libelle_point_arret": "GUILLERVAL",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "HERBLAY",
-    "zone_navigo": 4,
+    "id": "87381889",
     "code_uic": "87381889",
     "train": 1,
     "libelle_point_arret": "HERBLAY",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "HERICY",
-    "zone_navigo": 5,
+    "id": "87682435",
     "libelle_point_arret": "HERICY",
     "train": 1,
     "r": 1,
-    "code_uic": "87682435"
+    "code_uic": "87682435",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "HOUDAN",
-    "zone_navigo": 5,
+    "id": "87393462",
     "code_uic": "87393462",
     "train": 1,
     "libelle_point_arret": "HOUDAN",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "INVALIDES",
-    "zone_navigo": 1,
+    "id": "87393033",
     "rer": 1,
     "c": 1,
     "code_uic": "87393033",
-    "libelle_point_arret": "INVALIDES"
+    "libelle_point_arret": "INVALIDES",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "ISSOU PORCHEVILLE",
-    "zone_navigo": 5,
+    "id": "87381574",
     "code_uic": "87381574",
     "train": 1,
     "libelle_point_arret": "ISSOU PORCHEVILLE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ISSY",
-    "zone_navigo": 2,
+    "id": "87393074",
     "rer": 1,
     "c": 1,
     "code_uic": "87393074",
-    "libelle_point_arret": "ISSY"
+    "libelle_point_arret": "ISSY",
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "JUVISY",
-    "zone_navigo": 4,
+    "id": "87545244",
     "rer": 1,
     "c": 1,
     "code_uic": "87545244",
     "libelle_point_arret": "JUVISY",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LA GARENNE COLOMBES",
-    "zone_navigo": 3,
+    "id": "87386003",
     "code_uic": "87386003",
     "train": 1,
     "libelle_point_arret": "LA GARENNE COLOMBES",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LA GRANDE PAROISSE",
-    "zone_navigo": 5,
+    "id": "87682476",
     "libelle_point_arret": "LA GRANDE PAROISSE",
     "train": 1,
     "r": 1,
-    "code_uic": "87682476"
+    "code_uic": "87682476",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LE MEE",
-    "zone_navigo": 5,
+    "id": "87682179",
     "rer": 1,
     "code_uic": "87682179",
     "libelle_point_arret": "LE MEE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LE PERRAY",
-    "zone_navigo": 5,
+    "id": "87393298",
     "code_uic": "87393298",
     "train": 1,
     "libelle_point_arret": "LE PERRAY",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LE VAL D'OR",
-    "zone_navigo": 3,
+    "id": "87382366",
     "u": "1",
     "code_uic": "87382366",
     "train": 1,
     "libelle_point_arret": "LE VAL D'OR",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LE VERT DE MAISONS",
-    "zone_navigo": 3,
+    "id": "87681247",
     "rer": 1,
     "code_uic": "87681247",
     "libelle_point_arret": "LE VERT DE MAISONS",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LIANCOURT SAINT PIERRE",
-    "zone_navigo": 100,
+    "id": "87381210",
     "code_uic": "87381210",
     "train": 1,
     "libelle_point_arret": "LIANCOURT SAINT PIERRE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LIEUSAINT MOISSY",
-    "zone_navigo": 5,
+    "id": "87682153",
     "rer": 1,
     "code_uic": "87682153",
     "libelle_point_arret": "LIEUSAINT MOISSY",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LIMAY",
-    "zone_navigo": 5,
+    "id": "87381582",
     "code_uic": "87381582",
     "train": 1,
     "libelle_point_arret": "LIMAY",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LUXEMBOURG",
-    "zone_navigo": 1,
+    "id": "87758615",
     "rer": 1,
     "libelle_point_arret": "LUXEMBOURG",
     "code_uic": "87758615",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "MAISSE",
-    "zone_navigo": 5,
+    "id": "87681486",
     "rer": 1,
     "code_uic": "87681486",
     "libelle_point_arret": "MAISSE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MANTES STATION",
-    "zone_navigo": 5,
+    "id": "87381590",
     "code_uic": "87381590",
     "train": 1,
     "libelle_point_arret": "MANTES STATION",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MAULE",
-    "zone_navigo": 5,
+    "id": "87381723",
     "code_uic": "87381723",
     "train": 1,
     "libelle_point_arret": "MAULE",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MEULAN HARDRICOURT",
-    "zone_navigo": 5,
+    "id": "87381830",
     "code_uic": "87381830",
     "train": 1,
     "libelle_point_arret": "MEULAN HARDRICOURT",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MOULIN GALANT",
-    "zone_navigo": 5,
+    "id": "87681403",
     "rer": 1,
     "code_uic": "87681403",
     "libelle_point_arret": "MOULIN GALANT",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NOISY CHAMPS",
-    "zone_navigo": 4,
+    "id": "87758342",
     "a": 1,
     "rer": 1,
     "code_uic": "87758342",
-    "libelle_point_arret": "NOISY CHAMPS"
+    "libelle_point_arret": "NOISY CHAMPS",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "ORANGIS BOIS DE L'EPINE",
-    "zone_navigo": 5,
+    "id": "87681346",
     "rer": 1,
     "code_uic": "87681346",
     "libelle_point_arret": "ORANGIS BOIS DE L'EPINE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ORMOY VILLERS",
-    "zone_navigo": 100,
+    "id": "87271585",
     "libelle_point_arret": "ORMOY VILLERS",
     "k": 1,
     "train": 1,
-    "code_uic": "87271585"
+    "code_uic": "87271585",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PARIS NORD (GARE DU NORD)",
-    "zone_navigo": 1,
+    "id": "87271031",
     "b": 1,
     "libelle_point_arret": "PARIS NORD (GARE DU NORD)",
     "d": 1,
@@ -2837,1320 +2836,1321 @@
     "h": 1,
     "k": 1,
     "code_uic": "87271031",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "PONT DU GARIGLIANO - Hôpital Européen GeorgesPompidou",
-    "zone_navigo": 1,
+    "id": "87393322",
     "rer": 1,
     "c": 1,
     "code_uic": "87393322",
-    "libelle_point_arret": "PONT DU GARIGLIANO - Hôpital Européen Georges Pompidou"
+    "libelle_point_arret": "PONT DU GARIGLIANO - Hôpital Européen Georges Pompidou",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "PONTOISE",
-    "zone_navigo": 5,
+    "id": "87276139",
     "c": 1,
     "libelle_point_arret": "PONTOISE",
     "rer": 1,
     "h": 1,
     "j": 1,
     "code_uic": "87276139",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PORCHEFONTAINE",
-    "zone_navigo": 4,
+    "id": "87393165",
     "rer": 1,
     "c": 1,
     "code_uic": "87393165",
-    "libelle_point_arret": "PORCHEFONTAINE"
+    "libelle_point_arret": "PORCHEFONTAINE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "PUTEAUX",
-    "zone_navigo": 3,
+    "id": "87382382",
     "libelle_point_arret": "PUTEAUX",
     "tram": 1,
     "l": 1,
     "code_uic": "87382382",
     "train": 1,
-    "u": "1"
+    "u": "1",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "ROSNY BOIS PERRIER",
-    "zone_navigo": 3,
+    "id": "87113696",
     "rer": 1,
     "e": 1,
     "code_uic": "87113696",
-    "libelle_point_arret": "ROSNY BOIS PERRIER"
+    "libelle_point_arret": "ROSNY BOIS PERRIER",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "ROSNY SUR SEINE",
-    "zone_navigo": 5,
+    "id": "87415885",
     "code_uic": "87415885",
     "train": 1,
     "libelle_point_arret": "ROSNY SUR SEINE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-CHERON",
-    "zone_navigo": 5,
+    "id": "87545509",
     "rer": 1,
     "c": 1,
     "code_uic": "87545509",
-    "libelle_point_arret": "SAINT-CHERON"
+    "libelle_point_arret": "SAINT-CHERON",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-CYR",
-    "zone_navigo": 5,
+    "id": "87393223",
     "c": 1,
     "libelle_point_arret": "SAINT-CYR",
     "rer": 1,
     "train": 1,
     "n": 1,
     "code_uic": "87393223",
-    "u": "1"
+    "u": "1",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-FARGEAU",
-    "zone_navigo": 5,
+    "id": "87682542",
     "code_uic": "87682542",
     "train": 1,
     "libelle_point_arret": "SAINT-FARGEAU",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-JULIEN DU SAULT",
-    "zone_navigo": 100,
+    "id": "87683227",
     "code_uic": "87683227",
     "train": 1,
     "libelle_point_arret": "SAINT-JULIEN DU SAULT",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-LEU D'ESSERENT",
-    "zone_navigo": 100,
+    "id": "87276402",
     "h": 1,
     "code_uic": "87276402",
     "train": 1,
-    "libelle_point_arret": "SAINT-LEU D ESSERENT"
+    "libelle_point_arret": "SAINT-LEU D ESSERENT",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-LEU LA FORET",
-    "zone_navigo": 4,
+    "id": "87276600",
     "h": 1,
     "code_uic": "87276600",
     "train": 1,
-    "libelle_point_arret": "SAINT-LEU LA FORET"
+    "libelle_point_arret": "SAINT-LEU LA FORET",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SAINT-MICHEL NOTRE DAME",
-    "zone_navigo": 1,
+    "id": "87785436",
     "rer": 1,
     "c": 1,
     "code_uic": "87785436",
-    "libelle_point_arret": "SAINT-MICHEL NOTRE DAME RER B"
+    "libelle_point_arret": "SAINT-MICHEL NOTRE DAME RER B",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "SAINT-NOM LA BRETECHE FORET DE MARLY",
-    "zone_navigo": 5,
+    "id": "87382481",
     "code_uic": "87382481",
     "train": 1,
     "libelle_point_arret": "SAINT-NOM LA BRETECHE FORET DE MARLY",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-OUEN L'AUMONE QUARTIER DE L'EGLISE",
-    "zone_navigo": 5,
+    "id": "87381426",
     "code_uic": "87381426",
     "train": 1,
     "libelle_point_arret": "SAINT-OUEN L'AUMONE QUARTIER DE L'EGLISE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-QUENTIN EN YVELINES",
-    "zone_navigo": 5,
+    "id": "87393843",
     "c": 1,
     "libelle_point_arret": "SAINT-QUENTIN EN YVELINES",
     "rer": 1,
     "train": 1,
     "n": 1,
     "code_uic": "87393843",
-    "u": "1"
+    "u": "1",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SEVRES VILLE D'AVRAY",
-    "zone_navigo": 3,
+    "id": "87382341",
     "code_uic": "87382341",
     "train": 1,
     "libelle_point_arret": "SEVRES VILLE D'AVRAY",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "STADE DE FRANCE SAINT-DENIS",
-    "zone_navigo": 2,
+    "id": "87164780",
     "rer": 1,
     "code_uic": "87164780",
     "libelle_point_arret": "STADE DE FRANCE SAINT-DENIS",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "SURVILLIERS FOSSES",
-    "zone_navigo": 5,
+    "id": "87276261",
     "rer": 1,
     "code_uic": "87276261",
     "libelle_point_arret": "SURVILLIERS FOSSES",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "TACOIGNIERES RICHEBOURG",
-    "zone_navigo": 5,
+    "id": "87393454",
     "code_uic": "87393454",
     "train": 1,
     "libelle_point_arret": "TACOIGNIERES RICHEBOURG",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "TAVERNY",
-    "zone_navigo": 4,
+    "id": "87276634",
     "h": 1,
     "code_uic": "87276634",
     "train": 1,
-    "libelle_point_arret": "TAVERNY"
+    "libelle_point_arret": "TAVERNY",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "THIEUX NANTOUILLET",
-    "zone_navigo": 5,
+    "id": "87272054",
     "libelle_point_arret": "THIEUX NANTOUILLET",
     "k": 1,
     "train": 1,
-    "code_uic": "87272054"
+    "code_uic": "87272054",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "THOMERY",
-    "zone_navigo": 5,
+    "id": "87682252",
     "libelle_point_arret": "THOMERY",
     "train": 1,
     "r": 1,
-    "code_uic": "87682252"
+    "code_uic": "87682252",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "TOURNAN",
-    "zone_navigo": 5,
+    "id": "87116210",
     "e": 1,
     "rer": 1,
     "p": 1,
     "code_uic": "87116210",
     "train": 1,
-    "libelle_point_arret": "TOURNAN"
+    "libelle_point_arret": "TOURNAN",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VAIRES TORCY",
-    "zone_navigo": 5,
+    "id": "87116293",
     "p": 1,
     "code_uic": "87116293",
     "train": 1,
-    "libelle_point_arret": "VAIRES TORCY"
+    "libelle_point_arret": "VAIRES TORCY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VALMONDOIS",
-    "zone_navigo": 5,
+    "id": "87276535",
     "h": 1,
     "code_uic": "87276535",
     "train": 1,
-    "libelle_point_arret": "VALMONDOIS"
+    "libelle_point_arret": "VALMONDOIS",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VAUCELLES",
-    "zone_navigo": 4,
+    "id": "87276626",
     "h": 1,
     "code_uic": "87276626",
     "train": 1,
-    "libelle_point_arret": "VAUCELLES"
+    "libelle_point_arret": "VAUCELLES",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VAUCRESSON",
-    "zone_navigo": 4,
+    "id": "87382267",
     "code_uic": "87382267",
     "train": 1,
     "libelle_point_arret": "VAUCRESSON",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VERNON",
-    "zone_navigo": 100,
+    "id": "87415604",
     "code_uic": "87415604",
     "train": 1,
     "libelle_point_arret": "VERNON",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VERNOUILLET VERNEUIL",
-    "zone_navigo": 5,
+    "id": "87386656",
     "code_uic": "87386656",
     "train": 1,
     "libelle_point_arret": "VERNOUILLET VERNEUIL",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VERSAILLES RIVE DROITE",
-    "zone_navigo": 4,
+    "id": "87382861",
     "code_uic": "87382861",
     "train": 1,
     "libelle_point_arret": "VERSAILLES RIVE DROITE",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VIARMES",
-    "zone_navigo": 5,
+    "id": "87276568",
     "h": 1,
     "code_uic": "87276568",
     "train": 1,
-    "libelle_point_arret": "VIARMES"
+    "libelle_point_arret": "VIARMES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VILLENEUVE LE ROI",
-    "zone_navigo": 4,
+    "id": "87545277",
     "rer": 1,
     "c": 1,
     "code_uic": "87545277",
-    "libelle_point_arret": "VILLENEUVE LE ROI"
+    "libelle_point_arret": "VILLENEUVE LE ROI",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VILLEPARISIS MITRY LE NEUF",
-    "zone_navigo": 5,
+    "id": "87271510",
     "rer": 1,
     "libelle_point_arret": "VILLEPARISIS MITRY LE NEUF",
     "code_uic": "87271510",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VILLEPINTE",
-    "zone_navigo": 4,
+    "id": "87271452",
     "rer": 1,
     "libelle_point_arret": "VILLEPINTE",
     "code_uic": "87271452",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VIRY CHATILLON",
-    "zone_navigo": 4,
+    "id": "87681312",
     "rer": 1,
     "code_uic": "87681312",
     "libelle_point_arret": "VIRY CHATILLON",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VULAINES SUR SEINE SAMOREAU",
-    "zone_navigo": 5,
+    "id": "87682443",
     "libelle_point_arret": "VULAINES SUR SEINE SAMOREAU",
     "train": 1,
     "r": 1,
-    "code_uic": "87682443"
+    "code_uic": "87682443",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "YERRES",
-    "zone_navigo": 4,
+    "id": "87682112",
     "rer": 1,
     "code_uic": "87682112",
     "libelle_point_arret": "YERRES",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "MENERVILLE",
-    "zone_navigo": 5,
+    "id": "87381616",
     "code_uic": "87381616",
     "train": 1,
     "libelle_point_arret": "MENERVILLE",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MERY SUR OISE",
-    "zone_navigo": 5,
+    "id": "87276667",
     "h": 1,
     "code_uic": "87276667",
     "train": 1,
-    "libelle_point_arret": "MERY SUR OISE"
+    "libelle_point_arret": "MERY SUR OISE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MONTGEROULT COURCELLES",
-    "zone_navigo": 5,
+    "id": "87381160",
     "code_uic": "87381160",
     "train": 1,
     "libelle_point_arret": "MONTGEROULT COURCELLES",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MONTIGNY SUR LOING",
-    "zone_navigo": 5,
+    "id": "87684100",
     "libelle_point_arret": "MONTIGNY SUR LOING",
     "train": 1,
     "r": 1,
-    "code_uic": "87684100"
+    "code_uic": "87684100",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MOUROUX",
-    "zone_navigo": 5,
+    "id": "87116285",
     "p": 1,
     "code_uic": "87116285",
     "train": 1,
-    "libelle_point_arret": "MOUROUX"
+    "libelle_point_arret": "MOUROUX",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MUSEE D'ORSAY",
-    "zone_navigo": 1,
+    "id": "87547307",
     "rer": 1,
     "c": 1,
     "code_uic": "87547307",
-    "libelle_point_arret": "MUSEE D'ORSAY"
+    "libelle_point_arret": "MUSEE D'ORSAY",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "NANTERRE UNIVERSITE",
-    "zone_navigo": 3,
+    "id": "87386318",
     "a": 1,
     "rer": 1,
     "code_uic": "87386318",
-    "libelle_point_arret": "NANTERRE PREFECTURE"
+    "libelle_point_arret": "NANTERRE PREFECTURE",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "NANTERRE VILLE",
-    "zone_navigo": 3,
+    "id": "87758045",
     "a": 1,
     "rer": 1,
     "code_uic": "87758045",
-    "libelle_point_arret": "NANTERRE VILLE"
+    "libelle_point_arret": "NANTERRE VILLE",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "NANTEUIL LE HAUDOIN",
-    "zone_navigo": 100,
+    "id": "87271577",
     "libelle_point_arret": "NANTEUIL LE HAUDOIN",
     "k": 1,
     "train": 1,
-    "code_uic": "87271577"
+    "code_uic": "87271577",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NANTEUIL SAACY",
-    "zone_navigo": 5,
+    "id": "87116558",
     "p": 1,
     "code_uic": "87116558",
     "train": 1,
-    "libelle_point_arret": "NANTEUIL SAACY"
+    "libelle_point_arret": "NANTEUIL SAACY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NEZEL AULNAY",
-    "zone_navigo": 5,
+    "id": "87381731",
     "code_uic": "87381731",
     "train": 1,
     "libelle_point_arret": "NEZEL AULNAY",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NOINTEL MOURS",
-    "zone_navigo": 5,
+    "id": "87276758",
     "h": 1,
     "code_uic": "87276758",
     "train": 1,
-    "libelle_point_arret": "NOINTEL MOURS"
+    "libelle_point_arret": "NOINTEL MOURS",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "NOISY LE SEC",
-    "zone_navigo": 3,
+    "id": "87113217",
     "rer": 1,
     "tram": 1,
     "code_uic": "87113217",
     "libelle_point_arret": "NOISY LE SEC",
-    "e": 1
+    "e": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "ORGERUS BEHOUST",
-    "zone_navigo": 5,
+    "id": "87393447",
     "code_uic": "87393447",
     "train": 1,
     "libelle_point_arret": "ORGERUS BEHOUST",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ORLY VILLE",
-    "zone_navigo": 4,
+    "id": "87546200",
     "rer": 1,
     "c": 1,
     "code_uic": "87546200",
-    "libelle_point_arret": "ORLY VILLE"
+    "libelle_point_arret": "ORLY VILLE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "OSNY",
-    "zone_navigo": 5,
+    "id": "87381145",
     "code_uic": "87381145",
     "train": 1,
     "libelle_point_arret": "OSNY",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "OZOIR LA FERRIERE",
-    "zone_navigo": 5,
+    "id": "87116020",
     "rer": 1,
     "e": 1,
     "code_uic": "87116020",
-    "libelle_point_arret": "OZOIR LA FERRIERE"
+    "libelle_point_arret": "OZOIR LA FERRIERE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "PEREIRE LEVALLOIS",
-    "zone_navigo": 1,
+    "id": "87381012",
     "rer": 1,
     "c": 1,
     "code_uic": "87381012",
-    "libelle_point_arret": "PEREIRE LEVALLOIS"
+    "libelle_point_arret": "PEREIRE LEVALLOIS",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "PONT CARDINET",
-    "zone_navigo": 1,
+    "id": "87381111",
     "code_uic": "87381111",
     "train": 1,
     "libelle_point_arret": "PONT CARDINET",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "PONT DE RUNGIS Aéroport d'Orly",
-    "zone_navigo": 4,
+    "id": "87546192",
     "rer": 1,
     "c": 1,
     "code_uic": "87546192",
-    "libelle_point_arret": "PONT DE RUNGIS Aéroport d'Orly"
+    "libelle_point_arret": "PONT DE RUNGIS Aéroport d'Orly",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "PORTE DE CLICHY",
-    "zone_navigo": 1,
+    "id": "87111278",
     "rer": 1,
     "c": 1,
     "code_uic": "87111278",
-    "libelle_point_arret": "PORTE DE CLICHY"
+    "libelle_point_arret": "PORTE DE CLICHY",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "RIS ORANGIS",
-    "zone_navigo": 5,
+    "id": "87681338",
     "rer": 1,
     "code_uic": "87681338",
     "libelle_point_arret": "RIS ORANGIS",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "RUEIL MALMAISON",
-    "zone_navigo": 3,
+    "id": "87758052",
     "a": 1,
     "rer": 1,
     "code_uic": "87758052",
-    "libelle_point_arret": "RUEIL MALMAISON"
+    "libelle_point_arret": "RUEIL MALMAISON",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "SAINT-CLOUD",
-    "zone_navigo": 3,
+    "id": "87382358",
     "u": "1",
     "code_uic": "87382358",
     "train": 1,
     "libelle_point_arret": "SAINT-CLOUD",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "SAINT-GERMAIN EN LAYE BEL AIR FOURQUEUX",
-    "zone_navigo": 4,
+    "id": "87366922",
     "code_uic": "87366922",
     "train": 1,
     "libelle_point_arret": "SAINT-GERMAIN EN LAYE BEL AIR FOURQUEUX",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SAINT-GRATIEN",
-    "zone_navigo": 5,
+    "id": "87276170",
     "rer": 1,
     "c": 1,
     "code_uic": "87276170",
-    "libelle_point_arret": "SAINT-GRATIEN"
+    "libelle_point_arret": "SAINT-GRATIEN",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SAINT-OUEN L'AUMONE LIESSE",
-    "zone_navigo": 4,
+    "id": "87337980",
     "c": 1,
     "libelle_point_arret": "SAINT-OUEN L'AUMONE LIESSE",
     "rer": 1,
     "h": 1,
     "code_uic": "87337980",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SAVIGNY LE TEMPLE NANDY",
-    "zone_navigo": 5,
+    "id": "87682187",
     "rer": 1,
     "code_uic": "87682187",
     "libelle_point_arret": "SAVIGNY LE TEMPLE NANDY",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SENS",
-    "zone_navigo": 100,
+    "id": "87683003",
     "code_uic": "87683003",
     "train": 1,
     "libelle_point_arret": "SENS",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SEVRES RIVE GAUCHE",
-    "zone_navigo": 3,
+    "id": "87393124",
     "code_uic": "87393124",
     "train": 1,
     "libelle_point_arret": "SEVRES RIVE GAUCHE",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "SOUPPES CHÂTEAU LANDON",
-    "zone_navigo": 5,
+    "id": "87684217",
     "libelle_point_arret": "SOUPPES CHÂTEAU LANDON",
     "train": 1,
     "r": 1,
-    "code_uic": "87684217"
+    "code_uic": "87684217",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "SUCY BONNEUIL",
-    "zone_navigo": 4,
+    "id": "87758193",
     "a": 1,
     "rer": 1,
     "code_uic": "87758193",
-    "libelle_point_arret": "SUCY BONNEUIL"
+    "libelle_point_arret": "SUCY BONNEUIL",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "SURESNES MONT VALERIEN",
-    "zone_navigo": 3,
+    "id": "87382374",
     "u": "1",
     "code_uic": "87382374",
     "train": 1,
     "libelle_point_arret": "SURESNES MONT VALERIEN",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "TRIE CHATEAU",
-    "zone_navigo": 100,
+    "id": "87381236",
     "code_uic": "87381236",
     "train": 1,
     "libelle_point_arret": "TRIE CHATEAU",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "TRILPORT",
-    "zone_navigo": 5,
+    "id": "87116491",
     "p": 1,
     "code_uic": "87116491",
     "train": 1,
-    "libelle_point_arret": "TRILPORT"
+    "libelle_point_arret": "TRILPORT",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VAUBOYEN",
-    "zone_navigo": 4,
+    "id": "87393538",
     "rer": 1,
     "c": 1,
     "code_uic": "87393538",
-    "libelle_point_arret": "VAUBOYEN"
+    "libelle_point_arret": "VAUBOYEN",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VERSAILLES RIVE GAUCHE - CHÂTEAU DE VERSAILLES",
-    "zone_navigo": 4,
+    "id": "87393157",
     "rer": 1,
     "c": 1,
     "code_uic": "87393157",
-    "libelle_point_arret": "VERSAILLES RIVE GAUCHE - CHÂTEAU DE VERSAILLES"
+    "libelle_point_arret": "VERSAILLES RIVE GAUCHE - CHÂTEAU DE VERSAILLES",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VILLENEUVE LA GUYARD",
-    "zone_navigo": 100,
+    "id": "87683102",
     "code_uic": "87683102",
     "train": 1,
     "libelle_point_arret": "VILLENEUVE LA GUYARD",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VILLENEUVE SAINT-GEORGES",
-    "zone_navigo": 4,
+    "id": "87681825",
     "rer": 1,
     "code_uic": "87681825",
     "libelle_point_arret": "VILLENEUVE SAINT-GEORGES",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VILLENEUVE SUR YONNE",
-    "zone_navigo": 100,
+    "id": "87683219",
     "code_uic": "87683219",
     "train": 1,
     "libelle_point_arret": "VILLENEUVE SUR YONNE",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VINCENNES",
-    "zone_navigo": 2,
+    "id": "87758110",
     "a": 1,
     "rer": 1,
     "code_uic": "87758110",
-    "libelle_point_arret": "VINCENNES"
+    "libelle_point_arret": "VINCENNES",
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "ANTONY",
-    "zone_navigo": 3,
+    "id": "87758755",
     "rer": 1,
     "libelle_point_arret": "ANTONY",
     "code_uic": "87758755",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "ARCUEIL CACHAN",
-    "zone_navigo": 3,
+    "id": "87758672",
     "rer": 1,
     "libelle_point_arret": "ARCUEIL CACHAN",
     "code_uic": "87758672",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "ARPAJON",
-    "zone_navigo": 5,
+    "id": "87545467",
     "rer": 1,
     "c": 1,
     "code_uic": "87545467",
-    "libelle_point_arret": "ARPAJON"
+    "libelle_point_arret": "ARPAJON",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BAGNEUX",
-    "zone_navigo": 3,
+    "id": "87758680",
     "rer": 1,
     "libelle_point_arret": "BAGNEUX",
     "code_uic": "87758680",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "BALLANCOURT",
-    "zone_navigo": 5,
+    "id": "87681437",
     "rer": 1,
     "code_uic": "87681437",
     "libelle_point_arret": "BALLANCOURT",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BESSANCOURT",
-    "zone_navigo": 5,
+    "id": "87276642",
     "h": 1,
     "code_uic": "87276642",
     "train": 1,
-    "libelle_point_arret": "BESSANCOURT"
+    "libelle_point_arret": "BESSANCOURT",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BIEVRES",
-    "zone_navigo": 4,
+    "id": "87393546",
     "rer": 1,
     "c": 1,
     "code_uic": "87393546",
-    "libelle_point_arret": "BIEVRES"
+    "libelle_point_arret": "BIEVRES",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "BOIS COLOMBES",
-    "zone_navigo": 3,
+    "id": "87381079",
     "code_uic": "87381079",
     "train": 1,
     "libelle_point_arret": "BOIS COLOMBES",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "BOURG LA REINE",
-    "zone_navigo": 3,
+    "id": "87758698",
     "rer": 1,
     "libelle_point_arret": "BOURG LA REINE",
     "code_uic": "87758698",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "BREUILLET VILLAGE",
-    "zone_navigo": 5,
+    "id": "87545491",
     "rer": 1,
     "c": 1,
     "code_uic": "87545491",
-    "libelle_point_arret": "BREUILLET VILLAGE"
+    "libelle_point_arret": "BREUILLET VILLAGE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CERGY SAINT-CHRISTOPHE",
-    "zone_navigo": 5,
+    "id": "87382499",
     "a": 1,
     "libelle_point_arret": "CERGY SAINT-CHRISTOPHE",
     "rer": 1,
     "l": 1,
     "code_uic": "87382499",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHAMPAGNE SUR SEINE",
-    "zone_navigo": 5,
+    "id": "87682450",
     "libelle_point_arret": "CHAMPAGNE SUR SEINE",
     "train": 1,
     "r": 1,
-    "code_uic": "87682450"
+    "code_uic": "87682450",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CHATELET LES HALLES",
-    "zone_navigo": 1,
+    "id": "87758607",
     "a": 1,
     "b": 1,
     "libelle_point_arret": "CHATELET LES HALLES",
     "d": 1,
     "rer": 1,
-    "code_uic": "87758607"
+    "code_uic": "87758607",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "CHAVILLE RIVE DROITE",
-    "zone_navigo": 3,
+    "id": "87382333",
     "code_uic": "87382333",
     "train": 1,
     "libelle_point_arret": "CHAVILLE RIVE DROITE",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "CHOISY LE ROI",
-    "zone_navigo": 3,
+    "id": "87545285",
     "rer": 1,
     "c": 1,
     "code_uic": "87545285",
-    "libelle_point_arret": "CHOISY LE ROI"
+    "libelle_point_arret": "CHOISY LE ROI",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "COIGNIERES",
-    "zone_navigo": 5,
+    "id": "87393272",
     "code_uic": "87393272",
     "train": 1,
     "libelle_point_arret": "COIGNIERES",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "CORMEILLES EN PARISIS",
-    "zone_navigo": 4,
+    "id": "87381863",
     "code_uic": "87381863",
     "train": 1,
     "libelle_point_arret": "CORMEILLES EN PARISIS",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "COULOMMIERS",
-    "zone_navigo": 5,
+    "id": "87116301",
     "p": 1,
     "code_uic": "87116301",
     "train": 1,
-    "libelle_point_arret": "COULOMMIERS"
+    "libelle_point_arret": "COULOMMIERS",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "DOMONT",
-    "zone_navigo": 4,
+    "id": "87276436",
     "h": 1,
     "code_uic": "87276436",
     "train": 1,
-    "libelle_point_arret": "DOMONT"
+    "libelle_point_arret": "DOMONT",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "DORDIVES",
-    "zone_navigo": 100,
+    "id": "87684233",
     "libelle_point_arret": "DORDIVES",
     "train": 1,
     "r": 1,
-    "code_uic": "87684233"
+    "code_uic": "87684233",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "DOURDAN",
-    "zone_navigo": 5,
+    "id": "87545525",
     "rer": 1,
     "c": 1,
     "code_uic": "87545525",
-    "libelle_point_arret": "DOURDAN"
+    "libelle_point_arret": "DOURDAN",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "EPLUCHES",
-    "zone_navigo": 5,
+    "id": "87276147",
     "h": 1,
     "code_uic": "87276147",
     "train": 1,
-    "libelle_point_arret": "EPLUCHES"
+    "libelle_point_arret": "EPLUCHES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ERMONT EAUBONNE",
-    "zone_navigo": 4,
+    "id": "87276055",
     "c": 1,
     "libelle_point_arret": "ERMONT EAUBONNE",
     "rer": 1,
     "h": 1,
     "j": 1,
     "code_uic": "87276055",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "ETAMPES",
-    "zone_navigo": 5,
+    "id": "87545137",
     "rer": 1,
     "c": 1,
     "code_uic": "87545137",
-    "libelle_point_arret": "ETAMPES"
+    "libelle_point_arret": "ETAMPES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "FONTENAY LE FLEURY",
-    "zone_navigo": 5,
+    "id": "87393405",
     "code_uic": "87393405",
     "train": 1,
     "libelle_point_arret": "FONTENAY LE FLEURY",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "GARGAN (T4)",
-    "zone_navigo": 4,
+    "id": "87113860",
     "tram": 1,
     "t4": 1,
     "code_uic": "87113860",
-    "libelle_point_arret": "GARGAN (T4)"
+    "libelle_point_arret": "GARGAN (T4)",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "GAZERAN",
-    "zone_navigo": 5,
+    "id": "87393348",
     "code_uic": "87393348",
     "train": 1,
     "libelle_point_arret": "GAZERAN",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "GRAND BOURG",
-    "zone_navigo": 5,
+    "id": "87681353",
     "rer": 1,
     "code_uic": "87681353",
     "libelle_point_arret": "GRAND BOURG",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "ISLES ARMENTIERES CONGIS",
-    "zone_navigo": 5,
+    "id": "87116616",
     "p": 1,
     "code_uic": "87116616",
     "train": 1,
-    "libelle_point_arret": "ISLES ARMENTIERES CONGIS"
+    "libelle_point_arret": "ISLES ARMENTIERES CONGIS",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "JOUY EN JOSAS",
-    "zone_navigo": 4,
+    "id": "87393512",
     "rer": 1,
     "c": 1,
     "code_uic": "87393512",
-    "libelle_point_arret": "JOUY EN JOSAS"
+    "libelle_point_arret": "JOUY EN JOSAS",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "JOUY SUR MORIN EUSTACHE",
-    "zone_navigo": 5,
+    "id": "87430900",
     "bus": 1,
     "code_uic": "87430900",
     "libelle_point_arret": "JOUY SUR MORIN EUSTACHE",
-    "p": 1
+    "p": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "JUZIERS",
-    "zone_navigo": 5,
+    "id": "87381558",
     "code_uic": "87381558",
     "train": 1,
     "libelle_point_arret": "JUZIERS",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LA COURNEUVE AUBERVILLIERS",
-    "zone_navigo": 3,
+    "id": "87271304",
     "rer": 1,
     "libelle_point_arret": "LA COURNEUVE AUBERVILLIERS",
     "code_uic": "87271304",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LA DEFENSE GRANDE ARCHE",
-    "zone_navigo": 3,
+    "id": "87382218",
     "a": 1,
     "libelle_point_arret": "LA DEFENSE",
     "rer": 1,
     "train": 1,
     "l": 1,
     "code_uic": "87382218",
-    "u": "1"
+    "u": "1",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LA FRETTE MONTIGNY",
-    "zone_navigo": 4,
+    "id": "87381871",
     "code_uic": "87381871",
     "train": 1,
     "libelle_point_arret": "LA FRETTE MONTIGNY",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LA VARENNE CHENNEVIERES",
-    "zone_navigo": 3,
+    "id": "87758185",
     "a": 1,
     "rer": 1,
     "code_uic": "87758185",
-    "libelle_point_arret": "LA VARENNE CHENNEVIERES"
+    "libelle_point_arret": "LA VARENNE CHENNEVIERES",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LA VILLETERTRE",
-    "zone_navigo": 100,
+    "id": "87381202",
     "code_uic": "87381202",
     "train": 1,
     "libelle_point_arret": "LA VILLETERTRE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "L'ABBAYE (T4)",
-    "zone_navigo": 4,
+    "id": "87113886",
     "tram": 1,
     "t4": 1,
     "code_uic": "87113886",
-    "libelle_point_arret": "L'ABBAYE (T4)"
+    "libelle_point_arret": "L'ABBAYE (T4)",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LARDY",
-    "zone_navigo": 5,
+    "id": "87545160",
     "rer": 1,
     "c": 1,
     "code_uic": "87545160",
-    "libelle_point_arret": "LARDY"
+    "libelle_point_arret": "LARDY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LE BRAS DE FER - Evry Génopole",
-    "zone_navigo": 5,
+    "id": "87681395",
     "rer": 1,
     "code_uic": "87681395",
     "libelle_point_arret": "LE BRAS DE FER - Evry Génopole",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LE CHENAY GAGNY",
-    "zone_navigo": 4,
+    "id": "87113522",
     "rer": 1,
     "e": 1,
     "code_uic": "87113522",
-    "libelle_point_arret": "LE CHENAY GAGNY"
+    "libelle_point_arret": "LE CHENAY GAGNY",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LE GUICHET",
-    "zone_navigo": 5,
+    "id": "87758839",
     "rer": 1,
     "libelle_point_arret": "LE GUICHET",
     "code_uic": "87758839",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LES ARDOINES",
-    "zone_navigo": 3,
+    "id": "87492108",
     "rer": 1,
     "c": 1,
     "code_uic": "87492108",
-    "libelle_point_arret": "LES ARDOINES"
+    "libelle_point_arret": "LES ARDOINES",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LES BOULLEREAUX CHAMPIGNY",
-    "zone_navigo": 3,
+    "id": "87113779",
     "rer": 1,
     "e": 1,
     "code_uic": "87113779",
-    "libelle_point_arret": "LES BOULLEREAUX CHAMPIGNY"
+    "libelle_point_arret": "LES BOULLEREAUX CHAMPIGNY",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LES CLAIRIERES DE VERNEUIL",
-    "zone_navigo": 5,
+    "id": "87386664",
     "code_uic": "87386664",
     "train": 1,
     "libelle_point_arret": "LES CLAIRIERES DE VERNEUIL",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LES COQUETIERS (T4)",
-    "zone_navigo": 3,
+    "id": "87113845",
     "tram": 1,
     "t4": 1,
     "code_uic": "87113845",
-    "libelle_point_arret": "LES COQUETIERS (T4)"
+    "libelle_point_arret": "LES COQUETIERS (T4)",
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LES NOUES",
-    "zone_navigo": 5,
+    "id": "87276238",
     "rer": 1,
     "code_uic": "87276238",
     "libelle_point_arret": "LES NOUES",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "LES PAVILLONS SOUS BOIS (T4)",
-    "zone_navigo": 4,
+    "id": "87113852",
     "tram": 1,
     "t4": 1,
     "code_uic": "87113852",
-    "libelle_point_arret": "LES PAVILLONS SOUS BOIS (T4)"
+    "libelle_point_arret": "LES PAVILLONS SOUS BOIS (T4)",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LES VALLEES",
-    "zone_navigo": 3,
+    "id": "87386300",
     "code_uic": "87386300",
     "train": 1,
     "libelle_point_arret": "LES VALLEES",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "LES YVRIS - NOISY LE GRAND",
-    "zone_navigo": 4,
+    "id": "87113803",
     "rer": 1,
     "e": 1,
     "code_uic": "87113803",
-    "libelle_point_arret": "LES YVRIS - NOISY LE GRAND"
+    "libelle_point_arret": "LES YVRIS - NOISY LE GRAND",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "LOGNES",
-    "zone_navigo": 5,
+    "id": "87758367",
     "a": 1,
     "rer": 1,
     "code_uic": "87758367",
-    "libelle_point_arret": "LOGNES"
+    "libelle_point_arret": "LOGNES",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MAISONS LAFFITTE",
-    "zone_navigo": 4,
+    "id": "87386425",
     "a": 1,
     "libelle_point_arret": "MAISONS LAFFITTE",
     "rer": 1,
     "l": 1,
     "code_uic": "87386425",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "MALESHERBES",
-    "zone_navigo": 100,
+    "id": "87684415",
     "rer": 1,
     "code_uic": "87684415",
     "libelle_point_arret": "MALESHERBES",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MAREIL MARLY",
-    "zone_navigo": 4,
+    "id": "87382812",
     "code_uic": "87382812",
     "train": 1,
     "libelle_point_arret": "MAREIL MARLY",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "MAREIL SUR MAULDRE",
-    "zone_navigo": 5,
+    "id": "87381715",
     "code_uic": "87381715",
     "train": 1,
     "libelle_point_arret": "MAREIL SUR MAULDRE",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MAREUIL SUR OURCQ",
-    "zone_navigo": 100,
+    "id": "87116665",
     "p": 1,
     "code_uic": "87116665",
     "train": 1,
-    "libelle_point_arret": "MAREUIL SUR OURCQ"
+    "libelle_point_arret": "MAREUIL SUR OURCQ",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "MARLES EN BRIE",
-    "zone_navigo": 5,
+    "id": "87116228",
     "p": 1,
     "code_uic": "87116228",
     "train": 1,
-    "libelle_point_arret": "MARLES EN BRIE"
+    "libelle_point_arret": "MARLES EN BRIE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VOVES",
-    "zone_navigo": 100,
+    "id": "87545707",
     "code_uic": "87545707",
     "train": 1,
     "libelle_point_arret": "VOVES",
-    "ter": 1
+    "ter": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VILLIERS LE BEL GONESSE ARNOUVILLE",
-    "zone_navigo": 4,
+    "id": "87276220",
     "rer": 1,
     "code_uic": "87276220",
     "libelle_point_arret": "VILLIERS LE BEL GONESSE ARNOUVILLE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VILLIERS MONTBARBIN",
-    "zone_navigo": 5,
+    "id": "87116749",
     "p": 1,
     "code_uic": "87116749",
     "train": 1,
-    "libelle_point_arret": "VILLIERS MONTBARBIN"
+    "libelle_point_arret": "VILLIERS MONTBARBIN",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VILLIERS NEAUPHLE PONTCHARTRAIN",
-    "zone_navigo": 5,
+    "id": "87393884",
     "code_uic": "87393884",
     "train": 1,
     "libelle_point_arret": "VILLIERS NEAUPHLE PONTCHARTRAIN",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VIROFLAY RIVE DROITE",
-    "zone_navigo": 3,
+    "id": "87382887",
     "code_uic": "87382887",
     "train": 1,
     "libelle_point_arret": "VIROFLAY RIVE DROITE",
-    "l": 1
+    "l": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "VIROFLAY RIVE GAUCHE",
-    "zone_navigo": 3,
+    "id": "87393215",
     "c": 1,
     "libelle_point_arret": "VIROFLAY RIVE GAUCHE",
     "rer": 1,
     "n": 1,
     "code_uic": "87393215",
-    "train": 1
+    "train": 1,
+    "zone_navigo": 3
   },
   {
-    "pointDarret": "ACHERES GRAND CORMIER",
-    "zone_navigo": 5,
+    "id": "87386052",
     "a": 1,
     "libelle_point_arret": "ACHERES GRAND CORMIER",
     "rer": 1,
     "train": 1,
     "j": 1,
-    "code_uic": "87386052"
+    "code_uic": "87386052",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "AEROPORT CHARLES DE GAULLE 2 TGV - Roissy",
-    "zone_navigo": 5,
+    "id": "87001479",
     "rer": 1,
     "libelle_point_arret": "AEROPORT CHARLES DE GAULLE 2 TGV - Roissy",
     "code_uic": "87001479",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "AUBER",
-    "zone_navigo": 1,
+    "id": "87758599",
     "a": 1,
     "rer": 1,
     "code_uic": "87758599",
-    "libelle_point_arret": "AUBER"
+    "libelle_point_arret": "AUBER",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "BIBLIOTHEQUE FRANCOIS MITTERRAND",
-    "zone_navigo": 1,
+    "id": "87328328",
     "rer": 1,
     "c": 1,
     "code_uic": "87328328",
-    "libelle_point_arret": "BIBLIOTHEQUE FRANCOIS MITTERRAND"
+    "libelle_point_arret": "BIBLIOTHEQUE FRANCOIS MITTERRAND",
+    "zone_navigo": 1
   },
   {
-    "pointDarret": "BOISSY L'AILLERIE",
-    "zone_navigo": 5,
+    "id": "87381152",
     "code_uic": "87381152",
     "train": 1,
     "libelle_point_arret": "BOISSY L'AILLERIE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BOISSY SAINT-LEGER",
-    "zone_navigo": 4,
+    "id": "87758201",
     "a": 1,
     "rer": 1,
     "code_uic": "87758201",
-    "libelle_point_arret": "BOISSY SAINT-LEGER"
+    "libelle_point_arret": "BOISSY SAINT-LEGER",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "BONNIERES",
-    "zone_navigo": 5,
+    "id": "87415893",
     "code_uic": "87415893",
     "train": 1,
     "libelle_point_arret": "BONNIERES",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BORAN SUR OISE",
-    "zone_navigo": 100,
+    "id": "87276444",
     "h": 1,
     "code_uic": "87276444",
     "train": 1,
-    "libelle_point_arret": "BORAN SUR OISE"
+    "libelle_point_arret": "BORAN SUR OISE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BOURAY",
-    "zone_navigo": 5,
+    "id": "87545178",
     "rer": 1,
     "c": 1,
     "code_uic": "87545178",
-    "libelle_point_arret": "BOURAY"
+    "libelle_point_arret": "BOURAY",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BRUNOY",
-    "zone_navigo": 5,
+    "id": "87682120",
     "rer": 1,
     "code_uic": "87682120",
     "libelle_point_arret": "BRUNOY",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "BRY SUR MARNE",
-    "zone_navigo": 4,
+    "id": "87758326",
     "a": 1,
     "rer": 1,
     "code_uic": "87758326",
-    "libelle_point_arret": "BRY SUR MARNE"
+    "libelle_point_arret": "BRY SUR MARNE",
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "BUNO GIRONVILLE",
-    "zone_navigo": 5,
+    "id": "87681510",
     "rer": 1,
     "code_uic": "87681510",
     "libelle_point_arret": "BUNO GIRONVILLE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VAL D'EUROPE",
-    "zone_navigo": 5,
+    "id": "87730069",
     "a": 1,
     "rer": 1,
     "code_uic": "87730069",
-    "libelle_point_arret": "VAL D'EUROPE"
+    "libelle_point_arret": "VAL D'EUROPE",
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VANVES MALAKOFF",
-    "zone_navigo": 2,
+    "id": "87391532",
     "code_uic": "87391532",
     "train": 1,
     "libelle_point_arret": "VANVES MALAKOFF",
-    "n": 1
+    "n": 1,
+    "zone_navigo": 2
   },
   {
-    "pointDarret": "VERT GALANT",
-    "zone_navigo": 4,
+    "id": "87271437",
     "rer": 1,
     "libelle_point_arret": "VERT GALANT",
     "code_uic": "87271437",
-    "b": 1
+    "b": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VIGNEUX SUR SEINE",
-    "zone_navigo": 4,
+    "id": "87681304",
     "rer": 1,
     "code_uic": "87681304",
     "libelle_point_arret": "VIGNEUX SUR SEINE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 4
   },
   {
-    "pointDarret": "VILLABE",
-    "zone_navigo": 5,
+    "id": "87681619",
     "rer": 1,
     "code_uic": "87681619",
     "libelle_point_arret": "VILLABE",
-    "d": 1
+    "d": 1,
+    "zone_navigo": 5
   },
   {
-    "pointDarret": "VILLENNES SUR SEINE",
-    "zone_navigo": 5,
+    "id": "87386649",
     "code_uic": "87386649",
     "train": 1,
     "libelle_point_arret": "VILLENNES SUR SEINE",
-    "j": 1
+    "j": 1,
+    "zone_navigo": 5
   }
 ]

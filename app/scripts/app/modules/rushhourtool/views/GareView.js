@@ -1,6 +1,6 @@
 define([
 	'marionette',
-	'text!../templates/ZoneViewTemplate.tpl',
+	'text!../templates/GareViewTemplate.tpl',
 	'TweenMax',
 	
 ],function(Marionette, template, TweenMax){
@@ -8,21 +8,17 @@ define([
 	var ZoneView = Backbone.Marionette.ItemView.extend({
 		tagName:'li',
 
-		className:'zone',
+		className:'gare',
 
 		template:_.template(template),
 
 		triggers:{
-			'click': 'click',
+			'click':'click'
 		},
-
 		initialize:function(options) {
-			console.log('zoneItem')
+			console.log('gareItem')
 		},
 		onRender:function(view) {
-
-			var startFrom = $(window).width() - view.$el.offset().top;
-			TweenLite.from(view.$el,this.model.get('position')*.5+1,{y:startFrom})
 		}
 	}); 
 

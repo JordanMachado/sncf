@@ -39,7 +39,7 @@ define([
 		/*
 		 * RushHourTool Zones View
 		 */
-		RushHourTool.on('line', function(options) {
+		RushHourTool.on('zones', function(options) {
 			require([
 				'app/modules/rushhourtool/collections/ZoneCollection',
 				'app/modules/rushhourtool/views/ZonesView'
@@ -50,11 +50,11 @@ define([
 
 				// get All zone for the currentLine
 				var zones = DataManager.getZonesByLine(options.lineId);
-				
+				console.log(zones)
 
 				// iterrate on the zones array for create a simple zoneModel and add it to the zoneCollection
 				for(var i=0, ln=zones.length;i<ln;i++) {
-					zoneCollection.push({id:zones[i]});
+					zoneCollection.push({id:zones[i],position:i});
 				}
 
 				// create the zoneView
@@ -65,6 +65,47 @@ define([
 
 				// show the zoneView
 				App.rushHourToolRegion.show(zonesView);
+			});
+
+		});
+
+		/*
+		 * RushHourTool Gares View
+		 */
+		RushHourTool.on('gares', function(options) {
+			require([
+				'app/modules/rushhourtool/collections/GareCollection',
+				'app/modules/rushhourtool/views/GaresView'
+			], function(GareCollection, GaresView) {
+				console.log(options)
+				console.log(DataManager.getGareByLineIdAndZoneId(options.lineId,options.zoneId))
+				var gareCollection = new GareCollection(DataManager.getGareByLineIdAndZoneId(options.lineId,options.zoneId));
+
+				var garesView = new GaresView({
+					collection:gareCollection,
+					lineId:options.lineId,
+					zoneId:options.zoneId
+				});
+				// show the gareView
+				App.rushHourToolRegion.show(garesView);
+			});
+
+		});
+
+		/*
+		 * RushHourTool Tool View
+		 */
+		RushHourTool.on('tool', function(options) {
+			require([
+				'app/modules/rushhourtool/collections/ToolModel',
+				'app/modules/rushhourtool/views/ToolView'
+			], function(ToolModel,ToolView) {
+				console.log(options)
+				var toolView = new ToolView({
+					model: new ToolModel({id:'cc'})
+				})
+				// show the gareView
+				App.rushHourToolRegion.show(toolView);
 			});
 
 		});

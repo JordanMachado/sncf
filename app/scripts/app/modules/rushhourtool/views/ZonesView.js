@@ -1,9 +1,10 @@
 define([
 	'marionette',
 	'./ZoneView',
-	'text!../templates/ZonesViewTemplate.tpl'
+	'text!../templates/ZonesViewTemplate.tpl',
+	'app/App',
 
-], function(Marionette, ZoneView, template) {
+], function(Marionette, ZoneView, template, App) {
 	var ZonesView = Backbone.Marionette.CompositeView.extend({
 
 		className: 'zonesView',
@@ -17,8 +18,12 @@ define([
 		childEvents: {
 			'click': 'onClickZone'
 		},
-		onClickZone: function() {
+		onClickZone: function(childView) {
+			console.log(childView.model.get('id'))
 			console.log('zone was clicked');
+			App.navigate('stations/' + this.line + '/' + childView.model.get('id'), {
+				trigger: true
+			});
 		},
 		serializeData: function() {
 			return {
@@ -31,7 +36,6 @@ define([
 
 		initialize: function(options) {
 			console.log('ZonesView template')
-				//console.log(options)
 			this.line = options.lineId;
 			this.$el.addClass(options.lineId.toUpperCase());
 		}

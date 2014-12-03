@@ -1,0 +1,1 @@
+<p>tool view template</p>
