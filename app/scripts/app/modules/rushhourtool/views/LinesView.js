@@ -4,8 +4,7 @@ define([
 	'TweenMax',
 	'TimeLineLite',
 	'app/App',
-	'../datas/DataManager'
-], function(Marionette, LineView , TweenMax ,TimeLineLite, App, DataManager) {
+], function(Marionette, LineView , TweenMax ,TimeLineLite, App) {
 
 	var LinesView = Marionette.CollectionView.extend({
 
@@ -14,7 +13,7 @@ define([
 		childViewEventPrefix: "line:event",
 		childViewOptions: function(line){
     		return {
-    			numberOfLine: DataManager.getNumberOfLines(),
+    			numberOfLine: this.collection.length,
     		}
   		},
 
@@ -44,8 +43,8 @@ define([
 			var tl = new TimeLineLite();
 			tl.set(childView.$el,{position:'absolute'});
 			tl.to(childView.$el,.6,{left:'0px',width:$(window).width()+'px'});
-			tl.to(childView.$el.find('p'),.5,{y:-childView.$el.find('p').offset().top/2+20,onComplete:function(){
-				App.navigate('line/'+datas.model.get('id'),{trigger:true})
+			tl.to(childView.$el.find('p'),.5,{y:-childView.$el.find('p').offset().top/2+$('header').height(),onComplete:function(){
+				App.navigate('line/'+datas.model.get('id'),{trigger:true});
 			}});
 		},
 		onLineMouseEnter:function(childView) {

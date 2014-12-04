@@ -1,5 +1,5 @@
-// bower:scss
-// endbower
+
+@import "utils/utils";
 
 * {
   margin:0;
@@ -11,4 +11,15 @@ body {
   padding:0;
   overflow:hidden;
  
+}
+header {
+	position:fixed;
+	width:100%;
+	text-align:center;
+	font-family:'Avenir Light';
+	text-transform:uppercase;
+	padding:10px;
+	color:#4C4C4C;
+	z-index:100;
+	background-color:#F7F7F7;
 }

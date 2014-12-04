@@ -1,10 +1,11 @@
-@import 'compass';
 
-@import "color";
+@import "utils/utils";
+
 #rushHourTool {
 	position:absolute;
 	width:100%;
 	height:100%;
+	top:55px;
 
 	// LINES VIEW
 	.linesView {
@@ -20,6 +21,7 @@
 				position:relative;
 				top:50%;
 				opacity:0;
+				font-family:"Avenir Black";
 			}
 		}
 	}
@@ -33,16 +35,32 @@
 
 		& p {
 			position:relative;
-			top:40px;
+			top:70px;
 			font-size: 32px;
 		}
 		
 		& .zoneContainer {
 			position: relative;
-			top:50%;
+			top:20%;
+			height:75%;
 			& .zone {
 				display:inline-block;
-				width:10%;
+				font-family:"Avenir Black";
+				height:100%;
+
+				& .content {
+					display:table;
+					width:100%;
+					height:100%;
+
+					& p {
+						display:table-cell;
+						vertical-align:middle;
+						top:0px;
+						color:$smoothWhite;
+					}
+				}
+				
 
 			}
 		}
@@ -54,6 +72,10 @@
 		width:100%;
 		height:100%;
 		text-align: center;
+		.gare {
+			color:$smoothWhite;	
+			font-family:"Avenir Roman";
+		}
 	}
 }
 

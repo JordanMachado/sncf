@@ -1,0 +1,156 @@
+
+
+@import 'compass/css3'; 
+// MAIN COLORS
+
+$smoothWhite : #F7F7F7;
+
+
+
+// LINES COLORS
+
+// RER A
+$lineColorA : hsla(4, 75%, 48%, 1);
+$lineColorGradientA : hsla(4, 75%, 51%, 1);
+
+// RER B
+$lineColorB : hsla(200, 100%, 40%, 1);
+$lineColorGradientB : hsla(200, 100%, 43%, 1);
+
+// RER C
+$lineColorC : hsla(42, 100%, 54%, 1);
+$lineColorGradientC :  hsla(42, 100%, 57%, 1);
+
+// RER D
+$lineColorD : hsla(79, 98%, 38%, 1);
+$lineColorGradientD : hsla(79, 98%, 41%, 1);
+
+// RER E
+$lineColorE : hsla(320, 100%, 32%, 1);
+$lineColorGradientE : hsla(320, 100%, 35%, 1);
+
+// LIGNE H
+$lineColorH : hsla(327, 32%, 37%, 1);
+$lineColorGradientH :  hsla(327, 32%, 40%, 1);
+
+// LIGNE J
+$lineColorJ : hsla(60, 100%, 40%, 1);
+$lineColorGradientJ : hsla(60, 100%, 43%, 1);
+
+// LIGNE K
+$lineColorK : hsla(48, 100%, 37%, 1);
+$lineColorGradientK : hsla(48, 100%, 40%, 1);
+
+// LIGNE L
+$lineColorL : hsla(227, 33%, 60%, 1);
+$lineColorGradientL : hsla(227, 33%, 63%, 1);
+
+// LIGNE N
+$lineColorN : hsla(175, 58%, 44%, 1);
+$lineColorGradientN : hsla(175, 58%, 47%, 1);
+
+// LIGNE P
+$lineColorP : hsla(39, 92%, 59%, 1);
+$lineColorGradientP :  hsla(39, 92%, 62%, 1);
+
+// LIGNE R
+$lineColorR : hsla(328, 53%, 84%, 1);
+$lineColorGradientR :  hsla(328, 53%, 87%, 1);
+
+// LIGNE U
+$lineColorU : hsla(334, 87%, 47%, 1);
+$lineColorGradientU : hsla(334, 87%, 50%, 1);
+
+
+.rer-a {
+	background-color: $lineColorA;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorA,$lineColorGradientA,$lineColorA));
+	}
+}
+
+.rer-b {
+	background-color: $lineColorB;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorB, $lineColorGradientB,$lineColorB));
+	}
+}
+
+.rer-c {
+	background-color: $lineColorC;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorC, $lineColorGradientC,$lineColorC));
+	}
+}
+
+.rer-d {
+	background-color: $lineColorD;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorD, $lineColorGradientD,$lineColorD));
+	}
+}
+
+.rer-e {
+	background-color: $lineColorE;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorE, $lineColorGradientE,$lineColorE));
+	}
+}
+
+.ligne-h {
+	background-color: $lineColorH;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorH, $lineColorGradientH,$lineColorH));
+	}
+}
+
+.ligne-j {
+	background-color: $lineColorJ;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorJ, $lineColorGradientJ,$lineColorJ));
+	}
+}
+
+.ligne-k {
+	background-color: $lineColorK;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorK, $lineColorGradientK,$lineColorK));
+	}
+}
+
+.ligne-l {
+	background-color: $lineColorL;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorL, $lineColorGradientL,$lineColorL));
+	}
+}
+.ligne-n {
+	background-color: $lineColorN;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorN, $lineColorGradientN,$lineColorN));
+	}
+}
+
+.ligne-p {
+	background-color: $lineColorP;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorP, $lineColorGradientP,$lineColorP));
+	}
+}
+
+.ligne-r {
+	background-color: $lineColorR;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorR, $lineColorGradientR,$lineColorR));
+	}
+}
+
+.ligne-u {
+	background-color: $lineColorU;
+	.zone:nth-child(odd) {
+	 	@include background-image(linear-gradient($lineColorU, $lineColorGradientU,$lineColorU));
+	}
+}
+
+
+

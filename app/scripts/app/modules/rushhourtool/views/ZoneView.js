@@ -13,16 +13,18 @@ define([
 		template:_.template(template),
 
 		triggers:{
-			'click': 'click',
+			'click': 'click'
 		},
 
 		initialize:function(options) {
 			console.log('zoneItem')
+			var ww = window.innerWidth;
+			this.$el.css('width',ww/options.numberOfZone+'px');
 		},
 		onRender:function(view) {
 
 			var startFrom = $(window).width() - view.$el.offset().top;
-			TweenLite.from(view.$el,this.model.get('position')*.5+1,{y:startFrom})
+			TweenLite.from(view.$el,this.model.get('position')*.1+1,{y:startFrom})
 		}
 	}); 
 

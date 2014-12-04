@@ -1,80 +1,80 @@
 [
 
     {
-        "id": "a",
+        "id": "rer-a",
         "ligne": "RER A",
         "couleur_proche": "rouge",
         "color": "hsla(4, 75%, 48%, 1)"
     }, 
     {
-        "id": "b",
+        "id": "rer-b",
         "ligne": "RER B",
         "couleur_proche": "bleu",
         "color": "hsla(200, 100%, 40%, 1)"
     }, 
     {
-        "id": "c",
+        "id": "rer-c",
         "ligne": "RER C",
         "couleur_proche": "jaune",
         "color": "hsla(42, 100%, 54%, 1)"
     }, 
     {
-        "id": "d",
+        "id": "rer-d",
         "ligne": "RER D",
         "couleur_proche": "vert",
         "color": "hsla(79, 98%, 38%, 1)"
     }, 
     {
-        "id": "e",
+        "id": "rer-e",
         "ligne": "RER E",
         "couleur_proche": "rose",
         "color": "hsla(320, 100%, 32%, 1)"
     }, 
     {
-        "id": "h",
+        "id": "ligne-h",
         "ligne": "Ligne H",
         "couleur_proche": "marron",
         "color": "hsla(327, 32%, 37%, 1)"
     }, 
     {
-        "id": "j",
+        "id": "ligne-j",
         "ligne": "Ligne J",
         "couleur_proche": "moutarde",
         "color": "hsla(60, 100%, 40%, 1)"
     }, 
     {
-        "id": "k",
+        "id": "ligne-k",
         "ligne": "Ligne K",
         "couleur_proche": "kaki",
         "color": "hsla(48, 100%, 37%, 1)"
     }, 
     {
-        "id": "l",
+        "id": "ligne-l",
         "ligne": "Ligne L",
         "couleur_proche": "pastel",
         "color": "hsla(227, 33%, 60%, 1)"
     }, 
     {
-        "id": "n",
+        "id": "ligne-n",
         "ligne": "Ligne N",
         "couleur_proche": "bleu paon",
         "color": "hsla(175, 58%, 44%, 1)"
     }, 
     {
-        "id": "p",
+        "id": "ligne-p",
         "ligne": "Ligne P",
         "couleur_proche": "orange",
         "color": "hsla(39, 92%, 59%, 1)"
     },
 
     {
-        "id": "r",
+        "id": "ligne-r",
         "ligne": "Ligne R",
         "couleur_proche": "rose",
         "color": "hsla(328, 53%, 84%, 1)"
     }, 
     {
-        "id": "u",
+        "id": "ligne-u",
         "ligne": "Ligne U",
         "couleur_proche": "fushia",
         "color": "hsla(334, 87%, 47%, 1)"

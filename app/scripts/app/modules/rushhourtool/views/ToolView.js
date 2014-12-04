@@ -28,7 +28,7 @@ define([
 		initialize: function(options) {
 			console.log('ToolView template')
 			console.log(options)
-			console.log(template)
+
 		}
 	});
 

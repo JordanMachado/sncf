@@ -16,7 +16,12 @@ define([
 		});
 
 		RushHourTool.on('start', function(options) {
+			RushHourTool.trigger('resize')
+		});
 
+		RushHourTool.on('resize', function() {
+			console.log('resize')
+			$('#rushHourTool').css('height',$(window).height()-$('header').height()+'px');
 		});
 
 		/*
@@ -48,9 +53,11 @@ define([
 				// zoneCollection
 				var zoneCollection = new ZoneCollection();
 
+				
+		
 				// get All zone for the currentLine
 				var zones = DataManager.getZonesByLine(options.lineId);
-				console.log(zones)
+				console.log(zones);
 
 				// iterrate on the zones array for create a simple zoneModel and add it to the zoneCollection
 				for(var i=0, ln=zones.length;i<ln;i++) {
@@ -100,9 +107,11 @@ define([
 				'app/modules/rushhourtool/collections/ToolModel',
 				'app/modules/rushhourtool/views/ToolView'
 			], function(ToolModel,ToolView) {
-				console.log(options)
 				var toolView = new ToolView({
-					model: new ToolModel({id:'cc'})
+					model: new ToolModel({id:'cc'}),
+					lineId:options.lineId,
+					zoneId:options.zoneId,
+					gareId:options.gareId
 				})
 				// show the gareView
 				App.rushHourToolRegion.show(toolView);

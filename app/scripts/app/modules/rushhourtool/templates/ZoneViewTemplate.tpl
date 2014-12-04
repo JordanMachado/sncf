@@ -1,1 +1,3 @@
-<p><%= id %></p>
+<div class="content">
+	<p><%= id %></p>	
+</div>

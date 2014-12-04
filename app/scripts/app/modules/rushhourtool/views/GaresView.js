@@ -26,17 +26,19 @@ define([
 		onClickGare:function(childView) {
 			console.log(childView.model)
 			console.log('click gare');
-			App.navigate('station/' + childView.model.get('code_uic'), {
+			App.navigate('station/'+this.line+'/'+this.zone+'/'+ childView.model.get('code_uic'), {
 				trigger: true
-			})
+			});
 		},
 
 		template: _.template(template),
 
 		initialize: function(options) {
-
+			console.log(options)
+			this.zone = options.zoneId;
+			this.line = options.lineId;
 			console.log('GaresView template')
-			this.$el.addClass(options.lineId.toUpperCase());
+			this.$el.addClass(options.lineId);
 		}
 	});
 

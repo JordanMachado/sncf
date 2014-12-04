@@ -29,8 +29,11 @@ define([
 			return garesData;
 		},
 		getGareByLineIdAndZoneId: function(lineId, zoneId) {
+
+			// transform lineId due to the wonderfull sncf's datas
+			var id = lineId.split('-')[1];
 			return  _.chain(garesData)
-					.filter(function(gare){ return gare[lineId] == 1 && gare.zone_navigo == zoneId;})
+					.filter(function(gare){ return gare[id] == 1 && gare.zone_navigo == zoneId;})
 					.value();
 
 		},
@@ -39,9 +42,11 @@ define([
 		 * Zones methods
 		 */
 		getZonesByLine: function(lineId) {
+			// transform lineId due to the wonderfull sncf's datas
+			var id = lineId.split('-')[1];
 
 			return  _.chain(garesData)
-			.filter(function(gare){ return gare[lineId] == 1;})
+			.filter(function(gare){ return gare[id] == 1;})
 			.pluck('zone_navigo')
 			.uniq()
 			.sortBy(function(num){ return Math.min(num); })

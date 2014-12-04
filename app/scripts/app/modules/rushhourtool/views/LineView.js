@@ -25,7 +25,7 @@ define([
 		initialize:function(options) {
 			var ww = $(window).width();
 			this.$el.css('width',ww/options.numberOfLine+'px');
-			this.$el.css('backgroundColor',options.model.get('color'));
+			this.$el.addClass(options.model.get('id'));
 		}
 	}); 
 
