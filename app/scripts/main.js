@@ -27,6 +27,7 @@ require.config({
 		'text': '../bower_components/text/text',
 		'underscore': '../bower_components/underscore/underscore',
 		'jquery': '../bower_components/jquery/dist/jquery',
+		'jplayer':'../bower_components/jplayer/dist/jplayer/jquery.jplayer',
 		'backbone': '../bower_components/backbone/backbone',
 		'marionette': '../bower_components/marionette/lib/core/backbone.marionette',
 		'backbone.wreqr': '../bower_components/backbone.wreqr/lib/backbone.wreqr',
@@ -43,7 +44,7 @@ require(['app/App'], function(App) {
 			$(document).ready(main.onReady);
 		},
 		onReady:function() {
-			App.start();
+			App.start({container:'#AppContainer'});
 		}
 	}
 	main.intialize();

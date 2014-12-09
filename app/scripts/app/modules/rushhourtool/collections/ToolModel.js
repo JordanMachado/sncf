@@ -1,5 +1,5 @@
 define(['backbone'],function(Backbone){
-	'use strict;'
+	'use strict';
 	var ToolModel = Backbone.Model.extend({
 
 	});

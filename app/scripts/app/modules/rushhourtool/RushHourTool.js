@@ -1,6 +1,6 @@
 define([
 	'app/App',
-	'./datas/DataManager'
+	'app/utils/DataManager'
 
 ], function(App, DataManager) {
 	'use strict';
@@ -16,12 +16,12 @@ define([
 		});
 
 		RushHourTool.on('start', function(options) {
-			RushHourTool.trigger('resize')
+			RushHourTool.trigger('resize');
 		});
 
 		RushHourTool.on('resize', function() {
-			console.log('resize')
-			$('#rushHourTool').css('height',$(window).height()-$('header').height()+'px');
+			console.log('resize');
+			//$('#rushHourTool').css('top',$('header').height()+'px');
 		});
 
 		/*
@@ -61,7 +61,7 @@ define([
 
 				// iterrate on the zones array for create a simple zoneModel and add it to the zoneCollection
 				for(var i=0, ln=zones.length;i<ln;i++) {
-					zoneCollection.push({id:zones[i],position:i});
+					zoneCollection.push({id:zones[i]});
 				}
 
 				// create the zoneView
@@ -84,10 +84,9 @@ define([
 				'app/modules/rushhourtool/collections/GareCollection',
 				'app/modules/rushhourtool/views/GaresView'
 			], function(GareCollection, GaresView) {
-				console.log(options)
-				console.log(DataManager.getGareByLineIdAndZoneId(options.lineId,options.zoneId))
+				
+				
 				var gareCollection = new GareCollection(DataManager.getGareByLineIdAndZoneId(options.lineId,options.zoneId));
-
 				var garesView = new GaresView({
 					collection:gareCollection,
 					lineId:options.lineId,
@@ -112,7 +111,7 @@ define([
 					lineId:options.lineId,
 					zoneId:options.zoneId,
 					gareId:options.gareId
-				})
+				});
 				// show the gareView
 				App.rushHourToolRegion.show(toolView);
 			});

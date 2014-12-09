@@ -7,8 +7,22 @@ define([
 	'TimeLineLite',
 
 
-], function(Marionette, ZoneView, template, App , TweenMax,TimeLineLite) {
+], function(Marionette, ZoneView, template, App, TweenMax, TimeLineLite) {
 	var ZonesView = Backbone.Marionette.CompositeView.extend({
+
+		initialize: function(options) {
+			console.log('ZonesView template');
+			this.line = options.lineId;
+			this.$el.addClass(options.lineId);
+
+		},
+		serializeData: function() {
+			return {
+				line: this.line
+			};
+		},
+
+		template: _.template(template),
 
 		className: 'zonesView',
 
@@ -18,51 +32,47 @@ define([
 		childViewContainer: function() {
 			return ".zoneContainer"
 		},
-		childViewOptions: function(line){
-    		return {
-    			numberOfZone: this.collection.length,
-    		}
-  		},
+		childViewOptions: function(model,index) {
+			return {
+				numberOfZone: this.collection.length,
+				childIndex:index
+			}
+		},
 		childEvents: {
 			'click': 'onClickZone',
+			'mouseenter': 'onMouseEnter',
+			'mouseleave': 'onMouseLeave',
+		},
+		onMouseEnter: function(childView) {
+			TweenLite.to(childView.$el.find('p'), .2, {
+				scale: 2
+			});
+		},
+		onMouseLeave: function(childView) {
+			TweenLite.to(childView.$el.find('p'), .2, {
+				scale: 1
+			});
 		},
 		onClickZone: function(childView) {
-			console.log(this.children);
-			this.children.each(function(view){
-
-				console.log(view)
-				 if(view == childView) return;
-
-				 TweenLite.to(view.$el,Math.random()+1,{y:-800})
-			})
 			var that = this;
-			// console.log(childView.model.get('id'))
-			// console.log('zone was clicked');
-			// var tl = new TimeLineLite();
-			// tl.set(childView.$el,{position:'absolute'});
-			// tl.to(childView.$el,.6,{left:'0px',width:$(window).width()+'px'});
-			// tl.to(childView.$el.find('p'),.5,{y:-childView.$el.find('p').offset().top/2+$('header').height(),onComplete:function(){
-			// 	App.navigate('stations/' + that.line + '/' + childView.model.get('id'), {
-			// 	trigger: true
-			// });
-			// }});
-			
-		},
 
-		serializeData: function() {
-			return {
-				line: this.line
-			};
-		},
-
-
-		template: _.template(template),
-
-		initialize: function(options) {
-			console.log('ZonesView template')
-			this.line = options.lineId;
-			this.$el.addClass(options.lineId);
-
+			var tl = new TimeLineLite();
+			this.children.each(function(view) {
+				//if(view == childView) return;
+				//give a random effect
+				var duration = Math.random() * 0.2 + 1;
+				tl.to(view.$el, duration, {
+					y: -800
+				}, '-=' + duration);
+			});
+			tl.eventCallback("onComplete", function() {
+				console.log('complete')
+				App.navigate('stations/' + that.line + '/' + childView.model.get('id'), {
+					trigger: true
+				});
+			});
+			//TODO should animate the ligne logo 
+			//tl.to(this.$el.find('Logoclass'),Math.random()+1,{y:-300});
 		}
 	});
 

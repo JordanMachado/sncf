@@ -1,11 +1,11 @@
 
 @import "utils/utils";
+@import "compass/css3";
 
 #rushHourTool {
 	position:absolute;
 	width:100%;
 	height:100%;
-	top:55px;
 
 	// LINES VIEW
 	.linesView {
@@ -16,19 +16,32 @@
 			display:inline-block;
 			text-align:center;
 			height:100%;
+			& .logo {
+				position:absolute;
+				width:50px;
+				height:50px;
+				margin-left:-25px;
+				top:50%;
+    			transform:  translatez(0);
+    			transform-origin: 50%  50%;
+    			opacity:0;
+			}
 
 			& p {
 				position:relative;
 				top:50%;
-				opacity:0;
+				//opacity:0;
 				font-family:"Avenir Black";
+				width:50px;height:50px;border-radius:50%;background-color:red;
+				//transform:  translatez(0);
+				//transform-origin: 50%  50%;
 			}
 		}
 	}
 
 	// ZONES VIEW
 	.zonesView {
-		position:relative;
+		position:absolute;
 		width:100%;
 		height:100%;
 		text-align: center;
@@ -38,30 +51,40 @@
 			top:70px;
 			font-size: 32px;
 		}
+		& .logo {
+			position: relative;
+			top:70px;
+			margin-top:-50px;
+			width:100px;
+		}
 		
 		& .zoneContainer {
 			position: relative;
 			top:20%;
 			height:75%;
+			cursor:pointer;
 			& .zone {
 				display:inline-block;
 				font-family:"Avenir Black";
 				height:100%;
-
-				& .content {
-					display:table;
-					width:100%;
-					height:100%;
-
-					& p {
-						display:table-cell;
-						vertical-align:middle;
-						top:0px;
+				p {
+						pointer-events: none;
+						@include user-select(none);
+						top:50%;
 						color:$smoothWhite;
+						//@include transition(all .2s ease-in);
+				}
+
+				&:hover{
+					 p {
+					 	/*@include transition(all .2s ease-out);
+						@include transform(scale(2));*/
 					}
+
 				}
 				
 
+				
 			}
 		}
 	}
@@ -72,10 +95,17 @@
 		width:100%;
 		height:100%;
 		text-align: center;
-		.gare {
-			color:$smoothWhite;	
-			font-family:"Avenir Roman";
+		
+		.gareContainer {
+			list-style: none;
+			.gare {
+				color:$smoothWhite;	
+				font-family:"Avenir Roman";
+				height:50px;
+			}
+
 		}
+		
 	}
 }
 

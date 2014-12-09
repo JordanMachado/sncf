@@ -12,7 +12,8 @@
     "text": "~2.0.12",
     "fastclick": "~1.0.3",
     "underscore": "~1.7.0",
-    "gsap": "~1.14.2"
+    "gsap": "~1.14.2",
+    "jplayer": "~2.9.0"
   },
   "devDependencies": {}
 }

@@ -1,5 +1,5 @@
 define(['backbone'],function(Backbone){
-	'use strict;'
+	'use strict';
 	var LineModel = Backbone.Model.extend({
 
 	});

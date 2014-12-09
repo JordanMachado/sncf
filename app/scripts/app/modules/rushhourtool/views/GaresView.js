@@ -5,6 +5,8 @@ define([
 	'app/App'
 
 ], function(Marionette, GareView, template, App) {
+	'use strict';
+
 	var ZonesView = Backbone.Marionette.CompositeView.extend({
 
 		className: 'garesView',
@@ -13,7 +15,12 @@ define([
 		childViewEventPrefix: "gare:event",
 
 		childViewContainer: function() {
-			return ".gareContainer"
+			return ".gareContainer";
+		},
+		childViewOptions: function(model, index) {
+			return {
+				childIndex:index
+			}
 		},
 		// serializeData: function() {
 		// 	return {
@@ -24,7 +31,7 @@ define([
 			'click':'onClickGare'
 		},
 		onClickGare:function(childView) {
-			console.log(childView.model)
+			console.log(childView.model);
 			console.log('click gare');
 			App.navigate('station/'+this.line+'/'+this.zone+'/'+ childView.model.get('code_uic'), {
 				trigger: true
@@ -34,10 +41,10 @@ define([
 		template: _.template(template),
 
 		initialize: function(options) {
-			console.log(options)
+			console.log(options);
 			this.zone = options.zoneId;
 			this.line = options.lineId;
-			console.log('GaresView template')
+			console.log('GaresView template');
 			this.$el.addClass(options.lineId);
 		}
 	});

@@ -43,19 +43,19 @@ define([
 			var tl = new TimeLineLite();
 			tl.set(childView.$el,{position:'absolute'});
 			tl.to(childView.$el,.6,{left:'0px',width:$(window).width()+'px'});
-			tl.to(childView.$el.find('p'),.5,{y:-childView.$el.find('p').offset().top/2+$('header').height(),onComplete:function(){
+			tl.to(childView.$el.find('.logo'),.5,{y:-childView.$el.find('.logo').offset().top/2+$('header').height(),onComplete:function(){
 				App.navigate('line/'+datas.model.get('id'),{trigger:true});
 			}});
 		},
 		onLineMouseEnter:function(childView) {
-			TweenLite.set(childView.$el,{zIndex:10});
-			TweenLite.to(childView.$el,.5,{scale:2});
-			TweenLite.to(childView.$el.find('p'),.5,{opacity:1,scale:1});
+			TweenLite.set(childView.$el,{zIndex:1});
+			TweenLite.to(childView.$el,.6,{scale:2});
+			TweenLite.to(childView.$el.find('.logo'),.5,{opacity:1,scale:1});
 		},
 		onLineMouseLeave:function(childView) {
 			TweenLite.set(childView.$el,{zIndex:0});
 			TweenLite.to(childView.$el,.3,{scale:1});
-			TweenLite.to(childView.$el.find('p'),.3,{opacity:0,scale:0});
+			TweenLite.to(childView.$el.find('.logo'),.3,{opacity:0,scale:0});
 		}
 	});
 

@@ -2,7 +2,7 @@ define([
 	'backbone',
 	'marionette',
 ], function(Backbone, Marionette) {
-
+	'use strict';
 	/*
 	 * APPLICATION
 	 */
@@ -20,22 +20,30 @@ define([
 
 	App.addRegions({
 		rushHourToolRegion: '#rushHourTool',
+		storytellingRegion: '#storytelling'
 	});
 	App.on('start', function(options) {
+		console.log(options)
+		$(options.container).css({
+			'top':$('header').outerHeight(),
+			'height':$(options.container).height() - $('header').outerHeight()
+		});
 		if (Backbone.history) {
 			Backbone.history.start();
 		}
+
 	});
+
 
 	/*
 	 * APPLICATION Routeur
 	 */
 	var AppRouter = Backbone.Router.extend({
 		routes: {
-			"": "index",
-			"line/:lid": "zones",
-			"stations/:lid/:zid": "gares",
-			"station/:lid/:zid/:gid": "tool",
+			'': 'index',
+			'line/:lid': 'zones',
+			'stations/:lid/:zid': 'gares',
+			'station/:lid/:zid/:gid': 'tool',
 		}
 	});
 	App.routeur = new AppRouter();
@@ -44,8 +52,10 @@ define([
 
 		console.log('Routeur Lines');
 		require([
+			'app/modules/storytelling/Storytelling',
 			'app/modules/rushhourtool/RushHourTool'
-		], function(RushHourTool) {
+		], function(Storytelling, RushHourTool) {
+			//Storytelling.start();
 			RushHourTool.trigger('index');
 		});
 	});

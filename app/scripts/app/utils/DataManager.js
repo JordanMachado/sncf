@@ -3,6 +3,7 @@ define([
 	'text!GaresData'
 
 ], function(LinesData, GaresData) {
+	'use strict';
 
 	var linesData = JSON.parse(LinesData);
 	var garesData = JSON.parse(GaresData);
@@ -33,7 +34,7 @@ define([
 			// transform lineId due to the wonderfull sncf's datas
 			var id = lineId.split('-')[1];
 			return  _.chain(garesData)
-					.filter(function(gare){ return gare[id] == 1 && gare.zone_navigo == zoneId;})
+					.filter(function(gare){ return gare[id] == 1 && gare.zone_navigo == zoneId; })
 					.value();
 
 		},
