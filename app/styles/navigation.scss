@@ -1,0 +1,49 @@
+@import "utils/utils";
+
+
+
+$dotSize: 20px;
+#navigationInfo {
+	position:absolute;
+	width:100%;
+	z-index:5;
+
+	.content {
+		.tamere {
+			position: absolute;
+			top:48%;
+			margin-left:41px;
+			margin-top:-3px;
+			width:214px;
+			height:6px;
+			background-color:rgba(255,255,255,.7);
+			z-index:-1;
+		}
+		display:inline-block;
+		ul {
+			display:table;
+			border-collapse:separate;
+			border-spacing:40px;
+
+			li {
+				border-radius:50%;
+				background-color:#F7F7F7;
+				width:$dotSize;
+				height:$dotSize;
+				display:table-cell;
+				vertical-align:middle;
+				border:3px solid transparent;
+				color:#4C4C4C;
+				font-family:"Avenir Light";
+
+				&.active {
+					background-color:#D8D8D8;
+					border:3px solid #B0B0B0;
+				}
+
+			}
+		}
+
+	}
+	
+}

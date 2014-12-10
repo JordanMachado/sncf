@@ -19,6 +19,7 @@ define([
 	});
 
 	App.addRegions({
+		navigationRegion: '#navigationInfo',
 		rushHourToolRegion: '#rushHourTool',
 		storytellingRegion: '#storytelling'
 	});
@@ -52,11 +53,16 @@ define([
 
 		console.log('Routeur Lines');
 		require([
-			'app/modules/storytelling/Storytelling',
+			'app/modules/navigation/Navigation',
+			// 'app/modules/storytelling/Storytelling',
 			'app/modules/rushhourtool/RushHourTool'
-		], function(Storytelling, RushHourTool) {
+		], function(Navigation,/*Storytelling, */RushHourTool) {
 			//Storytelling.start();
-			RushHourTool.trigger('index');
+			App.trigger('change:step',{currentStep:0});
+			App.trigger('change:step',{currentStep:1});
+			App.trigger('change:step',{currentStep:2});
+			App.trigger('display:lines');
+			
 		});
 	});
 
@@ -65,7 +71,8 @@ define([
 		require([
 			'app/modules/rushhourtool/RushHourTool'
 		], function(RushHourTool) {
-			RushHourTool.trigger('zones',{lineId:lineId});
+			//RushHourTool.trigger('zones',{lineId:lineId});
+			App.trigger('display:zones',{lineId:lineId});
 		});
 		
 	});
@@ -75,7 +82,7 @@ define([
 		require([
 			'app/modules/rushhourtool/RushHourTool'
 		], function(RushHourTool) {
-			RushHourTool.trigger('gares',{
+			App.trigger('display:gares',{
 				lineId:lineId,
 				zoneId:zoneId
 			});
@@ -87,7 +94,7 @@ define([
 		require([
 			'app/modules/rushhourtool/RushHourTool'
 		], function(RushHourTool) {
-			RushHourTool.trigger('tool',{
+			App.trigger('display:tool',{
 				lineId:lineId,
 				zoneId:zoneId,
 				gareId:gareId
