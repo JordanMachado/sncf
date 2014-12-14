@@ -1,33 +1,26 @@
 define([
 	'marionette',
 	'text!../templates/LineViewTemplate.tpl'
-	
-],function(Marionette, template){
+
+], function(Marionette, template) {
 	var LineView = Backbone.Marionette.ItemView.extend({
-		tagName:'li',
 
-		className:'line',
+		initialize: function(options) {
+			var ww = $(window).width();
+			this.$el.css('width', 100 / options.numberOfLine + '%');
+			this.$el.addClass(options.model.get('id'));
+		},
 
-		template:_.template(template),
-
-		// serializeData: function() {
-		// 	return _.extend(this.model.toJSON(), {
-		// 		//create method getZoneByLine
-		// 		zones: ['a','b','c']
-		// 	})
-		// },
+		tagName: 'li',
+		className: 'line',
+		template: _.template(template),
 
 		triggers: {
-				'click': 'click',
-				'mouseenter':'mouseenter',
-				'mouseleave':'mouseleave',
-		},
-		initialize:function(options) {
-			var ww = $(window).width();
-			this.$el.css('width',ww/options.numberOfLine+'px');
-			this.$el.addClass(options.model.get('id'));
+			'click': 'click',
+			'mouseenter': 'mouseenter',
+			'mouseleave': 'mouseleave',
 		}
-	}); 
+	});
 
 	return LineView;
-})
+});

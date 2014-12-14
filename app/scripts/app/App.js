@@ -18,22 +18,53 @@ define([
 		}
 	});
 
+	var StorytellingRegion = Marionette.Region.extend({
+		close: function(view) {
+			var that = this;
+			this.$el.slideUp(400, function() {
+				Marionette.Region.prototype.reset.call(that);
+			});
+
+		}
+	});
+
 	App.addRegions({
 		navigationRegion: '#navigationInfo',
 		rushHourToolRegion: '#rushHourTool',
-		storytellingRegion: '#storytelling'
+		storytellingRegion: {
+			regionClass: StorytellingRegion,
+			selector: '#storytelling'
+		}
 	});
 	App.on('start', function(options) {
-		console.log(options)
-		$(options.container).css({
-			'top':$('header').outerHeight(),
-			'height':$(options.container).height() - $('header').outerHeight()
-		});
+		App.container = options.container;
+		App.loader = options.loader;
+		App.loaderIsShown = true;
+		App.trigger('resize');
 		if (Backbone.history) {
 			Backbone.history.start();
 		}
+	});
+
+	App.on('hide:loader', function() {
+		if (App.loaderIsShown) {
+			$(App.loader).fadeOut();
+			App.loaderIsShown = false;
+		}
 
 	});
+
+	App.on('resize', function() {
+		var windowHeight = $(window).height();
+		var headerHeight = $('header').outerHeight();
+		var headerHeightPct = (headerHeight / windowHeight) * 100;
+		$(App.container).css({
+			'top': $('header').outerHeight(),
+			'height': 100 - headerHeightPct + '%'
+		});
+
+	});
+
 
 
 	/*
@@ -54,15 +85,13 @@ define([
 		console.log('Routeur Lines');
 		require([
 			'app/modules/navigation/Navigation',
-			// 'app/modules/storytelling/Storytelling',
+			'app/modules/storytelling/Storytelling',
 			'app/modules/rushhourtool/RushHourTool'
-		], function(Navigation,/*Storytelling, */RushHourTool) {
+		], function(Navigation, Storytelling, RushHourTool) {
 			//Storytelling.start();
-			App.trigger('change:step',{currentStep:0});
-			App.trigger('change:step',{currentStep:1});
-			App.trigger('change:step',{currentStep:2});
+			//App.trigger('change:step',{currentStep:0});
 			App.trigger('display:lines');
-			
+
 		});
 	});
 
@@ -72,36 +101,44 @@ define([
 			'app/modules/rushhourtool/RushHourTool'
 		], function(RushHourTool) {
 			//RushHourTool.trigger('zones',{lineId:lineId});
-			App.trigger('display:zones',{lineId:lineId});
+			App.trigger('display:zones', {
+				lineId: lineId
+			});
 		});
-		
+
 	});
 
-	App.routeur.on('route:gares', function(lineId,zoneId) {
+	App.routeur.on('route:gares', function(lineId, zoneId) {
 		console.log('Routeur Gares');
 		require([
 			'app/modules/rushhourtool/RushHourTool'
 		], function(RushHourTool) {
-			App.trigger('display:gares',{
-				lineId:lineId,
-				zoneId:zoneId
+			App.trigger('display:gares', {
+				lineId: lineId,
+				zoneId: zoneId
 			});
 		});
-		
+
 	});
 	App.routeur.on('route:tool', function(lineId, zoneId, gareId) {
 		console.log('Routeur Tool');
 		require([
 			'app/modules/rushhourtool/RushHourTool'
 		], function(RushHourTool) {
-			App.trigger('display:tool',{
-				lineId:lineId,
-				zoneId:zoneId,
-				gareId:gareId
+			App.trigger('display:tool', {
+				lineId: lineId,
+				zoneId: zoneId,
+				gareId: gareId
 			});
 		});
-		
+
 	});
+
+	$(window).resize(_.throttle(onResize, 100));
+
+	function onResize() {
+		App.trigger('resize');
+	}
 
 	return App;
 });

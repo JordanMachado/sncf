@@ -21,11 +21,13 @@ define([
 				line: this.line
 			};
 		},
-
+		onRender:function() {
+			App.trigger('hide:loader');
+		},
 		template: _.template(template),
-
 		className: 'zonesView',
 
+		// Child
 		childView: ZoneView,
 		childViewEventPrefix: "zone:event",
 
@@ -62,7 +64,7 @@ define([
 				//give a random effect
 				var duration = Math.random() * 0.2 + 1;
 				tl.to(view.$el, duration, {
-					y: -800
+					y: -$(window).height()
 				}, '-=' + duration);
 			});
 			tl.eventCallback("onComplete", function() {
@@ -77,4 +79,4 @@ define([
 	});
 
 	return ZonesView;
-})
+});

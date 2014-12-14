@@ -21,8 +21,6 @@ define([
 				App.storytellingRegion.show(storytellingView);
 			});
 		});
-
-
 	});
 
 	return Storytelling;

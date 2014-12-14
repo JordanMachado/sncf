@@ -1,28 +1,38 @@
 define([
 	'marionette',
 	'text!../templates/StorytellingTemplate.tpl',
-	'jplayer'
+	'jplayer',
+	'app/App'
 
-], function(Marionette, template, jPlayer) {
+], function(Marionette, template, jPlayer, App) {
 	'use strict';
 
 	var StorytellingView = Marionette.ItemView.extend({
-		template: _.template(template),
-		ui: {
-			player: '.video'
-		},
-		serializeData: function() {
-			// video links
-			return '';
-		},
+
 		initialize: function() {
 			this.assets = {
 				ogv: "/videos/big_buck_bunny_1080p_stereo.ogg",
-				poster:'tamere.png'
+				//poster:'tamere.png'
 			}
+		},
+		className:'storytellingView',
+		template: _.template(template),
+
+		ui: {
+			player: '.video',
+			close: '.close'
+		},
+		events: {
+			 'click @ui.close': 'onClickClose'
 		},
 		onRender: function() {
 			this.setPlayer();
+		},
+		onClickClose: function() {
+			App.storytellingRegion.close();
+		},
+		onClose:function() {
+			console.log('onclose')
 		},
 		setPlayer: function() {
 
@@ -34,7 +44,7 @@ define([
 				// progress: this.onPlayerProgress.bind(this),
 				// timeupdate: this.onPlayerTimeUpdate.bind(this),
 				solution: 'html',
-				
+
 				supplied: 'webmv, m4v, ogv',
 				// // preload: 'metadata',
 				preload: "auto",
@@ -49,18 +59,12 @@ define([
 			});
 
 			this.setMedia();
-
-			
-
 		},
 		setMedia: function() {
-			 this.ui.player.jPlayer("setMedia",this.assets); 
+			this.ui.player.jPlayer("setMedia", this.assets);
 		},
 		onPlayerReady: function() {
-			console.log('yop')
-			
 			this.ui.player.jPlayer("play", 0);
-
 		},
 		onPlayerEnded: function() {
 			console.log('player ended');

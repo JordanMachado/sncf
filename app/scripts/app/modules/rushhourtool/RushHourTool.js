@@ -16,13 +16,9 @@ define([
 		});
 
 		RushHourTool.on('start', function(options) {
-			RushHourTool.trigger('resize');
+
 		});
 
-		RushHourTool.on('resize', function() {
-			console.log('resize');
-			//$('#rushHourTool').css('top',$('header').height()+'px');
-		});
 		var controller = {
 			/*
 			 * RushHourTool Lines View
@@ -105,7 +101,6 @@ define([
 					'app/modules/rushhourtool/views/ToolView'
 				], function(ToolModel,ToolView) {
 					var toolView = new ToolView({
-						model: new ToolModel({id:'cc'}),
 						lineId:options.lineId,
 						zoneId:options.zoneId,
 						gareId:options.gareId

@@ -4,7 +4,7 @@ define([
 ], function(App, NavigationView) {
 	'use strict';
 	var Navigation = App.module('Navigation', function(Navigation, App) {
-		Navigation.startWithParent = true;
+		Navigation.startWithParent = false;
 		var navigationView = null;
 		var controller = {
 			activeCurrentStep:function(options) {

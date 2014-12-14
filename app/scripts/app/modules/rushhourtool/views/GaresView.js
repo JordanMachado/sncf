@@ -9,8 +9,20 @@ define([
 
 	var ZonesView = Backbone.Marionette.CompositeView.extend({
 
+		initialize: function(options) {
+			console.log(options);
+			this.zone = options.zoneId;
+			this.line = options.lineId;
+			console.log('GaresView template');
+			this.$el.addClass(options.lineId);
+		},
+		onRender:function() {
+        	App.trigger('hide:loader');
+		},
+		template: _.template(template),
 		className: 'garesView',
 
+		// Child
 		childView: GareView,
 		childViewEventPrefix: "gare:event",
 
@@ -19,35 +31,21 @@ define([
 		},
 		childViewOptions: function(model, index) {
 			return {
-				childIndex:index
+				childIndex: index,
+				numberOfGares: this.collection.length
 			}
 		},
-		// serializeData: function() {
-		// 	return {
-		// 		line: this.line
-		// 	};
-		// },
 		childEvents: {
-			'click':'onClickGare'
+			'click': 'onClickGare'
 		},
-		onClickGare:function(childView) {
+		onClickGare: function(childView) {
 			console.log(childView.model);
 			console.log('click gare');
-			App.navigate('station/'+this.line+'/'+this.zone+'/'+ childView.model.get('code_uic'), {
+			App.navigate('station/' + this.line + '/' + this.zone + '/' + childView.model.get('code_uic'), {
 				trigger: true
 			});
-		},
-
-		template: _.template(template),
-
-		initialize: function(options) {
-			console.log(options);
-			this.zone = options.zoneId;
-			this.line = options.lineId;
-			console.log('GaresView template');
-			this.$el.addClass(options.lineId);
 		}
 	});
 
 	return ZonesView;
-})
+});
