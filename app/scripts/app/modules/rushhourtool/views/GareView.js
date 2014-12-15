@@ -18,10 +18,10 @@ define([
 			console.log(this.numberOfGares);
 			var duration = (AnimationDuration/this.numberOfGares) * this.childIndex;
 			
-			TweenLite.set(view.$el,{opacity:0,y:+20,scale:0})
+			TweenLite.set(view.$el,{opacity:0,y:-40,scale:0})
 
 			_.delay(function(){
-				TweenLite.to(view.$el,.4,{opacity:1,scale:1,y:-10})
+				TweenLite.to(view.$el,.4,{opacity:1,scale:1,y:0})
 			},duration);
 			
 		},

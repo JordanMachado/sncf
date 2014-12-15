@@ -38,6 +38,14 @@ define([
 					.value();
 
 		},
+		getGareNameByGareId: function(gareId) {
+
+			return _.chain(garesData)
+			.filter(function(gare){ return gare.id == gareId})
+			.pluck('libelle_point_arret')
+			.value();
+
+		},
 
 		/*
 		 * Zones methods

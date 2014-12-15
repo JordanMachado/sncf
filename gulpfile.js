@@ -177,7 +177,7 @@ gulp.task('requirejs', function () {
         .pipe($.order(["**/require.js"]))
         .pipe($.concat('main.js'))
         // .pipe($.uglify())
-        .pipe(gulp.dest(config.outputs.web+'/scripts'))
+        .pipe(gulp.dest('build/scripts'))
         .pipe($.size());
 
 });

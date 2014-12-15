@@ -3,9 +3,9 @@ define([
 	'./GareView',
 	'text!../templates/GaresViewTemplate.tpl',
 	'app/App',
-	'TweenMax'
+	'TimeLineLite',
 
-], function(Marionette, GareView, template, App, TweenMax) {
+], function(Marionette, GareView, template, App, TimeLineLite) {
 	'use strict';
 
 	var ZonesView = Backbone.Marionette.CompositeView.extend({
@@ -19,23 +19,28 @@ define([
 		},
 		onRender: function(view) {
 			App.trigger('hide:loader');
+			var that = this;
 			_.delay(function() {
 
 				var offsetTopLastChild = view.children.last().$el.offset().top;
 
-				if(view.$el.find('.gareContainer').height() < offsetTopLastChild) {
+				if (view.$el.find('.gareContainer').height() < offsetTopLastChild) {
+					that.arrowIsShown = true;
 					console.log('should display arrow');
+					view.$el.find('.arrowScroll').fadeIn();
+
 				} else {
+					that.contentFit = true;
 					console.log(view.$el.find('.gareContainer .gare'));
 					var finalHeight = 0;
 					view.$el.find('.gareContainer .gare').each(function() {
 						finalHeight += $(this).outerHeight();
 					});
 					view.$el.find('.gareContainer').css({
-						top:'45%',
-						marginTop:-finalHeight/2,
-						height:finalHeight
-					})
+						top: '45%',
+						marginTop: -finalHeight / 2,
+						height: finalHeight
+					});
 				}
 
 			}, 10);
@@ -62,11 +67,48 @@ define([
 			'mouseleave': 'onMouseLeaveGare'
 		},
 		onClickGare: function(childView) {
-			console.log(childView.model);
-			console.log('click gare');
-			App.navigate('station/' + this.line + '/' + this.zone + '/' + childView.model.get('code_uic'), {
-				trigger: true
+			this.stopListening();
+			var currentChildIndex = childView.childIndex;
+			var that = this;
+			var duration = .4;
+			var tl = new TimeLineLite();
+			tl.set(childView.$el.find('p'), {
+				scale: 1.5
 			});
+			if (this.arrowIsShown) {
+
+				tl.to(this.$el.find('.arrowScroll'), duration, {
+					autoAlpha: false
+				});
+			}
+			this.children.each(function(view) {
+				if (view == childView) return;
+
+				var direction = (currentChildIndex > view.childIndex) ? '-' : '+';
+
+				tl.to(view.$el, duration, {
+					opacity: 0,
+					scale: .6,
+					y: direction + 40
+				}, '-=' + duration);
+			});
+			if (this.contentFit) {
+				tl.set(this.$el.find('.gareContainer'), {
+					overflow: 'visible'
+				});
+			}
+
+			tl.to(childView.$el, duration, {
+				y: -childView.$el.offset().top + $(window).height() / 1.4
+			});
+			tl.eventCallback("onComplete", function() {
+
+				App.navigate('station/' + that.line + '/' + that.zone + '/' + childView.model.get('code_uic'), {
+					trigger: true
+				});
+
+			});
+
 		},
 		onMouseEnterGare: function(childView) {
 			TweenLite.to(childView.$el.find('p'), .2, {
