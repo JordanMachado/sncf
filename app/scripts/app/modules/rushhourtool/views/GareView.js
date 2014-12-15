@@ -31,7 +31,9 @@ define([
 		template:_.template(template),
 
 		triggers:{
-			'click':'click'
+			'click':'click',
+			'mouseenter':'mouseenter',
+			'mouseleave':'mouseleave'
 		}
 		
 	}); 

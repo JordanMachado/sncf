@@ -88,6 +88,7 @@ define([
 			'app/modules/storytelling/Storytelling',
 			'app/modules/rushhourtool/RushHourTool'
 		], function(Navigation, Storytelling, RushHourTool) {
+			//Navigation.start()
 			//Storytelling.start();
 			//App.trigger('change:step',{currentStep:0});
 			App.trigger('display:lines');

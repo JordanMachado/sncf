@@ -2,9 +2,10 @@ define([
 	'marionette',
 	'./GareView',
 	'text!../templates/GaresViewTemplate.tpl',
-	'app/App'
+	'app/App',
+	'TweenMax'
 
-], function(Marionette, GareView, template, App) {
+], function(Marionette, GareView, template, App, TweenMax) {
 	'use strict';
 
 	var ZonesView = Backbone.Marionette.CompositeView.extend({
@@ -16,8 +17,28 @@ define([
 			console.log('GaresView template');
 			this.$el.addClass(options.lineId);
 		},
-		onRender:function() {
-        	App.trigger('hide:loader');
+		onRender: function(view) {
+			App.trigger('hide:loader');
+			_.delay(function() {
+
+				var offsetTopLastChild = view.children.last().$el.offset().top;
+
+				if(view.$el.find('.gareContainer').height() < offsetTopLastChild) {
+					console.log('should display arrow');
+				} else {
+					console.log(view.$el.find('.gareContainer .gare'));
+					var finalHeight = 0;
+					view.$el.find('.gareContainer .gare').each(function() {
+						finalHeight += $(this).outerHeight();
+					});
+					view.$el.find('.gareContainer').css({
+						top:'45%',
+						marginTop:-finalHeight/2,
+						height:finalHeight
+					})
+				}
+
+			}, 10);
 		},
 		template: _.template(template),
 		className: 'garesView',
@@ -36,7 +57,9 @@ define([
 			}
 		},
 		childEvents: {
-			'click': 'onClickGare'
+			'click': 'onClickGare',
+			'mouseenter': 'onMouseEnterGare',
+			'mouseleave': 'onMouseLeaveGare'
 		},
 		onClickGare: function(childView) {
 			console.log(childView.model);
@@ -44,6 +67,16 @@ define([
 			App.navigate('station/' + this.line + '/' + this.zone + '/' + childView.model.get('code_uic'), {
 				trigger: true
 			});
+		},
+		onMouseEnterGare: function(childView) {
+			TweenLite.to(childView.$el.find('p'), .2, {
+				scale: 1.5
+			})
+		},
+		onMouseLeaveGare: function(childView) {
+			TweenLite.to(childView.$el.find('p'), .2, {
+				scale: 1
+			})
 		}
 	});
 

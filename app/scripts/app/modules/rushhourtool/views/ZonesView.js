@@ -59,6 +59,10 @@ define([
 			var that = this;
 
 			var tl = new TimeLineLite();
+			console.log(childView.$el.find('.logo'))
+			tl.to(this.$el.find('.logo'),1,{
+				y: -$(window).height()/2
+			},'-=0.5');
 			this.children.each(function(view) {
 				//if(view == childView) return;
 				//give a random effect
@@ -67,6 +71,7 @@ define([
 					y: -$(window).height()
 				}, '-=' + duration);
 			});
+
 			tl.eventCallback("onComplete", function() {
 				console.log('complete')
 				App.navigate('stations/' + that.line + '/' + childView.model.get('id'), {

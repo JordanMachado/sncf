@@ -60,7 +60,7 @@ $LOGOSIZE: 50px;
 			top:70px;
 			margin-top:-50px;
 			width:100px;
-			z-index: 10;
+			z-index: 2;
 		}
 		
 		& .zoneContainer {
@@ -103,10 +103,17 @@ $LOGOSIZE: 50px;
 		text-align: center;
 		
 		.gareContainer {
-			top:0px;
-			padding-top:50px;
+			position:relative;
+			top:10%;
+			height: 80%;
+			overflow-x:hidden;
+			overflow-y:scroll;
 			list-style: none;
+			padding:20px;
+
+			&::-webkit-scrollbar { width: 0 !important }
 			.gare {
+				vertical-align: middle;
 				color:$smoothWhite;	
 				font-family:"Avenir Roman";
 				padding:20px;
