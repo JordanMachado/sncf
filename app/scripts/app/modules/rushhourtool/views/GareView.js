@@ -6,7 +6,7 @@ define([
 ],function(Marionette, template, TweenMax){
 
 	// duration in ms
-	var AnimationDuration = 2000;
+	var AnimationDuration = 1500;
 
 	var ZoneView = Backbone.Marionette.ItemView.extend({
 
@@ -23,7 +23,6 @@ define([
 			_.delay(function(){
 				TweenLite.to(view.$el,.4,{opacity:1,scale:1,y:0})
 			},duration);
-			
 		},
 
 		tagName:'li',

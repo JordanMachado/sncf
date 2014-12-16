@@ -35,7 +35,7 @@ define([
 			var tl = new TimeLineLite();
 			tl.set(childView.$el,{position:'absolute'});
 			tl.to(childView.$el,.6,{left:'0px',width:$(window).width()+'px',x:0});
-			var displacement = -childView.$el.find('.logo').offset().top/2+$('header').height();
+			var displacement = -childView.$el.find('.logo').offset().top/2+56;
 			tl.to(childView.$el.find('.logo'),.5,{y:displacement,onComplete:function(){
 				App.navigate('line/'+datas.model.get('id'),{trigger:true});
 			}});

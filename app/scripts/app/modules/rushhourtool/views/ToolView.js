@@ -13,28 +13,34 @@ define([
 			this.$el.addClass(options.lineId);
 			console.log(options)
 			this.gareId = options.gareId;
+			var date = new Date();
+			this.hoursInMin = date.getHours()*60;
 
 		},
 		serializeData: function() {
 			return {
-				gareName: DataManager.getGareNameByGareId(this.gareId)
+				gareName: DataManager.getGareNameByGareId(this.gareId),
+				currentHourInMin: this.hoursInMin
 			};
 		},
 		onRender: function(view) {
 			App.trigger('hide:loader');
-			// sorry this is hardcoded
-			view.$el.find('.gareName').css({
-				top: $(window).height() / 1.4 - 24 - 20 * 2
-			});
-
-
-
+			styl.inject('input[type=range]::-webkit-slider-thumb:after, input[type=range]::-ms-thumb:after, input[type=range]::-moz-range-thumb:after', {
+				content: "'" + this.getMinueteToTime(this.hoursInMin) +"'"
+			}).apply();
 		},
-		onResize:function() {
+		onShow: function(view){
+
+			this.$el.find('.gareName').css({
+				top: $(window).height() / 1.4 - this.$el.find('.gareName').outerHeight()
+			});
+			this.$el.find('.gareName').addClass('active');	
+		},
+		onResize: function() {
 			console.log('onResize')
-				this.$el.find('.gareName').animate({
-				top: $(window).height() / 1.4 - 24 - 20 * 2
-			},100);
+			this.$el.find('.gareName').animate({
+				top: $(window).height() / 1.4 - this.$el.find('.gareName').outerHeight()
+			}, 100);
 		},
 		className: 'toolView',
 		template: _.template(template),
@@ -45,12 +51,25 @@ define([
 		 * Litle trick with mousemove for getting the value while user change
 		 */
 		onValueChange: function(e) {
-			// console.log(e.currentTarget.value);
-			// this.$el.find('.hours').html(e.currentTarget.value);
-			// console.log('tool click')
-			styl.inject('input[type=range]:focus::-webkit-slider-thumb:after, input[type=range]:focus::-ms-thumb:after, input[type=range]:focus::-moz-range-thumb:after', {
-				content: "'" + e.currentTarget.value + "'"
+			styl.inject('input[type=range]::-webkit-slider-thumb:after, input[type=range]::-ms-thumb:after, input[type=range]::-moz-range-thumb:after', {
+				content: "'"+this.getMinueteToTime(e.currentTarget.value)+"'"
 			}).apply();
+		},
+		getMinueteToTime: function(minutes) {
+
+			var min = minutes % 60;
+			var hour = (minutes/60).toFixed(0);
+
+			if(min == 0) {
+				min = '00';
+			} else if(min<10) {
+				min = '0'+min;
+			}
+			if(hour>=24) {
+				hour = hour - 24;
+			}
+
+			return hour+"h"+min;
 		}
 	});
 
