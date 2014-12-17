@@ -88,9 +88,8 @@ define([
 			'app/modules/storytelling/Storytelling',
 			'app/modules/rushhourtool/RushHourTool'
 		], function(Navigation, Storytelling, RushHourTool) {
-			//Navigation.start()
-			//Storytelling.start();
-			//App.trigger('change:step',{currentStep:0});
+
+			App.trigger('change:step',{currentStep:0});
 			App.trigger('display:lines');
 
 		});
@@ -99,9 +98,10 @@ define([
 	App.routeur.on('route:zones', function(lineId) {
 		console.log('Routeur Zones');
 		require([
+			'app/modules/navigation/Navigation',
 			'app/modules/rushhourtool/RushHourTool'
-		], function(RushHourTool) {
-			//RushHourTool.trigger('zones',{lineId:lineId});
+		], function(Navigation, RushHourTool) {
+			App.trigger('change:step',{currentStep:1});
 			App.trigger('display:zones', {
 				lineId: lineId
 			});
@@ -112,8 +112,10 @@ define([
 	App.routeur.on('route:gares', function(lineId, zoneId) {
 		console.log('Routeur Gares');
 		require([
+			'app/modules/navigation/Navigation',
 			'app/modules/rushhourtool/RushHourTool'
-		], function(RushHourTool) {
+		], function(Navigation, RushHourTool) {
+			App.trigger('change:step',{currentStep:2});
 			App.trigger('display:gares', {
 				lineId: lineId,
 				zoneId: zoneId
@@ -124,8 +126,10 @@ define([
 	App.routeur.on('route:tool', function(lineId, zoneId, gareId) {
 		console.log('Routeur Tool');
 		require([
+			'app/modules/navigation/Navigation',
 			'app/modules/rushhourtool/RushHourTool'
-		], function(RushHourTool) {
+		], function(Navigation, RushHourTool) {
+			App.trigger('change:step',{currentStep:3});
 			App.trigger('display:tool', {
 				lineId: lineId,
 				zoneId: zoneId,

@@ -20,16 +20,22 @@ header {
 	position:fixed;
 	width:100%;
 	text-align:center;
-	font-family:'Avenir Light';
-	text-transform:uppercase;
 	padding:10px;
-	color:#4C4C4C;
 	z-index:10;
 	background-color:#F7F7F7;
 	height:40px;
 	@include user-select(none);
 	@include box-shadow(0px 3px 14px 0px rgba(50, 50, 50, 0.25));
 	cursor:default;
+
+	a {
+		font-family:'Avenir Light';
+		text-transform:uppercase;
+		text-decoration: none;
+		color:#4C4C4C;
+		font-size: 34px;
+
+	}
 }
 
 #AppContainer {

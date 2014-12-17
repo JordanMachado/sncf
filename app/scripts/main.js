@@ -29,8 +29,10 @@ require.config({
 		// datas
 		'LinesData': '../datas/lignes.json',
 		'GaresData': '../datas/gares.json',
+		'FakeDay': '../datas/fakeDay.json',
 		
 		//vendor 
+		'countUp': '../bower_components/countUp.js/countUp', 
 		'styl': '../vendor/styl.min', 
 		'text': '../bower_components/text/text',
 		'underscore': '../bower_components/underscore/underscore',

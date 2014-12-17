@@ -27,7 +27,7 @@ define([
 		 * Method called when user select a line
 		 */
 		onLineClick: function(childView, datas) {
-
+			this.stopListening();
 			var lineNameStr = datas.model.attributes.ligne;
 			var  lineNameFiltered=lineNameStr.split(" ");
 			var lineId = lineNameFiltered[1].toLowerCase();
