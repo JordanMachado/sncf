@@ -9,6 +9,12 @@ define([
 	var linesData = JSON.parse(LinesData);
 	var garesData = JSON.parse(GaresData);
 	var fakeDayData = JSON.parse(FakeDay);
+	var stepMessages = [
+		'Choisis ta ligne',
+		'Indiques-nous ta zone de départ',
+		'Sélectionnes ta gare',
+		'Fais varier tes horraires'
+	];
 
 	/*
 	 * DataManager
@@ -111,8 +117,14 @@ define([
 				color: 'rgba(0,0,0,' + crowd + ')',
 				crowdCount: crowdForTime.toFixed(0)
 			};
-
+		},
+		/*
+		 *	Navigation
+		 */
+		getMessageByStep: function(stepId) {
+			return stepMessages[stepId];
 		}
+
 	}
 
 	return DataManager;

@@ -14,7 +14,8 @@
     "underscore": "~1.7.0",
     "gsap": "~1.14.2",
     "jplayer": "~2.9.0",
-    "countUp.js": "~1.3.2"
+    "countUp.js": "~1.3.2",
+    "BigVideo.js": "~1.1.3"
   },
   "devDependencies": {}
 }

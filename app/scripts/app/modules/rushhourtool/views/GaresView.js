@@ -8,42 +8,43 @@ define([
 ], function(Marionette, GareView, template, App, TimeLineLite) {
 	'use strict';
 
-	var ZonesView = Backbone.Marionette.CompositeView.extend({
+	var GaresView = Backbone.Marionette.CompositeView.extend({
 
 		initialize: function(options) {
-			console.log(options);
 			this.zone = options.zoneId;
 			this.line = options.lineId;
 			console.log('GaresView template');
 			this.$el.addClass(options.lineId);
+			
 		},
-		onRender: function(view) {
+		onShow:function() {
+			
 			App.trigger('hide:loader');
-			var that = this;
-			_.delay(function() {
+			var offsetTopLastChild = this.children.last().$el.offset().top;
 
-				var offsetTopLastChild = view.children.last().$el.offset().top;
-
-				if (view.$el.find('.gareContainer').height() < offsetTopLastChild) {
-					that.arrowIsShown = true;
+				if (this.$el.find('.gareContainer').height() < offsetTopLastChild) {
+					this.arrowIsShown = true;
 					console.log('should display arrow');
-					view.$el.find('.arrowScroll').fadeIn();
+					this.$el.find('.arrowScroll').fadeIn();
+					$('.gareContainer').scroll(this.onScrollGareContainer);
 
 				} else {
-					that.contentFit = true;
-					console.log(view.$el.find('.gareContainer .gare'));
+					this.contentFit = true;
+					console.log(this.$el.find('.gareContainer .gare'));
 					var finalHeight = 0;
-					view.$el.find('.gareContainer .gare').each(function() {
+					this.$el.find('.gareContainer .gare').each(function() {
 						finalHeight += $(this).outerHeight();
 					});
-					view.$el.find('.gareContainer').css({
+					this.$el.find('.gareContainer').css({
 						top: '45%',
 						marginTop: -finalHeight / 2,
 						height: finalHeight
 					});
 				}
 
-			}, 10);
+		},
+		onScrollGareContainer: function() {
+			TweenLite.to($('.arrowScroll'),0.5,{autoAlpha:false});
 		},
 		template: _.template(template),
 		className: 'garesView',
@@ -98,8 +99,8 @@ define([
 				});
 			}
 
-			tl.to(childView.$el, duration, {
-				y: -childView.$el.offset().top + $(window).height() / 1.4
+			tl.to(childView.$el, 0.5, {
+				y: -childView.$el.offset().top + $(window).height() * 0.6 + 20
 			});
 			tl.eventCallback("onComplete", function() {
 
@@ -122,5 +123,5 @@ define([
 		}
 	});
 
-	return ZonesView;
+	return GaresView;
 });

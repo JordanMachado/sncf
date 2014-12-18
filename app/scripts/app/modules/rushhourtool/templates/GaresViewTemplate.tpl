@@ -1,2 +1,2 @@
-<ul class="gareContainer"></ul>
-<div class="arrowScroll"></div>
+<ul class='gareContainer'></ul>
+<img class='arrowScroll' src='images/fleche.png' />

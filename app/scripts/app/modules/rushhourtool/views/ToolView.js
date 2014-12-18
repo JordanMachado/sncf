@@ -38,17 +38,17 @@ define([
 		},
 		onShow: function(view) {
 
-			this.$el.find('.gareName').css({
-				top: $(window).height() / 1.4 - this.$el.find('.gareName').outerHeight()
-			});
+			// this.$el.find('.gareName').css({
+			// 	top: $(window).height() / 1.4 - this.$el.find('.gareName').outerHeight()
+			// });
 			this.$el.find('.gareName').addClass('active');
 			this.changeBackgroundColor($('.slider').val())
 		},
 		onResize: function() {
 			console.log('onResize')
-			this.$el.find('.gareName').animate({
-				top: $(window).height() / 1.4 - this.$el.find('.gareName').outerHeight()
-			}, 50);
+			// this.$el.find('.gareName').animate({
+			// 	top: $(window).height() / 1.4 - this.$el.find('.gareName').outerHeight()
+			// }, 50);
 		},
 		className: 'toolView',
 		template: _.template(template),
@@ -80,7 +80,7 @@ define([
 				  prefix : '' ,
 				  suffix : '' 
 			}
-			var demo = new countUp('count', this.lastCrowdCount, crowdInfo.crowdCount, 0, 1, options);
+			var demo = new countUp('count', this.lastCrowdCount, crowdInfo.crowdCount, 0, 0.6, options);
 			demo.start();
 			this.lastCrowdCount = crowdInfo.crowdCount;
 

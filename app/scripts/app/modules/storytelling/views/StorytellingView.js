@@ -11,8 +11,8 @@ define([
 
 		initialize: function() {
 			this.assets = {
-				ogv: "/videos/big_buck_bunny_1080p_stereo.ogg",
-				//poster:'tamere.png'
+				ogv: "videos/motion-sncf.ogv",
+				mp3: "videos/motion-sncf.mp3",
 			}
 		},
 		className:'storytellingView',
@@ -29,7 +29,7 @@ define([
 			this.setPlayer();
 		},
 		onClickClose: function() {
-			App.storytellingRegion.close();
+			App.trigger('close:storytelling');
 		},
 		onClose:function() {
 			console.log('onclose')
@@ -49,6 +49,7 @@ define([
 				// // preload: 'metadata',
 				preload: "auto",
 				muted: true,
+				fullWindow:true,
 				// errorAlerts: false,
 				// warningAlerts: false,
 				// loop:this.config.loop,
@@ -68,6 +69,8 @@ define([
 		},
 		onPlayerEnded: function() {
 			console.log('player ended');
+			App.storytellingRegion.close();
+			App.trigger('close:storytelling');
 		}
 	});
 

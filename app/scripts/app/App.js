@@ -46,6 +46,22 @@ define([
 		}
 	});
 
+	var controller = {
+		startStoryTelling:function() {
+			require(['app/modules/storytelling/Storytelling'],function(Storytelling) {
+				Storytelling.start();
+			});
+		},
+		closeStoryTelling: function() {
+			App.storytellingRegion.close();
+			require(['app/modules/navigation/Navigation'],function(Navigation) {
+				Navigation.start();
+				App.trigger('change:step',{currentStep:0});
+				App.initialized = true;
+			});
+		}
+	};
+
 	App.on('hide:loader', function() {
 		if (App.loaderIsShown) {
 			$(App.loader).fadeOut();
@@ -85,11 +101,15 @@ define([
 		console.log('Routeur Lines');
 		require([
 			'app/modules/navigation/Navigation',
-			'app/modules/storytelling/Storytelling',
 			'app/modules/rushhourtool/RushHourTool'
-		], function(Navigation, Storytelling, RushHourTool) {
-
-			App.trigger('change:step',{currentStep:0});
+		], function(Navigation, RushHourTool) {
+			if(!App.initialized) {
+				App.trigger('start:storytelling');
+			} else {
+				controller.closeStoryTelling();
+				App.trigger('change:step',{currentStep:0});
+			}
+			
 			App.trigger('display:lines');
 
 		});
@@ -101,6 +121,8 @@ define([
 			'app/modules/navigation/Navigation',
 			'app/modules/rushhourtool/RushHourTool'
 		], function(Navigation, RushHourTool) {
+			App.initialized = true;
+			Navigation.start();
 			App.trigger('change:step',{currentStep:1});
 			App.trigger('display:zones', {
 				lineId: lineId
@@ -115,6 +137,8 @@ define([
 			'app/modules/navigation/Navigation',
 			'app/modules/rushhourtool/RushHourTool'
 		], function(Navigation, RushHourTool) {
+			App.initialized = true;
+			Navigation.start();
 			App.trigger('change:step',{currentStep:2});
 			App.trigger('display:gares', {
 				lineId: lineId,
@@ -129,6 +153,8 @@ define([
 			'app/modules/navigation/Navigation',
 			'app/modules/rushhourtool/RushHourTool'
 		], function(Navigation, RushHourTool) {
+			App.initialized = true;
+			Navigation.start();
 			App.trigger('change:step',{currentStep:3});
 			App.trigger('display:tool', {
 				lineId: lineId,
@@ -138,6 +164,9 @@ define([
 		});
 
 	});
+
+	App.listenToOnce(App, 'start:storytelling', controller.startStoryTelling);
+	App.listenToOnce(App, 'close:storytelling', controller.closeStoryTelling);
 
 	$(window).resize(_.throttle(onResize, 100));
 
