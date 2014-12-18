@@ -1,0 +1,42 @@
+@import 'compass';
+
+$basepath:'fonts/';
+
+@font-face {
+	font-family:'Avenir Black';
+	src: url($basepath+'AvenirLTStd-Black/AvenirLTStd-Black.eot');
+	src: url($basepath+'AvenirLTStd-Black/AvenirLTStd-Black.ttf?#iefix') format('embedded-opentype'),
+	url($basepath+'AvenirLTStd-Black/AvenirLTStd-Black.woff') format('woff'),
+	url($basepath+'AvenirLTStd-Black/AvenirLTStd-Black.ttf') format('truetype'),
+	url($basepath+'AvenirLTStd-Black/AvenirLTStd-Black.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-2044;
+}
+
+@font-face {
+	font-family:'Avenir Light';
+	src: url($basepath+'AvenirLTStd-Light/AvenirLTStd-Light.eot');
+	src: url($basepath+'AvenirLTStd-Light/AvenirLTStd-Light.ttf?#iefix') format('embedded-opentype'),
+	url($basepath+'AvenirLTStd-Light/AvenirLTStd-Light.woff') format('woff'),
+	url($basepath+'AvenirLTStd-Light/AvenirLTStd-Light.ttf') format('truetype'),
+	url($basepath+'AvenirLTStd-Light/AvenirLTStd-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-2044;
+}
+
+@font-face {
+	font-family:'Avenir Roman';
+	src: url($basepath+'AvenirLTStd-Roman/AvenirLTStd-Roman.eot');
+	src: url($basepath+'AvenirLTStd-Roman/AvenirLTStd-Roman.ttf?#iefix') format('embedded-opentype'),
+	url($basepath+'AvenirLTStd-Roman/AvenirLTStd-Roman.woff') format('woff'),
+	url($basepath+'AvenirLTStd-Roman/AvenirLTStd-Roman.ttf') format('truetype'),
+	url($basepath+'AvenirLTStd-Roman/AvenirLTStd-Roman.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-2044;
+}

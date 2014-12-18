@@ -11,8 +11,8 @@ define([
 
 		initialize: function() {
 			this.assets = {
-				ogv: "videos/motion-sncf.ogv",
-				mp3: "videos/motion-sncf.mp3",
+
+				webmv: "videos/motion-sncf.webm"
 			}
 		},
 		className:'storytellingView',
@@ -40,19 +40,11 @@ define([
 
 				ready: this.onPlayerReady.bind(this),
 				ended: this.onPlayerEnded.bind(this),
-				// play: this.onPlayerStart.bind(this),
-				// progress: this.onPlayerProgress.bind(this),
-				// timeupdate: this.onPlayerTimeUpdate.bind(this),
 				solution: 'html',
-
-				supplied: 'webmv, m4v, ogv',
-				// // preload: 'metadata',
+				supplied: 'webmv, m4v, ogv,mp3',
+				controls: false,
 				preload: "auto",
-				muted: true,
-				fullWindow:true,
-				// errorAlerts: false,
-				// warningAlerts: false,
-				// loop:this.config.loop,
+				// muted: true,
 				size: {
 					width: '100%',
 					height: '100%'
