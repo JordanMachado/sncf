@@ -106,7 +106,7 @@ define([
 			if(!App.initialized) {
 				App.trigger('start:storytelling');
 			} else {
-				controller.closeStoryTelling();
+				$('#rushHourTool').css('z-index',4);
 				App.trigger('change:step',{currentStep:0});
 			}
 			
